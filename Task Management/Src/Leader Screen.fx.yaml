@@ -1,0 +1,60 @@
+"'Leader Screen' As screen":
+    OnVisible: |+
+        =Set(dataAdmin,"Admin");
+        Set(dataUser,"User");
+        Set(dataLeader,"Leader")
+        
+
+    Container1_2 As groupContainer.manualLayoutContainer:
+        Width: =1234
+        X: =69
+        Y: =141
+        ZIndex: =1
+
+        Leader_1 As button:
+            Fill: =RGBA(175, 191, 224, 1)
+            Font: =Font.Verdana
+            Height: =88
+            OnSelect: =Navigate('Leader Screen')
+            Text: ="Leader"
+            Width: =262
+            X: =39
+            Y: =57
+            ZIndex: =3
+
+    Rectangle1_5 As rectangle:
+        Fill: =RGBA(61, 100, 148, 1)
+        Height: =70
+        Width: =1366
+        ZIndex: =2
+
+    Label1_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        Size: =25
+        Text: ="Task Management"
+        Width: =636
+        X: =365
+        Y: =17
+        ZIndex: =3
+
+    Icon7_5 As icon.Blocked:
+        Height: =39
+        Icon: =Icon.Blocked
+        OnSelect: =Navigate('Login page')
+        X: =1302
+        Y: =15
+        ZIndex: =4
+
+    Icon1_3 As icon.BackArrow:
+        Height: =52
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        Width: =44
+        X: =14
+        Y: =9
+        ZIndex: =5
+

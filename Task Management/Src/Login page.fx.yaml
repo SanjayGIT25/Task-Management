@@ -1,0 +1,135 @@
+"'Login page' As screen":
+    OnVisible: |-
+        =Set(Error,false);
+        Set(visible,TextMode.Password)
+
+    Image1 As image:
+        Height: =768
+        Image: ='Screenshot 2023-11-02 122328'
+        ImagePosition: =ImagePosition.Stretch
+        Width: =1366
+        ZIndex: =1
+
+    Container2 As groupContainer.manualLayoutContainer:
+        BorderThickness: =6
+        DropShadow: =DropShadow.ExtraBold
+        Height: =656
+        RadiusBottomLeft: =56
+        RadiusBottomRight: =56
+        RadiusTopLeft: =56
+        RadiusTopRight: =56
+        Width: =550
+        X: =408
+        Y: =56
+        ZIndex: =2
+
+    TextInput1 As text:
+        BorderThickness: =0
+        Default: =""
+        Height: =66
+        HintText: ="Enter User name"
+        PaddingLeft: =55
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =424
+        X: =471
+        Y: =214
+        ZIndex: =3
+
+    TextInput1_1 As text:
+        Default: =""
+        Height: =66
+        HintText: ="Enter Passwaord"
+        Mode: =visible
+        PaddingLeft: =55
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =424
+        X: =471
+        Y: =373
+        ZIndex: =4
+
+    Label3 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =78
+        Size: =30
+        Text: ="Login"
+        Width: =178
+        X: =594
+        Y: =82
+        ZIndex: =5
+
+    Icon2 As icon.AddUser:
+        Height: =38
+        Icon: =Icon.AddUser
+        Width: =28
+        X: =485
+        Y: =228
+        ZIndex: =6
+
+    Label4 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 0, 0, 1)
+        Height: =68
+        Text: ="Incorrect Username and Password."
+        Visible: =Error
+        Width: =316
+        X: =525
+        Y: =501
+        ZIndex: =7
+
+    Button2 As button:
+        OnSelect: |
+            =Set(
+                CurrentUser,
+                LookUp(
+                    admin_list,
+                    Name = TextInput1.Text && Password = TextInput1_1.Text
+                ).Roles
+            );
+            If(
+                IsBlankOrError(CurrentUser),
+                Notify("Incorrect UserName and Password");
+               
+                Set(
+                    Error,
+                    true
+                ),
+                Switch(CurrentUser.Value,
+                     "Admin", 
+                     Navigate('Admin Screen'), 
+                     "User",
+                     Navigate('User Screen'),
+                     "Leader",
+                     Navigate('Leader Screen')
+                     )
+            );
+            Reset(TextInput1);
+            Reset(TextInput1_1);
+        Text: ="Login"
+        X: =603
+        Y: =592
+        ZIndex: =8
+
+    Icon4 As icon.View:
+        Height: =38
+        Icon: =Icon.View
+        OnSelect: =Set(visible,TextMode.SingleLine)
+        Width: =28
+        X: =853
+        Y: =387
+        ZIndex: =10
+
+    Icon5 As icon.Lock:
+        Height: =38
+        Icon: =Icon.Lock
+        Width: =28
+        X: =485
+        Y: =384
+        ZIndex: =11
+

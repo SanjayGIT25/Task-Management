@@ -1,0 +1,13 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: =LookUp(admin_list,Roles,"Admin")
+    StartScreen: =
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

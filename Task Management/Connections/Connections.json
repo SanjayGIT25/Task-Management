@@ -1,0 +1,30 @@
+{
+  "d1657151-a682-43fe-9aff-e07767dda518": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://iz.sharepoint.com/sites/TaskManagement": {
+        "dataSources": {
+          "admin_list": {
+            "tableName": "b983d898-8182-4f89-bc79-964089a0ac6a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "admin_list"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d1657151-a682-43fe-9aff-e07767dda518"
+  }
+}
