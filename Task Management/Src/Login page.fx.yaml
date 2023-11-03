@@ -95,14 +95,11 @@
             If(
                 IsBlankOrError(CurrentUser),
                 Notify("Incorrect UserName and Password");
-               
                 Set(
                     Error,
                     true
                 ),
-            
-                     Navigate('Home Screen')
-                     
+                Navigate('Home Screen')
             );
             Reset(TextInput1);
             Reset(TextInput1_1);

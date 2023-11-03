@@ -6,10 +6,117 @@
         
 
     Container1_3 As groupContainer.manualLayoutContainer:
+        Height: =476
         Width: =1234
         X: =69
         Y: =141
         ZIndex: =1
+
+        "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+            DelayItemLoading: =true
+            Height: =400
+            Items: =admin_list
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplatePadding: =0
+            TemplateSize: =104
+            Width: =1231
+            X: =3
+            Y: =75
+            ZIndex: =1
+
+            Image3 As image:
+                Height: =72
+                OnSelect: =Select(Parent)
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                Width: =72
+                X: =16
+                Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            Title2 As label:
+                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                Height: =Self.Size * 1.8
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =ThisItem.Title
+                VerticalAlign: =VerticalAlign.Top
+                Width: =Parent.TemplateWidth - 173
+                X: =103
+                Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
+                ZIndex: =2
+
+            Subtitle2 As label:
+                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                Height: =Self.Size * 1.8
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =ThisItem.Email
+                VerticalAlign: =VerticalAlign.Top
+                Width: =Title2.Width
+                X: =Title2.X
+                Y: =Title2.Y + Title2.Height
+                ZIndex: =3
+
+            NextArrow2 As icon.ChevronRight:
+                AccessibleLabel: =Self.Tooltip
+                Color: =RGBA(166, 166, 166, 1)
+                Height: =50
+                Icon: =Icon.ChevronRight
+                OnSelect: =Set(TextVisible, true)
+                PaddingBottom: =16
+                PaddingLeft: =16
+                PaddingRight: =16
+                PaddingTop: =16
+                Tooltip: ="View item details"
+                Width: =50
+                X: =349
+                Y: =27
+                ZIndex: =4
+
+            Separator2 As rectangle:
+                Height: =8
+                OnSelect: =Select(Parent)
+                Width: =Parent.TemplateWidth
+                Y: =Parent.TemplateHeight - Self.Height
+                ZIndex: =5
+
+            Rectangle2 As rectangle:
+                Height: =Parent.TemplateHeight - Separator2.Height
+                OnSelect: =Select(Parent)
+                Visible: =ThisItem.IsSelected
+                Width: =4
+                ZIndex: =6
+
+            Label6 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                OnSelect: =Select(Parent)
+                Size: =16
+                Text: =ThisItem.Roles.Value
+                Visible: =TextVisible
+                X: =451
+                Y: =37
+                ZIndex: =7
+
+        Label5 As label:
+            Align: =Align.Center
+            Font: =Font.'Lato Black'
+            Height: =58
+            Size: =17
+            Text: ="Account Overview"
+            Width: =270
+            X: =483
+            ZIndex: =2
 
     Rectangle1_6 As rectangle:
         Fill: =RGBA(61, 100, 148, 1)
