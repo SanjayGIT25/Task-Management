@@ -1,0 +1,77 @@
+"'Home Screen' As screen":
+    Fill: |
+        =Color.White
+    OnVisible: =
+
+    Container1 As groupContainer.manualLayoutContainer:
+        Width: =1234
+        X: =69
+        Y: =141
+        ZIndex: =1
+
+        Admin As button:
+            Fill: =RGBA(175, 191, 224, 1)
+            Font: =Font.Verdana
+            Height: =88
+            OnSelect: =Navigate('Admin Screen')
+            Text: ="Admin"
+            Visible: =If("Admin" in CurrentUser.Value, true , false )
+            Width: =262
+            X: =52
+            Y: =51
+            ZIndex: =1
+
+        User As button:
+            Fill: =RGBA(175, 191, 224, 1)
+            Font: =Font.Verdana
+            Height: =88
+            OnSelect: |-
+                =
+                Navigate('User Screen')
+            Text: ="User "
+            Visible: |
+                =If("User" in CurrentUser.Value, true , false )
+            Width: =262
+            X: =52
+            Y: =51
+            ZIndex: =2
+
+        Leader As button:
+            Fill: =RGBA(175, 191, 224, 1)
+            Font: =Font.Verdana
+            Height: =88
+            OnSelect: =Navigate('Leader Screen')
+            Text: ="Leader"
+            Visible: =If("Leader" in CurrentUser.Value, true , false )
+            Width: =262
+            X: =52
+            Y: =51
+            ZIndex: =3
+
+    Rectangle1_2 As rectangle:
+        Fill: =RGBA(61, 100, 148, 1)
+        Height: =70
+        Width: =1366
+        ZIndex: =2
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        Size: =25
+        Text: ="Task Management"
+        Width: =636
+        X: =365
+        Y: =17
+        ZIndex: =3
+
+    Icon7 As icon.Blocked:
+        Height: =39
+        Icon: =Icon.Blocked
+        OnSelect: =Navigate('Login page')
+        X: =1302
+        Y: =15
+        ZIndex: =4
+

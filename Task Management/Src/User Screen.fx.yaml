@@ -11,18 +11,14 @@
         Y: =141
         ZIndex: =1
 
-        User_1 As button:
-            Fill: =RGBA(175, 191, 224, 1)
-            Font: =Font.Verdana
-            Height: =88
-            OnSelect: |-
-                =
-                Navigate('User Screen')
-            Text: ="User "
-            Width: =262
-            X: =48
-            Y: =54
-            ZIndex: =2
+        Label2 As label:
+            Font: =Font.'Lato Black'
+            Height: =60
+            Size: =20
+            Text: ="Welcome To User Screen"
+            Width: =360
+            X: =6
+            ZIndex: =1
 
     Rectangle1_4 As rectangle:
         Fill: =RGBA(61, 100, 148, 1)

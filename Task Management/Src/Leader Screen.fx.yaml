@@ -11,16 +11,14 @@
         Y: =141
         ZIndex: =1
 
-        Leader_1 As button:
-            Fill: =RGBA(175, 191, 224, 1)
-            Font: =Font.Verdana
-            Height: =88
-            OnSelect: =Navigate('Leader Screen')
-            Text: ="Leader"
-            Width: =262
-            X: =39
-            Y: =57
-            ZIndex: =3
+        Label2_1 As label:
+            Font: =Font.'Lato Black'
+            Height: =60
+            Size: =20
+            Text: ="Welcome To Leader Screen"
+            Width: =360
+            X: =3
+            ZIndex: =1
 
     Rectangle1_5 As rectangle:
         Fill: =RGBA(61, 100, 148, 1)

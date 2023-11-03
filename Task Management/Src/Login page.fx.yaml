@@ -100,14 +100,9 @@
                     Error,
                     true
                 ),
-                Switch(CurrentUser.Value,
-                     "Admin", 
-                     Navigate('Admin Screen'), 
-                     "User",
-                     Navigate('User Screen'),
-                     "Leader",
-                     Navigate('Leader Screen')
-                     )
+            
+                     Navigate('Home Screen')
+                     
             );
             Reset(TextInput1);
             Reset(TextInput1_1);

@@ -130,9 +130,10 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Admin Screen",
+    "Home Screen",
     "Login page",
     "User Screen",
-    "Leader Screen"
+    "Leader Screen",
+    "Admin Screen"
   ]
 }
