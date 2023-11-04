@@ -41,3 +41,105 @@ Admin_ExcelView As screen:
         Y: =9
         ZIndex: =5
 
+    Gallery3 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =636
+        Items: ='Task Update'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =110
+        Width: =1331
+        X: =17
+        Y: =102
+        ZIndex: =6
+
+        "TextInputCanvas1 As 'Text input'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Value: =ThisItem.Title
+            Width: =121
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        "TextInputCanvas2 As 'Text input'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Value: =ThisItem.'Module Lead'
+            Width: =111
+            X: =121
+            Y: =0
+            ZIndex: =2
+
+        "TextInputCanvas3 As 'Text input'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Value: =ThisItem.'Module Name'
+            Width: =138
+            X: =232
+            Y: =0
+            ZIndex: =3
+
+        "TextInputCanvas4 As 'Text input'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Value: =ThisItem.'Task Details'
+            Width: =136
+            X: =370
+            Y: =0
+            ZIndex: =4
+
+        "DatePickerCanvas1 As 'Date picker'":
+            AccessibleLabel: =ThisItem.'Start Date'
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Width: =155
+            X: =506
+            Y: =0
+            ZIndex: =5
+
+        "DatePickerCanvas2 As 'Date picker'":
+            AccessibleLabel: =ThisItem.'End Date'
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Width: =150
+            X: =661
+            Y: =0
+            ZIndex: =6
+
+        "TextInputCanvas5 As 'Text input'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Value: =ThisItem.'Assign To'
+            Width: =128
+            X: =811
+            Y: =0
+            ZIndex: =7
+
+        DropdownCanvas1 As Dropdown.pcfdataset:
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Items: =ThisItem.Status
+            Width: =122
+            X: =939
+            Y: =0
+            ZIndex: =8
+
+        "DatePickerCanvas3 As 'Date picker'":
+            AccessibleLabel: =ThisItem.'Actual Start Date'
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Width: =123
+            X: =1061
+            Y: =0
+            ZIndex: =9
+
+        "DatePickerCanvas4 As 'Date picker'":
+            AccessibleLabel: =ThisItem.'Actual End Date'
+            DisplayMode: =DisplayMode.Edit
+            Height: =42
+            Width: =137
+            X: =1184
+            Y: =0
+            ZIndex: =10
+
