@@ -1,0 +1,134 @@
+"Screen2 As screen.'autoLayout_HeaderFooter_ver1.0'":
+
+    ScreenContainer2 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =16
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer2 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =2
+
+            Rectangle1_8 As rectangle:
+                Fill: =RGBA(61, 100, 148, 1)
+                Height: =70
+                Width: =1366
+                ZIndex: =1
+
+        MainContainer2 As groupContainer.verticalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =3
+
+            "'Grid Header' As groupContainer.manualLayoutContainer":
+                FillPortions: =0
+                Height: =40
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                ZIndex: =1
+
+                Sno As button:
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Sno"
+                    X: =
+                    ZIndex: =1
+
+                "'Module Lead' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Module Lead"
+                    X: =160
+                    ZIndex: =2
+
+                "'Module Name' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Module Name"
+                    X: =320
+                    ZIndex: =3
+
+                "'Task Details' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Task Details"
+                    X: =480
+                    ZIndex: =4
+
+                "'Start Date' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Start Date"
+                    X: =640
+                    ZIndex: =5
+
+                "'End Date' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="End Date"
+                    X: =800
+                    ZIndex: =6
+
+                "'Assign To' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Assign To"
+                    X: =960
+                    ZIndex: =7
+
+                Status As button:
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Status"
+                    X: =1120
+                    ZIndex: =8
+
