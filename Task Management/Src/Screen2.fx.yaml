@@ -28,7 +28,7 @@
             ZIndex: =2
 
             Rectangle1_8 As rectangle:
-                Fill: =RGBA(61, 100, 148, 1)
+                Fill: =RGBA(174, 208, 221, 1)
                 Height: =70
                 Width: =1366
                 ZIndex: =1
@@ -59,7 +59,7 @@
                     RadiusTopLeft: =3
                     RadiusTopRight: =3
                     Text: ="Sno"
-                    Width: =116
+                    Width: =114
                     X: =
                     ZIndex: =1
 
@@ -71,7 +71,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Lead"
-                    Width: =172
+                    Width: =96
                     X: =Sno.X+Sno.Width
                     ZIndex: =2
 
@@ -83,7 +83,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Name"
-                    Width: =166
+                    Width: =92
                     X: ='Module Lead'.X+'Module Lead'.Width
                     ZIndex: =3
 
@@ -148,7 +148,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Actual Start Date"
-                    Width: =116
+                    Width: =76
                     X: =Status.X+Status.Width
                     ZIndex: =9
 
@@ -159,7 +159,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Actual End Date"
-                    Width: =116
+                    Width: =72
                     X: ='Actual Start Date'.X+'Actual Start Date'.Width
                     ZIndex: =10
 
@@ -182,7 +182,17 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Remarks"
-                    Width: =146
-                    X: =1132
+                    Width: =88
+                    X: =1246
                     ZIndex: =12
+
+            Gallery4 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                Items: =CustomGallerySample
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                ZIndex: =2
 
