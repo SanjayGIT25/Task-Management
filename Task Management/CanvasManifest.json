@@ -51,6 +51,7 @@
       "enableruntimepolicies": true,
       "enablesaveloadcleardataonweb": true,
       "enableupdateifdelegation": false,
+      "enhancedgalleryinitialization": false,
       "errorhandling": true,
       "expandedsavedatasupport": true,
       "exportimportcomponents2": true,
@@ -134,6 +135,7 @@
     "Login page",
     "User Screen",
     "Leader Screen",
+    "Admin_ExcelView",
     "Admin Screen"
   ]
 }

@@ -48,6 +48,18 @@
             Y: =51
             ZIndex: =3
 
+        Admin_1 As button:
+            Fill: =RGBA(175, 191, 224, 1)
+            Font: =Font.Verdana
+            Height: =88
+            OnSelect: =Navigate(Admin_ExcelView)
+            Text: ="Excel"
+            Visible: =If("Admin" in CurrentUser.Value, true , false )
+            Width: =262
+            X: =483
+            Y: =51
+            ZIndex: =4
+
     Rectangle1_2 As rectangle:
         Fill: =RGBA(61, 100, 148, 1)
         Height: =70
