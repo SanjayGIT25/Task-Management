@@ -14,7 +14,7 @@
             Font: =Font.Verdana
             Height: =88
             OnSelect: =Navigate('Admin Screen')
-            Text: ="Admin"
+            Text: ="Account Overview"
             Visible: =If("Admin" in CurrentUser.Value, true , false )
             Width: =262
             X: =52
