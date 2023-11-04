@@ -43,14 +43,14 @@ Admin_ExcelView As screen:
 
     Gallery3 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =636
+        Height: =158
         Items: ='Task Update'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =110
-        Width: =1331
-        X: =17
-        Y: =102
+        TemplateSize: =113
+        Width: =1060
+        X: =202
+        Y: =324
         ZIndex: =6
 
         "TextInputCanvas1 As 'Text input'":
@@ -117,13 +117,22 @@ Admin_ExcelView As screen:
             ZIndex: =7
 
         DropdownCanvas1 As Dropdown.pcfdataset:
+            DefaultSelectedItems: =ThisItem.Status
             DisplayMode: =DisplayMode.Edit
             Height: =42
-            Items: =ThisItem.Status
+            Items: =Choices('Task Update'.Status)
             Width: =122
             X: =939
             Y: =0
             ZIndex: =8
+
+            Value1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Value"
+                FieldName: ="Value"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =1
+                ZIndex: =11
 
         "DatePickerCanvas3 As 'Date picker'":
             AccessibleLabel: =ThisItem.'Actual Start Date'

@@ -1,0 +1,162 @@
+Admin_ExcelView_1 As screen:
+    OnVisible: |+
+        =Set(dataAdmin,"Admin");
+        Set(dataUser,"User");
+        Set(dataLeader,"Leader")
+        
+
+    Rectangle1_8 As rectangle:
+        Fill: =RGBA(61, 100, 148, 1)
+        Height: =70
+        Width: =1366
+        ZIndex: =2
+
+    Label1_5 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        Size: =25
+        Text: ="Task Management"
+        Width: =636
+        X: =365
+        Y: =17
+        ZIndex: =3
+
+    Icon7_8 As icon.Blocked:
+        Height: =39
+        Icon: =Icon.Blocked
+        OnSelect: =Navigate('Login page')
+        X: =1302
+        Y: =15
+        ZIndex: =4
+
+    Icon1_7 As icon.BackArrow:
+        Height: =52
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        Width: =44
+        X: =14
+        Y: =9
+        ZIndex: =5
+
+    Container3 As groupContainer.manualLayoutContainer:
+        Height: =698
+        Width: =Parent.Width
+        Y: =70
+        ZIndex: =6
+
+        main As groupContainer.manualLayoutContainer:
+            Width: =1366
+            ZIndex: =1
+
+            Gallery3_1 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                Height: =200
+                Items: ='Task Update'
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateSize: =158
+                Width: =1366
+                ZIndex: =1
+
+                "TextInputCanvas1_1 As 'Text input'":
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Value: =ThisItem.Title
+                    Width: =121
+                    X: =0
+                    Y: =0
+                    ZIndex: =1
+
+                "TextInputCanvas2_1 As 'Text input'":
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Value: =ThisItem.'Module Lead'
+                    Width: =111
+                    X: =121
+                    Y: =0
+                    ZIndex: =2
+
+                "TextInputCanvas3_1 As 'Text input'":
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Value: =ThisItem.'Module Name'
+                    Width: =138
+                    X: =232
+                    Y: =0
+                    ZIndex: =3
+
+                "TextInputCanvas4_1 As 'Text input'":
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Value: =ThisItem.'Task Details'
+                    Width: =136
+                    X: =370
+                    Y: =0
+                    ZIndex: =4
+
+                "DatePickerCanvas1_1 As 'Date picker'":
+                    AccessibleLabel: =ThisItem.'Start Date'
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Width: =155
+                    X: =506
+                    Y: =0
+                    ZIndex: =5
+
+                "DatePickerCanvas2_1 As 'Date picker'":
+                    AccessibleLabel: =ThisItem.'End Date'
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Width: =150
+                    X: =661
+                    Y: =0
+                    ZIndex: =6
+
+                "TextInputCanvas5_1 As 'Text input'":
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Value: =ThisItem.'Assign To'
+                    Width: =128
+                    X: =811
+                    Y: =0
+                    ZIndex: =7
+
+                DropdownCanvas1_1 As Dropdown.pcfdataset:
+                    DefaultSelectedItems: =ThisItem.Status
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Items: =Choices('Task Update'.Status)
+                    Width: =122
+                    X: =928
+                    Y: =0
+                    ZIndex: =8
+
+                    Value1_1 As pcfDataField.textualColumn:
+                        FieldDisplayName: ="Value"
+                        FieldName: ="Value"
+                        FieldType: ="s"
+                        FieldVariantName: ="textualColumn"
+                        Order: =1
+                        ZIndex: =11
+
+                "DatePickerCanvas3_1 As 'Date picker'":
+                    AccessibleLabel: =ThisItem.'Actual Start Date'
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Width: =123
+                    X: =927
+                    Y: =0
+                    ZIndex: =9
+
+                "DatePickerCanvas4_1 As 'Date picker'":
+                    AccessibleLabel: =ThisItem.'Actual End Date'
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =42
+                    Width: =137
+                    X: =913
+                    Y: =0
+                    ZIndex: =10
+
