@@ -2,6 +2,8 @@
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
+    "Actual End Date": 143,
+    "Actual Start Date": 142,
     "Admin": 9,
     "Admin Screen": 31,
     "Admin_1": 10,
@@ -60,6 +62,7 @@
     "Module Lead": 132,
     "Module Name": 133,
     "NextArrow2": 42,
+    "PRD Release": 144,
     "Rectangle1_2": 5,
     "Rectangle1_4": 48,
     "Rectangle1_5": 14,
@@ -67,6 +70,7 @@
     "Rectangle1_7": 67,
     "Rectangle1_8": 125,
     "Rectangle2": 40,
+    "Remarks": 145,
     "Screen2": 120,
     "ScreenContainer2": 121,
     "Separator2": 46,
@@ -89,7 +93,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/04/2023 15:57:32",
+  "HeaderLastSavedDateTimeUTC": "11/04/2023 16:15:09",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d1657151-a682-43fe-9aff-e07767dda518": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/995a6c239d434a72b7be5a1a184e0074\""
@@ -127,6 +131,8 @@
     "text": 6
   },
   "OverridablePropertiesEntry": {
+    "Actual End Date": {},
+    "Actual Start Date": {},
     "Admin": {},
     "Admin Screen": {},
     "Admin_1": {},
@@ -185,6 +191,7 @@
     "Module Lead": {},
     "Module Name": {},
     "NextArrow2": {},
+    "PRD Release": {},
     "Rectangle1_2": {},
     "Rectangle1_4": {},
     "Rectangle1_5": {},
@@ -192,6 +199,7 @@
     "Rectangle1_7": {},
     "Rectangle1_8": {},
     "Rectangle2": {},
+    "Remarks": {},
     "Screen2": {},
     "ScreenContainer2": {},
     "Separator2": {},
@@ -356,6 +364,8 @@
     }
   },
   "PublishOrderIndices": {
+    "Actual End Date": 0,
+    "Actual Start Date": 0,
     "Admin": 24,
     "Admin Screen": 1,
     "Admin_1": 24,
@@ -414,6 +424,7 @@
     "Module Lead": 0,
     "Module Name": 0,
     "NextArrow2": 12,
+    "PRD Release": 0,
     "Rectangle1_2": 20,
     "Rectangle1_4": 46,
     "Rectangle1_5": 28,
@@ -421,6 +432,7 @@
     "Rectangle1_7": 28,
     "Rectangle1_8": 28,
     "Rectangle2": 10,
+    "Remarks": 0,
     "Screen2": 0,
     "ScreenContainer2": 0,
     "Separator2": 16,
@@ -450,7 +462,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.2765164,
     "ControlCount": {
-      "button": 14,
+      "button": 19,
       "gallery": 4,
       "galleryTemplate": 4,
       "groupContainer": 5,

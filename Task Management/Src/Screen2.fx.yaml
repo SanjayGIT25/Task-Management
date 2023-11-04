@@ -54,32 +54,37 @@
 
                 Sno As button:
                     DisplayMode: =DisplayMode.View
-                    RadiusBottomLeft: =1
-                    RadiusBottomRight: =1
-                    RadiusTopLeft: =1
-                    RadiusTopRight: =1
+                    RadiusBottomLeft: =3
+                    RadiusBottomRight: =3
+                    RadiusTopLeft: =3
+                    RadiusTopRight: =3
                     Text: ="Sno"
+                    Width: =116
                     X: =
                     ZIndex: =1
 
                 "'Module Lead' As button":
                     DisplayMode: =DisplayMode.View
+                    OnSelect: =
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Lead"
-                    X: =160
+                    Width: =172
+                    X: =Sno.X+Sno.Width
                     ZIndex: =2
 
                 "'Module Name' As button":
                     DisplayMode: =DisplayMode.View
+                    OnSelect: =
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Name"
-                    X: =320
+                    Width: =166
+                    X: ='Module Lead'.X+'Module Lead'.Width
                     ZIndex: =3
 
                 "'Task Details' As button":
@@ -89,7 +94,8 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Task Details"
-                    X: =480
+                    Width: =138
+                    X: ='Module Name'.X+'Module Name'.Width
                     ZIndex: =4
 
                 "'Start Date' As button":
@@ -99,7 +105,8 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Start Date"
-                    X: =640
+                    Width: =154
+                    X: ='Task Details'.X+'Task Details'.Width
                     ZIndex: =5
 
                 "'End Date' As button":
@@ -109,7 +116,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="End Date"
-                    X: =800
+                    X: ='Start Date'.X+'Start Date'.Width
                     ZIndex: =6
 
                 "'Assign To' As button":
@@ -119,7 +126,8 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Assign To"
-                    X: =960
+                    Width: =134
+                    X: ='End Date'.X+'End Date'.Width
                     ZIndex: =7
 
                 Status As button:
@@ -129,6 +137,52 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Status"
-                    X: =1120
+                    Width: =110
+                    X: ='Assign To'.X+'Assign To'.Width
                     ZIndex: =8
+
+                "'Actual Start Date' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Actual Start Date"
+                    Width: =116
+                    X: =Status.X+Status.Width
+                    ZIndex: =9
+
+                "'Actual End Date' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Actual End Date"
+                    Width: =116
+                    X: ='Actual Start Date'.X+'Actual Start Date'.Width
+                    ZIndex: =10
+
+                "'PRD Release' As button":
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="PRD Release"
+                    Width: =116
+                    X: ='Actual End Date'.X+'Actual End Date'.Width
+                    ZIndex: =11
+
+                Remarks As button:
+                    DisplayMode: =DisplayMode.View
+                    OnSelect: ='PRD Release'.X+'PRD Release'.Width
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Remarks"
+                    Width: =146
+                    X: =1132
+                    ZIndex: =12
 
