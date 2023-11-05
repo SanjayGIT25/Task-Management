@@ -326,7 +326,7 @@
 
                 DataCardValue1_12 As text:
                     BorderColor: =
-                    Default: =
+                    Default: =ThisItem.'Assign To'
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
@@ -342,7 +342,7 @@
 
                 DataCardValue5_5 As datepicker:
                     BorderColor: =
-                    DefaultDate: =
+                    DefaultDate: =ThisItem.'End Date'
                     DisplayMode: =Parent.DisplayMode
                     EndYear: =Year(Today())+100
                     Height: =57
@@ -387,7 +387,7 @@
 
                 DataCardValue5_8 As datepicker:
                     BorderColor: =
-                    DefaultDate: =
+                    DefaultDate: =ThisItem.'Start Date'
                     DisplayMode: =Parent.DisplayMode
                     EndYear: =Year(Today())+100
                     Height: =57
@@ -412,6 +412,7 @@
 
                 DataCardValue12_2 As combobox:
                     BorderColor: =
+                    Default: =ThisItem.Status
                     DefaultSelectedItems: =
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
