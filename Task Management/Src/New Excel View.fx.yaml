@@ -98,7 +98,7 @@
                 Height: =40
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
-                ZIndex: =2
+                ZIndex: =1
 
                 "'Module Name_1' As button":
                     DisplayMode: =DisplayMode.View
@@ -238,14 +238,14 @@
                 DelayItemLoading: =true
                 DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
                 FillPortions: =0
-                Height: =120
+                Height: =500
                 Items: =Colgrid
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =10
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
-                ZIndex: =3
+                ZIndex: =2
 
                 DataCardValue1_9 As text:
                     BorderColor: =
@@ -434,5 +434,6 @@
                 AlignInContainer: =AlignInContainer.Center
                 Default: =0
                 Max: =1000
-                ZIndex: =4
+                ShowValue: =false
+                ZIndex: =3
 

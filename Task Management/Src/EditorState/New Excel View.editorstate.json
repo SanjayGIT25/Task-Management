@@ -8949,7 +8949,14 @@
     "Slider1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Layout",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Layout",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ValueFill",
         "RailFill",
         "HandleFill",
@@ -8966,7 +8973,14 @@
         "X",
         "Y",
         "Width",
-        "Height",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Height",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisplayMode",
         "ZIndex",
         "BorderThickness",
@@ -8984,6 +8998,14 @@
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
           "InvariantPropertyName": "Max",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "ShowValue",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -9164,6 +9186,11 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ShowValue",
           "RuleProviderType": "Unknown"
         }
       ],
