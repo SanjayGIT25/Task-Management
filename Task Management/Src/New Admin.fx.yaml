@@ -87,7 +87,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Start Date"
-                    Width: =154
+                    Width: =151
                     X: ='Task Details'.X+'Task Details'.Width
                     ZIndex: =5
 
@@ -109,7 +109,7 @@
                     RadiusTopRight: =1
                     Text: ="Assign To"
                     Width: =139
-                    X: =728
+                    X: ='End Date'.X+'End Date'.Width
                     ZIndex: =7
 
                 Status As button:
@@ -119,7 +119,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Status"
-                    Width: =110
+                    Width: =121
                     X: ='Assign To'.X+'Assign To'.Width
                     ZIndex: =8
 
@@ -152,20 +152,20 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="PRD Release"
-                    Width: =116
+                    Width: =101
                     X: ='Actual End Date'.X+'Actual End Date'.Width
                     ZIndex: =11
 
                 Remarks As button:
                     DisplayMode: =DisplayMode.View
-                    OnSelect: ='PRD Release'.X+'PRD Release'.Width
+                    OnSelect: =
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Remarks"
-                    Width: =88
-                    X: =1246
+                    Width: =101
+                    X: ='PRD Release'.X+'PRD Release'.Width
                     ZIndex: =12
 
             Gallery1 As gallery.galleryVertical:
@@ -257,6 +257,82 @@
                     Width: ='Assign To'.Width
                     X: ='Assign To'.X
                     ZIndex: =5
+
+                DataCardValue27_1 As datepicker:
+                    BorderColor: =
+                    DefaultDate: =
+                    DisplayMode: =Parent.DisplayMode
+                    EndYear: =Year(Today())+100
+                    Height: =80
+                    IsEditable: =true
+                    PaddingBottom: =0
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    StartYear: =1899
+                    Tooltip: =
+                    Width: ='Start Date'.Width
+                    X: =433
+                    ZIndex: =6
+
+                DataCardValue27_2 As datepicker:
+                    BorderColor: =
+                    DefaultDate: =
+                    DisplayMode: =Parent.DisplayMode
+                    EndYear: =Year(Today())+100
+                    Height: =80
+                    IsEditable: =true
+                    PaddingBottom: =0
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    StartYear: =1899
+                    Tooltip: =
+                    Width: ='End Date'.Width
+                    X: ='End Date'.X
+                    ZIndex: =7
+
+                DataCardValue27_3 As datepicker:
+                    BorderColor: =
+                    DefaultDate: =
+                    DisplayMode: =Parent.DisplayMode
+                    EndYear: =Year(Today())+100
+                    Height: =80
+                    IsEditable: =true
+                    PaddingBottom: =0
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    StartYear: =1899
+                    Tooltip: =
+                    Width: ='Actual Start Date'.Width
+                    X: ='Actual Start Date'.X
+                    ZIndex: =8
+
+                DataCardValue27_4 As datepicker:
+                    BorderColor: =
+                    DefaultDate: =
+                    DisplayMode: =Parent.DisplayMode
+                    EndYear: =Year(Today())+100
+                    Height: =80
+                    IsEditable: =true
+                    PaddingBottom: =0
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    StartYear: =1899
+                    Tooltip: =
+                    Width: ='Actual End Date'.Width
+                    X: ='Actual End Date'.X
+                    ZIndex: =9
+
+                DataCardValue34_1 As combobox:
+                    BorderColor: =
+                    DefaultSelectedItems: =
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =80
+                    Items: =Choices([@'Task Update'].Status)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('Task Update'.Status,DataCardValue34_1.SearchText)
+                    SelectMultiple: =false
+                    Tooltip: =
+                    Width: =Status.Width
+                    X: =Status.X
+                    ZIndex: =10
 
     Container4 As groupContainer.manualLayoutContainer:
         Height: =84
