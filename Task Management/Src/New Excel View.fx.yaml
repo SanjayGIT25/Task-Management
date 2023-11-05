@@ -52,7 +52,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Lead"
-                    Width: =96
+                    Width: =168
                     X: =Sno.X+Sno.Width
                     ZIndex: =2
 
@@ -64,7 +64,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Name"
-                    Width: =96
+                    Width: =170
                     X: ='Module Lead'.X+'Module Lead'.Width
                     ZIndex: =3
 
@@ -75,7 +75,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Task Details"
-                    Width: =124
+                    Width: =170
                     X: ='Module Name'.X+'Module Name'.Width
                     ZIndex: =4
 
@@ -86,7 +86,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Start Date"
-                    Width: =130
+                    Width: =170
                     X: ='Task Details'.X+'Task Details'.Width
                     ZIndex: =5
 
@@ -97,6 +97,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="End Date"
+                    Width: =180
                     X: ='Start Date'.X+'Start Date'.Width
                     ZIndex: =6
 
@@ -107,7 +108,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Assign To"
-                    Width: =139
+                    Width: =179
                     X: ='End Date'.X+'End Date'.Width
                     ZIndex: =7
 
@@ -118,7 +119,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Status"
-                    Width: =121
+                    Width: =157
                     X: ='Assign To'.X+'Assign To'.Width
                     ZIndex: =8
 
