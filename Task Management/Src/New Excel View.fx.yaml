@@ -100,29 +100,6 @@
                 LayoutMinWidth: =250
                 ZIndex: =2
 
-                Sno_1 As button:
-                    DisplayMode: =DisplayMode.View
-                    RadiusBottomLeft: =3
-                    RadiusBottomRight: =3
-                    RadiusTopLeft: =3
-                    RadiusTopRight: =3
-                    Text: ="Sno"
-                    Width: =122
-                    X: =0 - Slider1.Value
-                    ZIndex: =1
-
-                "'Module Lead_1' As button":
-                    DisplayMode: =DisplayMode.View
-                    OnSelect: =
-                    RadiusBottomLeft: =1
-                    RadiusBottomRight: =1
-                    RadiusTopLeft: =1
-                    RadiusTopRight: =1
-                    Text: ="Module Lead"
-                    Width: =158
-                    X: =Sno_1.X+Sno_1.Width
-                    ZIndex: =2
-
                 "'Module Name_1' As button":
                     DisplayMode: =DisplayMode.View
                     OnSelect: =
@@ -132,8 +109,8 @@
                     RadiusTopRight: =1
                     Text: ="Module Name"
                     Width: =158
-                    X: ='Module Lead_1'.X+'Module Lead_1'.Width
-                    ZIndex: =3
+                    X: ='Module Lead_1'.X+'Module Lead_1'.Width - Slider1.Value
+                    ZIndex: =1
 
                 "'Task Details_1' As button":
                     DisplayMode: =DisplayMode.View
@@ -144,7 +121,7 @@
                     Text: ="Task Details"
                     Width: =144
                     X: ='Module Name_1'.X+'Module Name_1'.Width
-                    ZIndex: =4
+                    ZIndex: =2
 
                 "'Start Date_1' As button":
                     DisplayMode: =DisplayMode.View
@@ -155,7 +132,7 @@
                     Text: ="Start Date"
                     Width: =197
                     X: ='Task Details_1'.X+'Task Details_1'.Width
-                    ZIndex: =5
+                    ZIndex: =3
 
                 "'End Date_1' As button":
                     DisplayMode: =DisplayMode.View
@@ -166,7 +143,7 @@
                     Text: ="End Date"
                     Width: =180
                     X: ='Start Date_1'.X+'Start Date_1'.Width
-                    ZIndex: =6
+                    ZIndex: =4
 
                 "'Assign To_1' As button":
                     DisplayMode: =DisplayMode.View
@@ -177,7 +154,7 @@
                     Text: ="Assign To"
                     Width: =184
                     X: ='End Date_1'.X+'End Date_1'.Width
-                    ZIndex: =7
+                    ZIndex: =5
 
                 Status_1 As button:
                     DisplayMode: =DisplayMode.View
@@ -188,7 +165,7 @@
                     Text: ="Status"
                     Width: =185
                     X: ='Assign To_1'.X+'Assign To_1'.Width
-                    ZIndex: =8
+                    ZIndex: =6
 
                 "'Actual Start Date_1' As button":
                     DisplayMode: =DisplayMode.View
@@ -199,7 +176,7 @@
                     Text: ="Actual Start Date"
                     Width: =263
                     X: =Status_1.X+Status_1.Width
-                    ZIndex: =9
+                    ZIndex: =7
 
                 "'Actual End Date_1' As button":
                     DisplayMode: =DisplayMode.View
@@ -210,7 +187,7 @@
                     Text: ="Actual End Date"
                     Width: =234
                     X: ='Actual Start Date_1'.X+'Actual Start Date_1'.Width
-                    ZIndex: =10
+                    ZIndex: =8
 
                 "'PRD Release_1' As button":
                     DisplayMode: =DisplayMode.View
@@ -221,7 +198,7 @@
                     Text: ="PRD Release"
                     Width: =250
                     X: ='Actual End Date_1'.X+'Actual End Date_1'.Width
-                    ZIndex: =11
+                    ZIndex: =9
 
                 Remarks_1 As button:
                     DisplayMode: =DisplayMode.View
@@ -233,6 +210,28 @@
                     Text: ="Remarks"
                     Width: =305
                     X: ='PRD Release_1'.X+'PRD Release_1'.Width
+                    ZIndex: =10
+
+                Sno_1 As button:
+                    DisplayMode: =DisplayMode.View
+                    RadiusBottomLeft: =3
+                    RadiusBottomRight: =3
+                    RadiusTopLeft: =3
+                    RadiusTopRight: =3
+                    Text: ="Sno"
+                    Width: =122
+                    ZIndex: =11
+
+                "'Module Lead_1' As button":
+                    DisplayMode: =DisplayMode.View
+                    OnSelect: =
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Module Lead"
+                    Width: =158
+                    X: =Sno_1.X+Sno_1.Width
                     ZIndex: =12
 
             Gallery1_1 As gallery.galleryVertical:
