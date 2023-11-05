@@ -245,38 +245,6 @@
                 TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
                 ZIndex: =3
 
-                DataCardValue1_7 As text:
-                    BorderColor: =
-                    Default: =ThisItem.Title
-                    DelayOutput: =true
-                    DisplayMode: =Parent.DisplayMode
-                    Height: =57
-                    PaddingLeft: =5
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Tooltip: =
-                    Width: =Sno_1.Width
-                    X: =Sno_1.X
-                    ZIndex: =1
-
-                DataCardValue1_8 As text:
-                    BorderColor: =
-                    Default: =ThisItem.'Module Lead'
-                    DelayOutput: =true
-                    DisplayMode: =Parent.DisplayMode
-                    Height: =57
-                    PaddingLeft: =5
-                    RadiusBottomLeft: =0
-                    RadiusBottomRight: =0
-                    RadiusTopLeft: =0
-                    RadiusTopRight: =0
-                    Tooltip: =
-                    Width: ='Module Lead_1'.Width
-                    X: ='Module Lead_1'.X
-                    ZIndex: =2
-
                 DataCardValue1_9 As text:
                     BorderColor: =
                     Default: =ThisItem.'Module Name'
@@ -291,7 +259,7 @@
                     Tooltip: =
                     Width: ='Module Name_1'.Width
                     X: ='Module Name_1'.X
-                    ZIndex: =3
+                    ZIndex: =1
 
                 DataCardValue1_10 As text:
                     BorderColor: =
@@ -307,7 +275,7 @@
                     Tooltip: =
                     Width: ='Task Details_1'.Width
                     X: ='Task Details_1'.X
-                    ZIndex: =4
+                    ZIndex: =2
 
                 DataCardValue1_11 As text:
                     BorderColor: =
@@ -323,7 +291,7 @@
                     Tooltip: =
                     Width: =Remarks_1.Width
                     X: =Remarks_1.X
-                    ZIndex: =5
+                    ZIndex: =3
 
                 DataCardValue1_12 As text:
                     BorderColor: =
@@ -339,7 +307,7 @@
                     Tooltip: =
                     Width: ='Assign To_1'.Width
                     X: ='Assign To_1'.X
-                    ZIndex: =6
+                    ZIndex: =4
 
                 DataCardValue5_5 As datepicker:
                     BorderColor: =
@@ -354,7 +322,7 @@
                     Tooltip: =
                     Width: ='End Date_1'.Width
                     X: ='End Date_1'.X
-                    ZIndex: =7
+                    ZIndex: =5
 
                 DataCardValue5_6 As datepicker:
                     BorderColor: =
@@ -369,7 +337,7 @@
                     Tooltip: =
                     Width: ='Actual Start Date_1'.Width
                     X: ='Actual Start Date_1'.X
-                    ZIndex: =8
+                    ZIndex: =6
 
                 DataCardValue5_7 As datepicker:
                     BorderColor: =
@@ -384,7 +352,7 @@
                     Tooltip: =
                     Width: ='Actual End Date_1'.Width
                     X: ='Actual End Date_1'.X
-                    ZIndex: =9
+                    ZIndex: =7
 
                 DataCardValue5_8 As datepicker:
                     BorderColor: =
@@ -399,7 +367,7 @@
                     Tooltip: =
                     Width: ='Start Date_1'.Width
                     X: ='Start Date_1'.X
-                    ZIndex: =10
+                    ZIndex: =8
 
                 DataCardValue10_2 As toggleSwitch:
                     BorderColor: =
@@ -409,7 +377,7 @@
                     Tooltip: =
                     Width: ='PRD Release_1'.Width
                     X: ='PRD Release_1'.X
-                    ZIndex: =11
+                    ZIndex: =9
 
                 DataCardValue12_2 As combobox:
                     BorderColor: =
@@ -426,6 +394,38 @@
                     Tooltip: =
                     Width: =Status_1.Width
                     X: =Status_1.X
+                    ZIndex: =10
+
+                DataCardValue1_7 As text:
+                    BorderColor: =
+                    Default: =ThisItem.Title
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =57
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =
+                    Width: =Sno_1.Width
+                    X: =Sno_1.X
+                    ZIndex: =11
+
+                DataCardValue1_8 As text:
+                    BorderColor: =
+                    Default: =ThisItem.'Module Lead'
+                    DelayOutput: =true
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =57
+                    PaddingLeft: =5
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Tooltip: =
+                    Width: ='Module Lead_1'.Width
+                    X: ='Module Lead_1'.X
                     ZIndex: =12
 
             Slider1 As slider:
