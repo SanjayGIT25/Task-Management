@@ -87,7 +87,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Start Date"
-                    Width: =151
+                    Width: =149
                     X: ='Task Details'.X+'Task Details'.Width
                     ZIndex: =5
 
@@ -269,8 +269,8 @@
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
                     Tooltip: =
-                    Width: ='Start Date'.Width
-                    X: =433
+                    Width: =153
+                    X: =430
                     ZIndex: =6
 
                 DataCardValue27_2 As datepicker:
