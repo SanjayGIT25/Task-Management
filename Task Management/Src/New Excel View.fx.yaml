@@ -237,9 +237,11 @@
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
                 DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
+                FillPortions: =0
+                Height: =120
                 Items: =Colgrid
                 Layout: =Layout.Vertical
-                LayoutMinHeight: =287
+                LayoutMinHeight: =10
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
