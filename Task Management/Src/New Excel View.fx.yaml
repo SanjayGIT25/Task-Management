@@ -153,7 +153,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Start Date"
-                    Width: =169
+                    Width: =197
                     X: ='Task Details_1'.X+'Task Details_1'.Width
                     ZIndex: =5
 
@@ -164,7 +164,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="End Date"
-                    Width: =133
+                    Width: =180
                     X: ='Start Date_1'.X+'Start Date_1'.Width
                     ZIndex: =6
 
@@ -175,7 +175,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Assign To"
-                    Width: =129
+                    Width: =184
                     X: ='End Date_1'.X+'End Date_1'.Width
                     ZIndex: =7
 
@@ -186,7 +186,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Status"
-                    Width: =128
+                    Width: =185
                     X: ='Assign To_1'.X+'Assign To_1'.Width
                     ZIndex: =8
 
