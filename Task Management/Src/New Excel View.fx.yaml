@@ -333,3 +333,29 @@
                     X: ='Actual End Date'.X
                     ZIndex: =10
 
+                DataCardValue10_1 As toggleSwitch:
+                    BorderColor: =
+                    Default: =
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =57
+                    Tooltip: =
+                    Width: ='PRD Release'.Width
+                    X: ='PRD Release'.X
+                    ZIndex: =11
+
+                DataCardValue12_1 As combobox:
+                    BorderColor: =
+                    DefaultSelectedItems: =
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =57
+                    Items: =Choices([@'Task Update'].Status)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('Task Update'.Status,DataCardValue12_1.SearchText)
+                    SelectMultiple: =false
+                    Tooltip: =
+                    Width: =Status.Width
+                    X: =Status.X
+                    ZIndex: =12
+
