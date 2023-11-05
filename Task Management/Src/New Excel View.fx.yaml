@@ -197,7 +197,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Actual Start Date"
-                    Width: =175
+                    Width: =263
                     X: =Status_1.X+Status_1.Width
                     ZIndex: =9
 
@@ -208,7 +208,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Actual End Date"
-                    Width: =72
+                    Width: =234
                     X: ='Actual Start Date_1'.X+'Actual Start Date_1'.Width
                     ZIndex: =10
 
@@ -219,7 +219,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="PRD Release"
-                    Width: =101
+                    Width: =250
                     X: ='Actual End Date_1'.X+'Actual End Date_1'.Width
                     ZIndex: =11
 
@@ -231,7 +231,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Remarks"
-                    Width: =101
+                    Width: =305
                     X: ='PRD Release_1'.X+'PRD Release_1'.Width
                     ZIndex: =12
 
@@ -432,5 +432,6 @@
             Slider1 As slider:
                 AlignInContainer: =AlignInContainer.Center
                 Default: =0
+                Max: =1000
                 ZIndex: =4
 
