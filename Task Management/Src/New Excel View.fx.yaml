@@ -78,7 +78,6 @@
                     
                     ClearCollect(Colgrid,'Task Update')
                 Text: =If(varGridEdit,"Exit","Edit")
-                Visible: =false
                 ZIndex: =2
 
         MainContainer2_1 As groupContainer.verticalAutoLayoutContainer:
@@ -236,6 +235,7 @@
 
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
+                DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
                 Items: =Colgrid
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
