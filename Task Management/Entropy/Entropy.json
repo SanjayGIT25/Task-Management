@@ -48,6 +48,7 @@
     "DataCardValue30": 281,
     "DataCardValue31": 286,
     "DataCardValue32": 291,
+    "DataCardValue32_1": 331,
     "DataCardValue33": 296,
     "DataCardValue34": 301,
     "DataCardValue34_1": 329,
@@ -171,7 +172,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/05/2023 16:13:42",
+  "HeaderLastSavedDateTimeUTC": "11/05/2023 16:15:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d1657151-a682-43fe-9aff-e07767dda518": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/995a6c239d434a72b7be5a1a184e0074\""
@@ -204,16 +205,16 @@
     "button": 1,
     "combobox": 5,
     "datepicker": 4,
-    "form": 6,
+    "form": 7,
     "gallery": 2,
     "groupContainer": 0,
     "icon": 11,
     "image": 12,
-    "label": 7,
+    "label": 8,
     "pcfDataField": 13,
     "rectangle": 10,
     "text": 3,
-    "toggleSwitch": 8
+    "toggleSwitch": 6
   },
   "OverridablePropertiesEntry": {
     "Actual End Date": {},
@@ -262,6 +263,7 @@
     "DataCardValue30": {},
     "DataCardValue31": {},
     "DataCardValue32": {},
+    "DataCardValue32_1": {},
     "DataCardValue33": {},
     "DataCardValue34": {},
     "DataCardValue34_1": {},
@@ -573,6 +575,7 @@
     "DataCardValue30": 0,
     "DataCardValue31": 0,
     "DataCardValue32": 0,
+    "DataCardValue32_1": 0,
     "DataCardValue33": 0,
     "DataCardValue34": 0,
     "DataCardValue34_1": 0,
@@ -718,7 +721,8 @@
       "PowerApps_CoreControls_TextInputCanvas": 5,
       "rectangle": 8,
       "screen": 7,
-      "text": 14
+      "text": 14,
+      "toggleSwitch": 1
     },
     "DeserializationLoadTime": 2.4151686
   },

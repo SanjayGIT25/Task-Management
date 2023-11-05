@@ -334,6 +334,16 @@
                     X: =Status.X
                     ZIndex: =10
 
+                DataCardValue32_1 As toggleSwitch:
+                    BorderColor: =
+                    Default: =
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =80
+                    Tooltip: =
+                    Width: ='PRD Release'.Width
+                    X: ='PRD Release'.X
+                    ZIndex: =11
+
     Container4 As groupContainer.manualLayoutContainer:
         Height: =84
         Width: =1366
