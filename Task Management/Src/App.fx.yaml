@@ -1,8 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
-        =LookUp(admin_list,Roles,"Admin");
-        Set(varNewRecord,Defaults('Task Update'));
+    OnStart: =Set(varNewRecord,Defaults('Task Update'));
     StartScreen: =
     Theme: =PowerAppsTheme
 

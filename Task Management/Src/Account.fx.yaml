@@ -1,4 +1,4 @@
-"'Admin Screen' As screen":
+Account As screen:
     OnVisible: |+
         =Set(dataAdmin,"Admin");
         Set(dataUser,"User");

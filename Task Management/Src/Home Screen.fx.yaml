@@ -13,7 +13,7 @@
             Fill: =RGBA(175, 191, 224, 1)
             Font: =Font.Verdana
             Height: =88
-            OnSelect: =Navigate('Admin Screen')
+            OnSelect: =Navigate(Account)
             Text: ="Account Overview"
             Visible: =If("Admin" in CurrentUser.Value, true , false )
             Width: =262
@@ -52,7 +52,7 @@
             Fill: =RGBA(175, 191, 224, 1)
             Font: =Font.Verdana
             Height: =88
-            OnSelect: =Navigate(Admin_ExcelView)
+            OnSelect: =Navigate('New Excel View')
             Text: ="Excel"
             Visible: =If("Admin" in CurrentUser.Value, true , false )
             Width: =262
