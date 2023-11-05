@@ -1394,19 +1394,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.varNewRecord"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.Container6_1.Edit.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.varNewRecord",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.Container6_1.Edit.OnSelect",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "varNewRecord",
-                "module": "App",
-                "type": "App"
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.Container6_1.Edit"
               }
             }
           ],
@@ -1416,8 +1416,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
+          "ruleId": "app-CollectDelegatableDataSource",
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -1512,6 +1512,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
+              }
+            },
+            {
+              "id": "app-CollectDelegatableDataSource",
+              "messageStrings": {
+                "issue": {
+                  "text": "The rows retrieved from the data source may not be complete."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Limit the data collected from the data source by updating the formula \"ClearCollect(Colgrid, 'Task Update')\" to include a filtering function, such as 'Filter' or 'Search'."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Using the 'Collect' function to create a collection directly from a connected data source may not load every row if the data source is too large."
               }
             }
           ],

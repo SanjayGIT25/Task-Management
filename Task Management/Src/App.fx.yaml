@@ -1,6 +1,9 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =Set(varNewRecord,Defaults('Task Update'));
+    OnStart: |-
+        =Set(varGridEdit,false);
+        
+        Set(varNewRecord,Defaults('Task Update'));
     StartScreen: =
     Theme: =PowerAppsTheme
 

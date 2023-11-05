@@ -1,4 +1,5 @@
 "'New Excel View' As screen":
+    OnVisible: =Select(Edit)
 
     ScreenContainer2_1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
@@ -65,11 +66,20 @@
             LayoutMinWidth: =250
             ZIndex: =2
 
-            Button1 As button:
-                OnSelect: =Collect(Colgrid,Defaults('Task Update'))
+            "'New Item' As button":
+                OnSelect: =Collect(Colgrid,varNewRecord)
                 Text: ="New Item"
-                X: =2
+                X: =198
                 ZIndex: =1
+
+            Edit As button:
+                OnSelect: |-
+                    =Set(varGridEdit,!varGridEdit);
+                    
+                    ClearCollect(Colgrid,'Task Update')
+                Text: =If(varGridEdit,"Exit","Edit")
+                Visible: =false
+                ZIndex: =2
 
         MainContainer2_1 As groupContainer.verticalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
@@ -226,7 +236,7 @@
 
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: ='Task Update'
+                Items: =Colgrid
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
