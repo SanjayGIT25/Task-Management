@@ -117,7 +117,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Lead"
-                    Width: =168
+                    Width: =91
                     X: =Sno_1.X+Sno_1.Width
                     ZIndex: =2
 
@@ -140,7 +140,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Task Details"
-                    Width: =170
+                    Width: =71
                     X: ='Module Name_1'.X+'Module Name_1'.Width
                     ZIndex: =4
 
@@ -151,7 +151,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Start Date"
-                    Width: =137
+                    Width: =78
                     X: ='Task Details_1'.X+'Task Details_1'.Width
                     ZIndex: =5
 
@@ -310,7 +310,7 @@
 
                 DataCardValue1_11 As text:
                     BorderColor: =
-                    Default: =
+                    Default: =ThisItem.Remarks
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
@@ -357,7 +357,7 @@
 
                 DataCardValue5_6 As datepicker:
                     BorderColor: =
-                    DefaultDate: =
+                    DefaultDate: =ThisItem.'Actual Start Date'
                     DisplayMode: =Parent.DisplayMode
                     EndYear: =Year(Today())+100
                     Height: =57
@@ -372,7 +372,7 @@
 
                 DataCardValue5_7 As datepicker:
                     BorderColor: =
-                    DefaultDate: =
+                    DefaultDate: =ThisItem.'Actual End Date'
                     DisplayMode: =Parent.DisplayMode
                     EndYear: =Year(Today())+100
                     Height: =57
@@ -402,7 +402,7 @@
 
                 DataCardValue10_2 As toggleSwitch:
                     BorderColor: =
-                    Default: =
+                    Default: =ThisItem.'PRD Relase'
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     Tooltip: =
