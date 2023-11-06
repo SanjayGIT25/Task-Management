@@ -245,6 +245,8 @@
                 LayoutMinHeight: =10
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
+                OnSelect: |-
+                    =Patch(Colgrid,ThisItem,{Title:Sno1.Text,'Module Lead':ModuleLead.Text,'Module Name':ModuleName1.Text,'Task Details':TaskDetails.Text,'Start Date':StartDate.SelectedDate,'End Date':EndDate.SelectedDate,'Assign To':AssignTo.Text,'Actual Start Date':ActualStartDate.SelectedDate,'Actual End Date':ActualEndDate.SelectedDate,'PRD Relase':PRDR.Value,Remarks:Remarks.Text})
                 TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
                 ZIndex: =2
 
@@ -255,25 +257,7 @@
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Lead':: 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
@@ -291,25 +275,7 @@
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
@@ -415,25 +381,7 @@
                     Height: =57
                     IsEditable: =true
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     PaddingBottom: =0
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
