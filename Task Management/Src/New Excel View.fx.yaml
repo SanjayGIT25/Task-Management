@@ -219,7 +219,7 @@
                     RadiusTopLeft: =3
                     RadiusTopRight: =3
                     Text: ="Sno"
-                    Width: =122
+                    Width: =133
                     ZIndex: =11
 
                 "'Module Lead_1' As button":
