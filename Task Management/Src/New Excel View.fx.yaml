@@ -268,6 +268,7 @@
                             'Task Details': TaskDetails.Text,
                             'Start Date': StartDate.SelectedDate,
                             'End Date': EndDate.SelectedDate,
+                             Status:Status1,
                             'Assign To': AssignTo.Text,
                             'Actual Start Date': ActualStartDate.SelectedDate,
                             'Actual End Date': ActualEndDate.SelectedDate,
