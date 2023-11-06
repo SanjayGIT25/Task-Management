@@ -78,9 +78,23 @@
 
             Edit As button:
                 OnSelect: |-
-                    =If(varGridEdit,Patch('Task Update',UpdateIf(Colgrid,Created = Blank(),{ID:Blank()})));
+                    =If(
+                        varGridEdit,
+                        Patch(
+                            'Task Update',
+                            UpdateIf(
+                                Colgrid,
+                                Created = Blank(),
+                                {ID: Blank()}
+                            )
+                        )
+                    );
+                    Remove('Task Update',colDelete);
                     Select(btnload);
-                    Set(varGridEdit,!varGridEdit)
+                    Set(
+                        varGridEdit,
+                        !varGridEdit
+                    )
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
 
@@ -518,7 +532,7 @@
                 Icon21 As icon.Trash:
                     Height: =27
                     Icon: =Icon.Trash
-                    OnSelect: =Select(Parent)
+                    OnSelect: =Collect(colDelete,ThisItem);Remove(Colgrid,ThisItem);
                     Width: =Trash.Width
                     X: =Trash.X
                     Y: =13
