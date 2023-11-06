@@ -119,7 +119,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Task Details"
-                    Width: =144
+                    Width: =247
                     X: ='Module Name_1'.X+'Module Name_1'.Width
                     ZIndex: =2
 
