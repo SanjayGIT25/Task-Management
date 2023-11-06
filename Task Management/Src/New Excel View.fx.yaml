@@ -71,10 +71,10 @@
                     =Set(varNumber,varNumber+1);
                     Collect(
                         Colgrid,
-                        Patch(
-                            varNewRecord,
-                            {ID: varNumber}
-                        )
+                       
+                            varNewRecord
+                           
+                        
                     )
                 Text: ="New Item"
                 Visible: =varGridEdit
@@ -86,16 +86,19 @@
                     =If(
                         varGridEdit,
                         Patch(
-                            'Task Update',Colgrid);
-                    Select(btnload);
-                    Set(
-                        varGridEdit,
-                        !varGridEdit
-                    );
-                    ClearCollect(
-                        Colgrid,
-                        'Task Update'
-                    ))
+                            'Task Update',
+                            Colgrid
+                        );
+                        Select(btnload);
+                        Set(
+                            varGridEdit,
+                            !varGridEdit
+                        );
+                        ClearCollect(
+                            Colgrid,
+                            'Task Update'
+                        )
+                    )
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
 
