@@ -69,7 +69,8 @@
             "'New Item' As button":
                 OnSelect: |-
                     =Set(varNumber,varNumber+1);
-                    Collect(Colgrid,varNewRecord)
+                    Set(varNumber,varNumber+1);
+                    Collect(Colgrid,Patch(varNewRecord,{ID:varNumber}))
                 Text: ="New Item"
                 Visible: =varGridEdit
                 X: =198
