@@ -255,14 +255,13 @@
                     ZIndex: =12
 
             Gallery1_1 As gallery.galleryVertical:
-                AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
                 Height: =250
                 Items: =Colgrid
                 Layout: =Layout.Vertical
-                LayoutMinHeight: =10
-                LayoutMinWidth: =320
+                LayoutMinHeight: =0
+                LayoutMinWidth: =1000
                 LoadingSpinner: =LoadingSpinner.Data
                 OnSelect: |-
                     =Patch(
@@ -283,7 +282,7 @@
                         }
                     )
                 TemplatePadding: =1
-                TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 50), Min(50, Self.Height - 60))
                 ZIndex: =2
 
                 ModuleName1 As text:
