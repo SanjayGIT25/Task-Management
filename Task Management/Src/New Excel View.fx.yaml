@@ -216,7 +216,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="PRD Release"
-                    Width: =250
+                    Width: =172
                     X: ='Actual End Date'.X+'Actual End Date'.Width
                     ZIndex: =9
 
@@ -429,12 +429,13 @@
                     BorderColor: =
                     Default: =ThisItem.'PRD Relase'
                     DisplayMode: =Parent.DisplayMode
-                    Height: =57
+                    Height: =30
                     OnChange: =Select(Parent)
                     OnSelect: =
                     Tooltip: =
                     Width: ='PRD Release'.Width
-                    X: ='PRD Release'.X
+                    X: ='PRD Release'.X 
+                    Y: =10
                     ZIndex: =9
 
                 Status1 As combobox:
