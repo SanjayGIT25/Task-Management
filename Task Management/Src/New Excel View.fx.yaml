@@ -100,7 +100,7 @@
                 LayoutMinWidth: =250
                 ZIndex: =1
 
-                "'Module Name_1' As button":
+                "'Module Name' As button":
                     DisplayMode: =DisplayMode.View
                     OnSelect: =
                     RadiusBottomLeft: =1
@@ -109,10 +109,10 @@
                     RadiusTopRight: =1
                     Text: ="Module Name"
                     Width: =158
-                    X: ='Module Lead_1'.X+'Module Lead_1'.Width - Slider1.Value
+                    X: ='Module Lead'.X+'Module Lead'.Width - Slider1.Value
                     ZIndex: =1
 
-                "'Task Details_1' As button":
+                "'Task Details' As button":
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
@@ -120,10 +120,10 @@
                     RadiusTopRight: =1
                     Text: ="Task Details"
                     Width: =247
-                    X: ='Module Name_1'.X+'Module Name_1'.Width
+                    X: ='Module Name'.X+'Module Name'.Width
                     ZIndex: =2
 
-                "'Start Date_1' As button":
+                "'Start Date' As button":
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
@@ -131,10 +131,10 @@
                     RadiusTopRight: =1
                     Text: ="Start Date"
                     Width: =197
-                    X: ='Task Details_1'.X+'Task Details_1'.Width
+                    X: ='Task Details'.X+'Task Details'.Width
                     ZIndex: =3
 
-                "'End Date_1' As button":
+                "'End Date' As button":
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
@@ -142,10 +142,10 @@
                     RadiusTopRight: =1
                     Text: ="End Date"
                     Width: =180
-                    X: ='Start Date_1'.X+'Start Date_1'.Width
+                    X: ='Start Date'.X+'Start Date'.Width
                     ZIndex: =4
 
-                "'Assign To_1' As button":
+                "'Assign To' As button":
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
@@ -153,10 +153,10 @@
                     RadiusTopRight: =1
                     Text: ="Assign To"
                     Width: =184
-                    X: ='End Date_1'.X+'End Date_1'.Width
+                    X: ='End Date'.X+'End Date'.Width
                     ZIndex: =5
 
-                Status_1 As button:
+                Status As button:
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
@@ -164,10 +164,10 @@
                     RadiusTopRight: =1
                     Text: ="Status"
                     Width: =185
-                    X: ='Assign To_1'.X+'Assign To_1'.Width
+                    X: ='Assign To'.X+'Assign To'.Width
                     ZIndex: =6
 
-                "'Actual Start Date_1' As button":
+                "'Actual Start Date' As button":
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
@@ -175,10 +175,10 @@
                     RadiusTopRight: =1
                     Text: ="Actual Start Date"
                     Width: =263
-                    X: =Status_1.X+Status_1.Width
+                    X: =Status.X+Status.Width
                     ZIndex: =7
 
-                "'Actual End Date_1' As button":
+                "'Actual End Date' As button":
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
@@ -186,10 +186,10 @@
                     RadiusTopRight: =1
                     Text: ="Actual End Date"
                     Width: =234
-                    X: ='Actual Start Date_1'.X+'Actual Start Date_1'.Width
+                    X: ='Actual Start Date'.X+'Actual Start Date'.Width
                     ZIndex: =8
 
-                "'PRD Release_1' As button":
+                "'PRD Release' As button":
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =1
                     RadiusBottomRight: =1
@@ -197,10 +197,10 @@
                     RadiusTopRight: =1
                     Text: ="PRD Release"
                     Width: =250
-                    X: ='Actual End Date_1'.X+'Actual End Date_1'.Width
+                    X: ='Actual End Date'.X+'Actual End Date'.Width
                     ZIndex: =9
 
-                Remarks_1 As button:
+                Remarks As button:
                     DisplayMode: =DisplayMode.View
                     OnSelect: =
                     RadiusBottomLeft: =1
@@ -209,10 +209,10 @@
                     RadiusTopRight: =1
                     Text: ="Remarks"
                     Width: =305
-                    X: ='PRD Release_1'.X+'PRD Release_1'.Width
+                    X: ='PRD Release'.X+'PRD Release'.Width
                     ZIndex: =10
 
-                Sno_1 As button:
+                Sno As button:
                     DisplayMode: =DisplayMode.View
                     RadiusBottomLeft: =3
                     RadiusBottomRight: =3
@@ -222,7 +222,7 @@
                     Width: =133
                     ZIndex: =11
 
-                "'Module Lead_1' As button":
+                "'Module Lead' As button":
                     DisplayMode: =DisplayMode.View
                     OnSelect: =
                     RadiusBottomLeft: =1
@@ -231,7 +231,7 @@
                     RadiusTopRight: =1
                     Text: ="Module Lead"
                     Width: =158
-                    X: =Sno_1.X+Sno_1.Width
+                    X: =Sno.X+Sno.Width
                     ZIndex: =12
 
             Gallery1_1 As gallery.galleryVertical:
@@ -259,8 +259,8 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =
-                    Width: ='Module Name_1'.Width
-                    X: ='Module Name_1'.X
+                    Width: ='Module Name'.Width
+                    X: ='Module Name'.X
                     ZIndex: =1
 
                 DataCardValue1_10 As text:
@@ -275,8 +275,8 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =
-                    Width: ='Task Details_1'.Width
-                    X: ='Task Details_1'.X
+                    Width: ='Task Details'.Width
+                    X: ='Task Details'.X
                     ZIndex: =2
 
                 DataCardValue1_11 As text:
@@ -291,8 +291,8 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =
-                    Width: =Remarks_1.Width
-                    X: =Remarks_1.X
+                    Width: =Remarks.Width
+                    X: =Remarks.X
                     ZIndex: =3
 
                 DataCardValue1_12 As text:
@@ -307,8 +307,8 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =
-                    Width: ='Assign To_1'.Width
-                    X: ='Assign To_1'.X
+                    Width: ='Assign To'.Width
+                    X: ='Assign To'.X
                     ZIndex: =4
 
                 DataCardValue5_5 As datepicker:
@@ -322,8 +322,8 @@
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
                     Tooltip: =
-                    Width: ='End Date_1'.Width
-                    X: ='End Date_1'.X
+                    Width: ='End Date'.Width
+                    X: ='End Date'.X
                     ZIndex: =5
 
                 DataCardValue5_6 As datepicker:
@@ -337,8 +337,8 @@
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
                     Tooltip: =
-                    Width: ='Actual Start Date_1'.Width
-                    X: ='Actual Start Date_1'.X
+                    Width: ='Actual Start Date'.Width
+                    X: ='Actual Start Date'.X
                     ZIndex: =6
 
                 DataCardValue5_7 As datepicker:
@@ -352,8 +352,8 @@
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
                     Tooltip: =
-                    Width: ='Actual End Date_1'.Width
-                    X: ='Actual End Date_1'.X
+                    Width: ='Actual End Date'.Width
+                    X: ='Actual End Date'.X
                     ZIndex: =7
 
                 DataCardValue5_8 As datepicker:
@@ -367,8 +367,8 @@
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
                     Tooltip: =
-                    Width: ='Start Date_1'.Width
-                    X: ='Start Date_1'.X
+                    Width: ='Start Date'.Width
+                    X: ='Start Date'.X
                     ZIndex: =8
 
                 DataCardValue10_2 As toggleSwitch:
@@ -377,8 +377,8 @@
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     Tooltip: =
-                    Width: ='PRD Release_1'.Width
-                    X: ='PRD Release_1'.X
+                    Width: ='PRD Release'.Width
+                    X: ='PRD Release'.X
                     ZIndex: =9
 
                 DataCardValue12_2 As combobox:
@@ -394,8 +394,8 @@
                     SearchItems: =Choices('Task Update'.Status,DataCardValue12_2.SearchText)
                     SelectMultiple: =false
                     Tooltip: =
-                    Width: =Status_1.Width
-                    X: =Status_1.X
+                    Width: =Status.Width
+                    X: =Status.X
                     ZIndex: =10
 
                 DataCardValue1_7 As text:
@@ -410,8 +410,8 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =
-                    Width: =Sno_1.Width
-                    X: =Sno_1.X
+                    Width: =Sno.Width
+                    X: =Sno.X
                     ZIndex: =11
 
                 DataCardValue1_8 As text:
@@ -426,8 +426,8 @@
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
                     Tooltip: =
-                    Width: ='Module Lead_1'.Width
-                    X: ='Module Lead_1'.X
+                    Width: ='Module Lead'.Width
+                    X: ='Module Lead'.X
                     ZIndex: =12
 
             Slider1 As slider:
