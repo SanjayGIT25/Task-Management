@@ -388,10 +388,11 @@
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
+                    IsSearchable: =false
                     Items: =Choices([@'Task Update'].Status)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('Task Update'.Status,DataCardValue12_2.SearchText)
+                    SearchItems: =[]
                     SelectMultiple: =false
                     Tooltip: =
                     Width: =Status_1.Width
