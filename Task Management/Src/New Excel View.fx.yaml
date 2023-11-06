@@ -255,7 +255,7 @@
                 DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
                 FillPortions: =0
                 Height: =500
-                Items: =Colgrid
+                Items: =Sort(Colgrid,ID,SortOrder.Descending)
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =10
                 LayoutMinWidth: =320
