@@ -332,18 +332,18 @@
                             Colgrid,
                             ThisItem,
                             {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
+                                 Sno: Sno1,
+                                 'Module Lead': 'ModuleLead',
+                                'Module Name': 'ModuleName',
+                                'Task Details': 'TaskDetails',
+                                'Start Date': 'StartDate',
+                                'End Date': 'EndDate',
+                                'Assign To': 'AssignTo',
+                                Status: Status1,
+                                'Actual Start Date': 'ActualStartDate',
+                                'Actual End Date': 'ActualEndDate',
+                                'PRD Relase': 'PRDR',
+                                Remarks: Remarks1
                             }
                         )
                     PaddingLeft: =5
@@ -612,18 +612,18 @@
                             Colgrid,
                             ThisItem,
                             {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
+                                Title: Sno1,
+                                'Module Lead': ModuleLead,
+                                'Module Name': ModuleName1,
+                                'Task Details': TaskDetails,
+                                'Start Date': StartDate,
+                                'End Date': EndDate,
+                                'Assign To':AssignTo,
+                                'Actual Start Date':ActualStartDate,
+                                'Actual End Date':ActualEndDate,
+                                'PRD Relase':PRDR,
+                                Remarks:Remarks1
+                        
                             }
                         )
                     PaddingLeft: =5
