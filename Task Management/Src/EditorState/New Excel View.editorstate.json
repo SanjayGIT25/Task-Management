@@ -678,7 +678,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ActualEndDate",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1043,7 +1043,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ActualStartDate",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1686,7 +1686,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "AssignTo",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3452,7 +3452,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "EndDate",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4015,7 +4015,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "galleryTemplate1_1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4632,7 +4632,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon21",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4804,7 +4804,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon22",
-      "ParentIndex": 0,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6334,7 +6334,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ModuleLead",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6687,7 +6687,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ModuleName1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7655,7 +7655,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PRDR",
-      "ParentIndex": 14,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8758,7 +8758,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Remarks1",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9818,7 +9818,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Sno1",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10453,7 +10453,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "StartDate",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11124,7 +11124,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Status1",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11792,7 +11792,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TaskDetails",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
