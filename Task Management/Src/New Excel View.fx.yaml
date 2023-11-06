@@ -69,8 +69,8 @@
             "'New Item' As button":
                 OnSelect: |-
                     =Set(varNumber,varNumber+1);
-                    Set(varNumber,varNumber+1);
-                    Collect(Colgrid,Patch(varNewRecord,{ID:varNumber}))
+                    
+                    Collect('Task Update',Patch(varNewRecord,{ID:varNumber}))
                 Text: ="New Item"
                 Visible: =varGridEdit
                 X: =198
@@ -81,7 +81,7 @@
                     =If(varGridEdit,'Task Update',Colgrid);
                     Select(btnload);
                     Set(varGridEdit,!varGridEdit);
-                    //ClearCollect(Colgrid,'Task Update');
+                    ClearCollect(Colgrid,'Task Update');
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
 
@@ -253,7 +253,7 @@
                 DelayItemLoading: =true
                 DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
                 Height: =250
-                Items: =Colgrid
+                Items: ='Task Update'
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =0
                 LayoutMinWidth: =1000
