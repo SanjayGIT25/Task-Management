@@ -77,11 +77,23 @@
                 ZIndex: =1
 
             Edit As button:
-                OnSelect: |-
-                    =If(varGridEdit,'Task Update',Colgrid);
+                OnSelect: |
+                    =If(
+                        varGridEdit,
+                        Patch(
+                            'Task Update',
+                            UpdateIf(Colgrid,Created=Blank(),{ID:Blank()}
+                        )
+                    );
                     Select(btnload);
-                    Set(varGridEdit,!varGridEdit);
-                    ClearCollect(Colgrid,'Task Update');
+                    Set(
+                        varGridEdit,
+                        !varGridEdit
+                    );
+                    ClearCollect(
+                        Colgrid,
+                        'Task Update'
+                    );
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
 
