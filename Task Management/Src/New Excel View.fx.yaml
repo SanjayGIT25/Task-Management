@@ -90,6 +90,7 @@
                         )
                     );
                     Remove('Task Update',colDelete);
+                    Clear(colDelete);
                     Select(btnload);
                     Set(
                         varGridEdit,
