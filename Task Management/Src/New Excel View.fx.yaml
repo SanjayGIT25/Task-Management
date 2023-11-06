@@ -248,7 +248,7 @@
                 TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
                 ZIndex: =2
 
-                DataCardValue1_9 As text:
+                ModuleName1 As text:
                     BorderColor: =
                     Default: =ThisItem.'Module Name'
                     DelayOutput: =true
@@ -284,7 +284,7 @@
                     X: ='Module Name'.X
                     ZIndex: =1
 
-                DataCardValue1_10 As text:
+                TaskDetails As text:
                     BorderColor: =
                     Default: =ThisItem.'Task Details'
                     DelayOutput: =true
@@ -356,7 +356,7 @@
                     X: =Remarks.X
                     ZIndex: =3
 
-                DataCardValue1_12 As text:
+                AssignTo As text:
                     BorderColor: =
                     Default: =ThisItem.'Assign To'
                     DelayOutput: =true
@@ -392,7 +392,7 @@
                     X: ='Assign To'.X
                     ZIndex: =4
 
-                DataCardValue5_5 As datepicker:
+                EndDate As datepicker:
                     BorderColor: =
                     DefaultDate: =ThisItem.'End Date'
                     DisplayMode: =Parent.DisplayMode
@@ -497,7 +497,7 @@
                     X: ='Actual End Date'.X
                     ZIndex: =7
 
-                DataCardValue5_8 As datepicker:
+                StartDate As datepicker:
                     BorderColor: =
                     DefaultDate: =ThisItem.'Start Date'
                     DisplayMode: =Parent.DisplayMode
@@ -600,7 +600,7 @@
                     X: =Status.X
                     ZIndex: =10
 
-                DataCardValue1_7 As text:
+                Sno1 As text:
                     BorderColor: =
                     Default: =ThisItem.Title
                     DelayOutput: =true
@@ -636,7 +636,7 @@
                     X: =Sno.X
                     ZIndex: =11
 
-                DataCardValue1_8 As text:
+                ModuleName As text:
                     BorderColor: =
                     Default: =ThisItem.'Module Lead'
                     DelayOutput: =true

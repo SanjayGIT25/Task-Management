@@ -134,12 +134,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_7.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Sno1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_7.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Sno1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -153,7 +153,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_7"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Sno1"
               }
             }
           ],
@@ -174,12 +174,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -193,7 +193,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -211,12 +211,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -230,7 +230,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -248,12 +248,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -267,7 +267,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -285,12 +285,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -304,7 +304,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -322,12 +322,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -341,7 +341,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -359,12 +359,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -378,7 +378,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -396,12 +396,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -415,7 +415,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -433,12 +433,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -452,7 +452,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -470,12 +470,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -489,7 +489,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -507,12 +507,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -526,7 +526,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -544,12 +544,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -563,7 +563,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -581,12 +581,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -600,7 +600,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -618,12 +618,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -637,7 +637,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -655,12 +655,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -674,7 +674,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -692,12 +692,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -711,7 +711,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -729,12 +729,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -748,7 +748,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -766,12 +766,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -785,7 +785,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -803,12 +803,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -822,7 +822,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -840,12 +840,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -859,7 +859,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -877,12 +877,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -896,7 +896,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -914,12 +914,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -933,7 +933,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -951,12 +951,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -970,7 +970,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -988,12 +988,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1007,7 +1007,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1025,12 +1025,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1044,7 +1044,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1062,12 +1062,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1081,7 +1081,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1099,12 +1099,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1118,7 +1118,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1136,12 +1136,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1155,7 +1155,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1173,12 +1173,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1192,7 +1192,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1210,12 +1210,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1229,7 +1229,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1247,12 +1247,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1266,7 +1266,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1284,12 +1284,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1303,7 +1303,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1321,12 +1321,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1340,7 +1340,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1358,12 +1358,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1377,7 +1377,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1395,12 +1395,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1414,7 +1414,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1432,12 +1432,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1451,7 +1451,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1469,12 +1469,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1488,7 +1488,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1506,12 +1506,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1525,7 +1525,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1543,12 +1543,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1562,7 +1562,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1580,12 +1580,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1599,7 +1599,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1617,12 +1617,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1636,7 +1636,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1654,12 +1654,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1673,7 +1673,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1691,12 +1691,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1710,7 +1710,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1728,12 +1728,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1747,7 +1747,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1765,12 +1765,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1784,7 +1784,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1806,12 +1806,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1825,7 +1825,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1843,12 +1843,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1862,7 +1862,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1880,12 +1880,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1899,7 +1899,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1917,12 +1917,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1936,7 +1936,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1954,12 +1954,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1973,7 +1973,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -1991,12 +1991,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2010,7 +2010,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2028,12 +2028,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2047,7 +2047,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2065,12 +2065,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2084,7 +2084,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2102,12 +2102,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2121,7 +2121,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2139,12 +2139,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2158,7 +2158,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2176,12 +2176,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2195,7 +2195,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2213,12 +2213,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2232,7 +2232,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2250,12 +2250,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2269,7 +2269,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2287,12 +2287,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2306,7 +2306,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2324,12 +2324,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2343,7 +2343,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2361,12 +2361,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2380,7 +2380,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2398,12 +2398,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2417,7 +2417,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2435,12 +2435,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2454,7 +2454,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2472,12 +2472,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2491,7 +2491,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2509,12 +2509,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2528,7 +2528,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2546,12 +2546,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2565,7 +2565,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2583,12 +2583,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2602,7 +2602,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2623,12 +2623,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2642,7 +2642,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -2665,12 +2665,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_10.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.TaskDetails.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_10.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.TaskDetails.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2684,7 +2684,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_10"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.TaskDetails"
               }
             }
           ],
@@ -2745,12 +2745,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_12.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.AssignTo.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_12.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.AssignTo.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2764,7 +2764,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_12"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.AssignTo"
               }
             }
           ],
@@ -2785,12 +2785,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_5.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.EndDate.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_5.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.EndDate.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2804,7 +2804,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_5"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.EndDate"
               }
             }
           ],
@@ -2905,12 +2905,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_8.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.StartDate.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_8.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.StartDate.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2924,7 +2924,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_8"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.StartDate"
               }
             }
           ],
@@ -3632,19 +3632,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_7.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Sno1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_7.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Sno1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_7"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Sno1"
               }
             }
           ],
@@ -3662,19 +3662,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_8.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_8.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_8"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName"
               }
             }
           ],
@@ -3692,19 +3692,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_9"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1"
               }
             }
           ],
@@ -3722,19 +3722,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_10.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.TaskDetails.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_10.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.TaskDetails.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_10"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.TaskDetails"
               }
             }
           ],
@@ -3782,19 +3782,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_12.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.AssignTo.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_12.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.AssignTo.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_12"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.AssignTo"
               }
             }
           ],
@@ -3812,19 +3812,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_5.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.EndDate.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_5.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.EndDate.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_5"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.EndDate"
               }
             }
           ],
@@ -3902,19 +3902,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_8.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.StartDate.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_8.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.StartDate.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_8"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.StartDate"
               }
             }
           ],
