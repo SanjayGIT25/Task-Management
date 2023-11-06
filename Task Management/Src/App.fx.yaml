@@ -4,6 +4,8 @@ App As appinfo:
         =Set(varGridEdit,false);
         
         Set(varNewRecord,Defaults('Task Update'));
+        
+        Set(varNumber,10000000)
     StartScreen: =
     Theme: =PowerAppsTheme
 

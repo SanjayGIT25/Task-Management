@@ -253,7 +253,23 @@
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 OnSelect: |-
-                    =Patch(Colgrid,ThisItem,{Title:Sno1.Text,'Module Lead':ModuleLead.Text,'Module Name':ModuleName1.Text,'Task Details':TaskDetails.Text,'Start Date':StartDate.SelectedDate,'End Date':EndDate.SelectedDate,'Assign To':AssignTo.Text,'Actual Start Date':ActualStartDate.SelectedDate,'Actual End Date':ActualEndDate.SelectedDate,'PRD Relase':PRDR.Value,Remarks:Remarks.Text})
+                    =Patch(
+                        Colgrid,
+                        ThisItem,
+                        {
+                            Title: Sno1.Text,
+                            'Module Lead': ModuleLead.Text,
+                            'Module Name': ModuleName1.Text,
+                            'Task Details': TaskDetails.Text,
+                            'Start Date': StartDate.SelectedDate,
+                            'End Date': EndDate.SelectedDate,
+                            'Assign To': AssignTo.Text,
+                            'Actual Start Date': ActualStartDate.SelectedDate,
+                            'Actual End Date': ActualEndDate.SelectedDate,
+                            'PRD Relase': PRDR.Value,
+                            Remarks: Remarks.Text
+                        }
+                    )
                 TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
                 ZIndex: =2
 
