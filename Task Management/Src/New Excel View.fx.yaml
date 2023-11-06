@@ -78,10 +78,9 @@
 
             Edit As button:
                 OnSelect: |-
-                    =If(varGridEdit,Patch('Task Update',UpdateIf(Colgrid,Created=Blank(),{ID:Blank()}));
+                    =If(varGridEdit,Patch('Task Update',UpdateIf(Colgrid,Created = Blank(),{ID:Blank()})));
                     Select(btnload);
-                    Set(varGridEdit,!varGridEdit);
-                    ClearCollect(Colgrid,'Task Update'))
+                    Set(varGridEdit,!varGridEdit)
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
 
@@ -253,7 +252,7 @@
                 DelayItemLoading: =true
                 DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
                 Height: =250
-                Items: =Colgrid
+                Items: =Sort(Colgrid,ID,SortOrder.Descending)
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =0
                 LayoutMinWidth: =1000
