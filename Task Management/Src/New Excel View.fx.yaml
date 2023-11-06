@@ -261,7 +261,7 @@
                             ThisItem,
                             {
                                 Title: Sno,
-                                'Module Name': 'Module Lead',
+                                'Module Lead':: 'Module Lead',
                                 'Module Name': 'Module Name',
                                 'Task Details': 'Task Details',
                                 'Start Date': 'Start Date',
@@ -649,7 +649,7 @@
                             ThisItem,
                             {
                                 Title: Sno,
-                                'Module Name': 'Module Lead',
+                                'Module Lead': 'Module Lead',
                                 'Module Name': 'Module Name',
                                 'Task Details': 'Task Details',
                                 'Start Date': 'Start Date',
