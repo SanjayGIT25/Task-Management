@@ -363,25 +363,7 @@
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
@@ -400,25 +382,7 @@
                     Height: =57
                     IsEditable: =true
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Name': ModuleLead,
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     PaddingBottom: =0
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
@@ -435,25 +399,7 @@
                     Height: =57
                     IsEditable: =true
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     PaddingBottom: =0
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
@@ -470,25 +416,7 @@
                     Height: =57
                     IsEditable: =true
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     PaddingBottom: =0
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     StartYear: =1899
@@ -538,25 +466,7 @@
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     Tooltip: =
                     Width: ='PRD Release'.Width
                     X: ='PRD Release'.X
@@ -572,25 +482,7 @@
                     IsSearchable: =false
                     Items: =Choices([@'Task Update'].Status)
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Name': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
-                            }
-                        )
+                    OnSelect: =
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Value"]
                     SearchItems: =[]
@@ -643,25 +535,7 @@
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno,
-                                'Module Lead': 'ModuleLead',
-                                'Module Name': ModuleName1,
-                                'Task Details': TaskDetails,
-                                'Start Date': StartDate,
-                                'End Date': EndDate,
-                                'Assign To': AssignTo,
-                                Status: Status1,
-                                'Actual Start Date': 'ActualStartDate',
-                                'Actual End Date': 'ActualEndDate',
-                                'PRD Relase': PRDR',
-                                Remarks: Remarks1
-                            }
-                        )
+                    OnSelect: =
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
