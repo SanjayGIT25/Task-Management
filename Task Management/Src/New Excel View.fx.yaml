@@ -447,7 +447,7 @@
                 Status1 As combobox:
                     BorderColor: =
                     Default: =ThisItem.Status
-                    DefaultSelectedItems: =
+                    DefaultSelectedItems: =ThisItem.Status
                     DisplayFields: =["Value"]
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
