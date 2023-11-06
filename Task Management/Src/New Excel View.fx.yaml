@@ -75,7 +75,10 @@
 
             Edit As button:
                 OnSelect: |-
-                    =Set(varGridEdit,!varGridEdit);
+                    =If(varGridEdit,Patch('Task Update',Colgrid));
+                    Select(Edit);
+                    
+                    Set(varGridEdit,!varGridEdit);
                     
                     ClearCollect(Colgrid,'Task Update')
                 Text: =If(varGridEdit,"Exit","Edit")
