@@ -1,5 +1,5 @@
 "'New Excel View' As screen":
-    OnVisible: =Select(Edit)
+    OnVisible: =Select(btnload)
 
     ScreenContainer2_1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
@@ -81,6 +81,13 @@
                     ClearCollect(Colgrid,'Task Update')
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
+
+            btnload As button:
+                OnSelect: =ClearCollect(Colgrid,'Task Update')
+                Text: ="Button"
+                Visible: =false
+                X: =1174
+                ZIndex: =3
 
         MainContainer2_1 As groupContainer.verticalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
