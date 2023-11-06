@@ -85,7 +85,7 @@
                 OnSelect: |-
                     =If(varGridEdit,Patch('Task Update',Colgrid);
                     Select(btnload);
-                    Set(varGridEdit,varGridEdit);
+                    Set(varGridEdit,!varGridEdit);
                     ClearCollect(Colgrid,'Task Update'))
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
