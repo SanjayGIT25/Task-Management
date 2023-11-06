@@ -77,7 +77,7 @@
                 ZIndex: =1
 
             Edit As button:
-                OnSelect: |
+                OnSelect: |-
                     =If(
                         varGridEdit,
                         Patch(
@@ -93,7 +93,7 @@
                     ClearCollect(
                         Colgrid,
                         'Task Update'
-                    );
+                    ))
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
 
