@@ -122,7 +122,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Name"
-                    Width: =158
+                    Width: =220
                     X: ='Module Lead'.X+'Module Lead'.Width - Slider1.Value
                     ZIndex: =1
 
@@ -244,7 +244,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Module Lead"
-                    Width: =158
+                    Width: =193
                     X: =Sno.X+Sno.Width
                     ZIndex: =12
 
