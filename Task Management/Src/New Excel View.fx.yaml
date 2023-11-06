@@ -282,6 +282,7 @@
                             Remarks: Remarks.Text
                         }
                     )
+                TemplatePadding: =1
                 TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
                 ZIndex: =2
 
