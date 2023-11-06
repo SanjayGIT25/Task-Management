@@ -112,6 +112,7 @@
                 Height: =40
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
+                X: =
                 ZIndex: =1
 
                 "'Module Name' As button":
@@ -222,7 +223,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Remarks"
-                    Width: =204
+                    Width: =228
                     X: ='PRD Release'.X+'PRD Release'.Width
                     ZIndex: =10
 
@@ -248,7 +249,7 @@
                     X: =Sno.X+Sno.Width
                     ZIndex: =12
 
-                Remarks_1 As button:
+                info As button:
                     DisplayMode: =DisplayMode.View
                     OnSelect: =
                     RadiusBottomLeft: =1
@@ -256,8 +257,8 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Information"
-                    Width: =240
-                    X: =1093
+                    Width: =217
+                    X: =Remarks.X+Remarks.Width
                     ZIndex: =13
 
             Gallery1_1 As gallery.galleryVertical:
@@ -506,8 +507,8 @@
                     Height: =30
                     Icon: =Icon.Trash
                     OnSelect: =Select(Parent)
-                    Width: =54
-                    X: =1228
+                    Width: =300
+                    X: =info.X
                     Y: =10
                     ZIndex: =16
 
@@ -515,9 +516,9 @@
                     Height: =31
                     Icon: =Icon.Information
                     OnSelect: =Set(popup,true)
-                    Width: =56
-                    X: =Remarks.X
-                    Y: =13
+                    Width: =info.Width
+                    X: =info.X
+                    Y: =10
                     ZIndex: =17
 
             Slider1 As slider:
