@@ -327,25 +327,7 @@
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                 Sno: Sno1,
-                                 'Module Lead': 'ModuleLead',
-                                'Module Name': 'ModuleName',
-                                'Task Details': 'TaskDetails',
-                                'Start Date': 'StartDate',
-                                'End Date': 'EndDate',
-                                'Assign To': 'AssignTo',
-                                Status: Status1,
-                                'Actual Start Date': 'ActualStartDate',
-                                'Actual End Date': 'ActualEndDate',
-                                'PRD Relase': 'PRDR',
-                                Remarks: Remarks1
-                            }
-                        )
+                    OnSelect: =
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
@@ -499,25 +481,7 @@
                     DisplayMode: =Parent.DisplayMode
                     Height: =57
                     OnChange: =Select(Parent)
-                    OnSelect: |-
-                        =Patch(
-                            Colgrid,
-                            ThisItem,
-                            {
-                                Title: Sno1,
-                                'Module Lead': ModuleLead,
-                                'Module Name': ModuleName1,
-                                'Task Details': TaskDetails,
-                                'Start Date': StartDate,
-                                'End Date': EndDate,
-                                'Assign To':AssignTo,
-                                'Actual Start Date':ActualStartDate,
-                                'Actual End Date':ActualEndDate,
-                                'PRD Relase':PRDR,
-                                Remarks:Remarks1
-                        
-                            }
-                        )
+                    OnSelect: =
                     PaddingLeft: =5
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
