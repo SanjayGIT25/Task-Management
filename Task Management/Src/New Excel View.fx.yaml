@@ -262,7 +262,7 @@
 
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
+                DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.Edit)
                 Height: =250
                 Items: =Colgrid
                 Layout: =Layout.Vertical
