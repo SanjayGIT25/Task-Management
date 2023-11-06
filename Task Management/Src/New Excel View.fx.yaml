@@ -257,9 +257,21 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Information"
-                    Width: =217
+                    Width: =169
                     X: =Remarks.X+Remarks.Width
                     ZIndex: =13
+
+                Trash As button:
+                    DisplayMode: =DisplayMode.View
+                    OnSelect: =
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: ="Trash"
+                    Width: =148
+                    X: =info.X+info.Width
+                    ZIndex: =14
 
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
@@ -504,12 +516,12 @@
                     ZIndex: =12
 
                 Icon21 As icon.Trash:
-                    Height: =30
+                    Height: =27
                     Icon: =Icon.Trash
                     OnSelect: =Select(Parent)
-                    Width: =300
-                    X: =info.X
-                    Y: =10
+                    Width: =Trash.Width
+                    X: =Trash.X
+                    Y: =13
                     ZIndex: =16
 
                 Icon22 As icon.Information:
@@ -523,7 +535,7 @@
 
             Slider1 As slider:
                 Default: =0
-                Max: =1300
+                Max: =1400
                 ShowValue: =false
                 ZIndex: =4
 
