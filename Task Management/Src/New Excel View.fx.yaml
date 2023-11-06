@@ -99,10 +99,13 @@
 
         MainContainer2_1 As groupContainer.verticalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
+            LayoutAlignItems: =LayoutAlignItems.Stretch
             LayoutDirection: =LayoutDirection.Vertical
+            LayoutJustifyContent: =LayoutJustifyContent.Center
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
+            LayoutWrap: =true
             RadiusBottomLeft: =8
             RadiusBottomRight: =8
             RadiusTopLeft: =8
@@ -110,6 +113,7 @@
             ZIndex: =3
 
             "'Grid Header_1' As groupContainer.manualLayoutContainer":
+                AlignInContainer: =AlignInContainer.SetByContainer
                 FillPortions: =0
                 Height: =40
                 LayoutMinHeight: =100
@@ -251,10 +255,10 @@
                     ZIndex: =12
 
             Gallery1_1 As gallery.galleryVertical:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
-                FillPortions: =0
-                Height: =500
+                Height: =250
                 Items: =Colgrid
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =10
@@ -490,7 +494,6 @@
                     ZIndex: =12
 
             Slider1 As slider:
-                AlignInContainer: =AlignInContainer.Center
                 Default: =0
                 Max: =1100
                 ShowValue: =false
