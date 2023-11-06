@@ -174,6 +174,1279 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 270,
+                  "snippet": {
+                    "text": "Status"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 276,
+                  "snippet": {
+                    "text": ":"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 278,
+                  "snippet": {
+                    "text": "Status1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 285,
+                  "snippet": {
+                    "text": ","
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 295,
+                  "snippet": {
+                    "text": "'Actual Start Date'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 314,
+                  "snippet": {
+                    "text": ":"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 316,
+                  "snippet": {
+                    "text": "'ActualStartDate'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 333,
+                  "snippet": {
+                    "text": ","
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 343,
+                  "snippet": {
+                    "text": "'Actual End Date'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 360,
+                  "snippet": {
+                    "text": ":"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 362,
+                  "snippet": {
+                    "text": "'ActualEndDate'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 377,
+                  "snippet": {
+                    "text": ","
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 387,
+                  "snippet": {
+                    "text": "'PRD Relase'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 399,
+                  "snippet": {
+                    "text": ":"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 401,
+                  "snippet": {
+                    "text": "PRDR"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 405,
+                  "snippet": {
+                    "text": "',"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrClosingBracketExpected",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 416,
+                  "snippet": {
+                    "text": "Remarks"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 423,
+                  "snippet": {
+                    "text": ":"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 425,
+                  "snippet": {
+                    "text": "Remarks1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 438,
+                  "snippet": {
+                    "text": "}"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 440,
+                  "snippet": {
+                    "text": ")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ParenClose",
+              "CurlyClose"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 405,
+                  "snippet": {
+                    "text": "',"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              ","
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 425,
+                  "snippet": {
+                    "text": "Remarks1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 416,
+                  "snippet": {
+                    "text": "Remarks"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 401,
+                  "snippet": {
+                    "text": "PRDR"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 387,
+                  "snippet": {
+                    "text": "'PRD Relase'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 362,
+                  "snippet": {
+                    "text": "'ActualEndDate'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 343,
+                  "snippet": {
+                    "text": "'Actual End Date'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 316,
+                  "snippet": {
+                    "text": "'ActualStartDate'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 19,
+                  "charOffset": 295,
+                  "snippet": {
+                    "text": "'Actual Start Date'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 278,
+                  "snippet": {
+                    "text": "Status1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 270,
+                  "snippet": {
+                    "text": "Status"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 441,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Patch(\n    Colgrid,\n    ThisItem,\n    {\n        Title: Sno,\n        'Module Lead': 'ModuleLead',\n        'Module Name': ModuleName1,\n        'Task Details': TaskDetails,\n        'Start Date': StartDate,\n        'End Date': EndDate,\n        'Assign To': AssignTo\n        Status: Status1,\n        'Actual Start Date': 'ActualStartDate',\n        'Actual End Date': 'ActualEndDate',\n        'PRD Relase': PRDR',\n        Remarks: Remarks1\n    }\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 38,
+                  "snippet": {
+                    "text": "{"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "New Excel View",
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AssignTo",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName1.OnSelect"
                 }
               ],
@@ -204,7 +1477,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -241,7 +1514,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -278,7 +1551,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -315,7 +1588,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -352,7 +1625,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -389,7 +1662,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -426,7 +1699,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -463,7 +1736,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -500,7 +1773,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -537,7 +1810,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -574,7 +1847,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -611,7 +1884,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -648,7 +1921,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -685,7 +1958,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -722,7 +1995,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -759,7 +2032,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -796,7 +2069,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -833,7 +2106,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -870,7 +2143,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -907,7 +2180,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -944,7 +2217,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -981,7 +2254,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1018,7 +2291,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1055,7 +2328,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1092,7 +2365,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1129,7 +2402,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1166,7 +2439,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1203,7 +2476,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1240,7 +2513,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1277,7 +2550,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1314,7 +2587,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1351,7 +2624,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1388,7 +2661,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1425,7 +2698,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1462,7 +2735,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1499,7 +2772,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1536,7 +2809,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1573,7 +2846,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1610,7 +2883,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1647,7 +2920,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1684,7 +2957,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1721,7 +2994,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1758,7 +3031,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadToken",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1799,7 +3072,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1836,7 +3109,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1873,7 +3146,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1910,7 +3183,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1947,7 +3220,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1984,7 +3257,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2021,7 +3294,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2058,7 +3331,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2095,7 +3368,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2132,7 +3405,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2169,7 +3442,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2206,7 +3479,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2243,7 +3516,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2280,7 +3553,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2317,7 +3590,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2354,7 +3627,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2391,7 +3664,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2428,7 +3701,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2465,7 +3738,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2502,7 +3775,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2539,7 +3812,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2576,7 +3849,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 4
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -2616,7 +3889,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 6
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -2658,7 +3931,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 7
+          "ruleIndex": 9
         },
         {
           "locations": [
@@ -2705,12 +3978,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_11.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Remarks1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_11.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Remarks1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2724,7 +3997,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_11"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Remarks1"
               }
             }
           ],
@@ -2795,7 +4068,7 @@
                 },
                 "region": {
                   "charLength": 13,
-                  "charOffset": 121,
+                  "charOffset": 118,
                   "snippet": {
                     "text": "'Module Name'"
                   }
@@ -2825,12 +4098,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_6.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualStartDate.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_6.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualStartDate.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2844,7 +4117,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_6"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualStartDate"
               }
             }
           ],
@@ -2865,12 +4138,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_7.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualEndDate.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_7.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualEndDate.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2884,7 +4157,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_7"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualEndDate"
               }
             }
           ],
@@ -2945,12 +4218,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue10_2.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.PRDR.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue10_2.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.PRDR.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2964,7 +4237,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue10_2"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.PRDR"
               }
             }
           ],
@@ -2985,12 +4258,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue12_2.OnSelect"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Status1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue12_2.OnSelect",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Status1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -3004,7 +4277,7 @@
               "properties": {
                 "member": "OnSelect",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue12_2"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Status1"
               }
             }
           ],
@@ -3055,7 +4328,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrSelectFuncCycleDetected",
-          "ruleIndex": 8
+          "ruleIndex": 10
         },
         {
           "locations": [
@@ -3085,7 +4358,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3115,7 +4388,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3145,7 +4418,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3175,7 +4448,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3205,7 +4478,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3235,7 +4508,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3265,7 +4538,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3295,7 +4568,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3325,7 +4598,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3355,7 +4628,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3385,7 +4658,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3415,7 +4688,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3445,7 +4718,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3475,7 +4748,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3505,7 +4778,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3535,7 +4808,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3565,7 +4838,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3595,7 +4868,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3625,7 +4898,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -3655,26 +4928,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleName"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ModuleLead"
               }
             }
           ],
@@ -3685,7 +4958,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3715,7 +4988,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3745,26 +5018,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_11.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Remarks1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_11.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Remarks1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue1_11"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Remarks1"
               }
             }
           ],
@@ -3775,7 +5048,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3805,7 +5078,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3835,26 +5108,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_6.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualStartDate.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_6.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualStartDate.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_6"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualStartDate"
               }
             }
           ],
@@ -3865,26 +5138,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_7.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualEndDate.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_7.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualEndDate.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue5_7"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.ActualEndDate"
               }
             }
           ],
@@ -3895,7 +5168,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -3925,26 +5198,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue10_2.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.PRDR.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue10_2.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.PRDR.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue10_2"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.PRDR"
               }
             }
           ],
@@ -3955,26 +5228,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue12_2.AccessibleLabel"
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Status1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue12_2.AccessibleLabel",
+                  "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Status1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "New Excel View",
-                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.DataCardValue12_2"
+                "type": "'New Excel View'.ScreenContainer2_1.MainContainer2_1.Gallery1_1.Status1"
               }
             }
           ],
@@ -3985,7 +5258,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -4015,7 +5288,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -4045,7 +5318,7 @@
             "level": "Low"
           },
           "ruleId": "acc-StateIndicationTextNeeded",
-          "ruleIndex": 11
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -4075,7 +5348,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -4105,7 +5378,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -4135,7 +5408,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -4165,7 +5438,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -4195,7 +5468,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -4225,7 +5498,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -4255,7 +5528,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
+          "ruleIndex": 11
         },
         {
           "locations": [
@@ -4285,7 +5558,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 10
+          "ruleIndex": 12
         },
         {
           "locations": [
@@ -4315,7 +5588,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 12
+          "ruleIndex": 14
         },
         {
           "locations": [
@@ -4345,7 +5618,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 12
+          "ruleIndex": 14
         },
         {
           "locations": [
@@ -4375,7 +5648,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 12
+          "ruleIndex": 14
         },
         {
           "locations": [
@@ -4405,7 +5678,7 @@
             "level": "Medium"
           },
           "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 13
+          "ruleIndex": 15
         }
       ],
       "tool": {
@@ -4466,23 +5739,6 @@
               }
             },
             {
-              "id": "app-ErrBadToken",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrOperatorExpected",
               "messageStrings": {
                 "issue": {
@@ -4500,6 +5756,40 @@
               }
             },
             {
+              "id": "app-ErrBadToken",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or replace the unexpected characters."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrClosingBracketExpected",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected closing bracket. We expect a closing bracket (}) at this point in the formula."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit your formula so that it includes a bracket."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
               "id": "app-ErrExpectedFound-Ex-Fnd",
               "messageStrings": {
                 "issue": {
@@ -4510,6 +5800,23 @@
                 "componentType": "app",
                 "howToFix": [
                   "Remove or replace the unexpected characters with an expected character."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
                 ],
                 "level": "High",
                 "primaryCategory": "formula",

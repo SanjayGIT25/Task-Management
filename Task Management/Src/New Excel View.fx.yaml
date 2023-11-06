@@ -320,7 +320,7 @@
                     X: ='Task Details'.X
                     ZIndex: =2
 
-                DataCardValue1_11 As text:
+                Remarks1 As text:
                     BorderColor: =
                     Default: =ThisItem.Remarks
                     DelayOutput: =true
@@ -406,7 +406,7 @@
                             ThisItem,
                             {
                                 Title: Sno,
-                                'Module Name': 'Module Lead',
+                                'Module Name': ModuleLead,
                                 'Module Name': 'Module Name',
                                 'Task Details': 'Task Details',
                                 'Start Date': 'Start Date',
@@ -427,7 +427,7 @@
                     X: ='End Date'.X
                     ZIndex: =5
 
-                DataCardValue5_6 As datepicker:
+                ActualStartDate As datepicker:
                     BorderColor: =
                     DefaultDate: =ThisItem.'Actual Start Date'
                     DisplayMode: =Parent.DisplayMode
@@ -462,7 +462,7 @@
                     X: ='Actual Start Date'.X
                     ZIndex: =6
 
-                DataCardValue5_7 As datepicker:
+                ActualEndDate As datepicker:
                     BorderColor: =
                     DefaultDate: =ThisItem.'Actual End Date'
                     DisplayMode: =Parent.DisplayMode
@@ -532,7 +532,7 @@
                     X: ='Start Date'.X
                     ZIndex: =8
 
-                DataCardValue10_2 As toggleSwitch:
+                PRDR As toggleSwitch:
                     BorderColor: =
                     Default: =ThisItem.'PRD Relase'
                     DisplayMode: =Parent.DisplayMode
@@ -562,7 +562,7 @@
                     X: ='PRD Release'.X
                     ZIndex: =9
 
-                DataCardValue12_2 As combobox:
+                Status1 As combobox:
                     BorderColor: =
                     Default: =ThisItem.Status
                     DefaultSelectedItems: =
@@ -636,7 +636,7 @@
                     X: =Sno.X
                     ZIndex: =11
 
-                ModuleName As text:
+                ModuleLead As text:
                     BorderColor: =
                     Default: =ThisItem.'Module Lead'
                     DelayOutput: =true
@@ -649,17 +649,17 @@
                             ThisItem,
                             {
                                 Title: Sno,
-                                'Module Lead': 'Module Lead',
-                                'Module Name': 'Module Name',
-                                'Task Details': 'Task Details',
-                                'Start Date': 'Start Date',
-                                'End Date': 'End Date',
-                                'Assign To': 'Assign To',
-                                Status: Status,
-                                'Actual Start Date': 'Actual Start Date',
-                                'Actual End Date': 'Actual End Date',
-                                'PRD Relase': 'PRD Release',
-                                Remarks: Remarks
+                                'Module Lead': 'ModuleLead',
+                                'Module Name': ModuleName1,
+                                'Task Details': TaskDetails,
+                                'Start Date': StartDate,
+                                'End Date': EndDate,
+                                'Assign To': AssignTo
+                                Status: Status1,
+                                'Actual Start Date': 'ActualStartDate',
+                                'Actual End Date': 'ActualEndDate',
+                                'PRD Relase': PRDR',
+                                Remarks: Remarks1
                             }
                         )
                     PaddingLeft: =5
