@@ -3,7 +3,7 @@
 
     ScreenContainer2_1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
-        Height: =765
+        Height: =764
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =16
@@ -222,7 +222,7 @@
                     RadiusTopLeft: =1
                     RadiusTopRight: =1
                     Text: ="Remarks"
-                    Width: =305
+                    Width: =204
                     X: ='PRD Release'.X+'PRD Release'.Width
                     ZIndex: =10
 
@@ -247,6 +247,18 @@
                     Width: =193
                     X: =Sno.X+Sno.Width
                     ZIndex: =12
+
+                Remarks_1 As button:
+                    DisplayMode: =DisplayMode.View
+                    OnSelect: =
+                    RadiusBottomLeft: =1
+                    RadiusBottomRight: =1
+                    RadiusTopLeft: =1
+                    RadiusTopRight: =1
+                    Text: =""
+                    Width: =284
+                    X: =Remarks.X+Remarks.Width
+                    ZIndex: =13
 
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
@@ -489,9 +501,55 @@
                     X: ='Module Lead'.X
                     ZIndex: =12
 
+                Icon21 As icon.Trash:
+                    Height: =40
+                    Icon: =Icon.Trash
+                    OnSelect: =Select(Parent)
+                    Width: =61
+                    X: =1119
+                    Y: =10
+                    ZIndex: =16
+
+                Icon22 As icon.Information:
+                    Height: =40
+                    Icon: =Icon.Information
+                    OnSelect: =Set(popup,true)
+                    Width: =47
+                    X: =1055
+                    Y: =10
+                    ZIndex: =17
+
             Slider1 As slider:
                 Default: =0
-                Max: =1100
+                Max: =1400
                 ShowValue: =false
                 ZIndex: =4
+
+    Rectangle10 As rectangle:
+        Fill: =RGBA(214, 221, 224, 0.5)
+        Height: =768
+        Visible: =popup
+        Width: =1365
+        X: =1
+        ZIndex: =2
+
+    Container3 As groupContainer.manualLayoutContainer:
+        BorderThickness: =3
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =488
+        Visible: =popup
+        Width: =1137
+        X: =114
+        Y: =138
+        ZIndex: =3
+
+    Icon14 As icon.CancelBadge:
+        Height: =34
+        Icon: =Icon.CancelBadge
+        OnSelect: =Set(popup,false)
+        Visible: =popup
+        Width: =53
+        X: =1180
+        Y: =166
+        ZIndex: =4
 
