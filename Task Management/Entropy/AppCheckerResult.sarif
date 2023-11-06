@@ -1454,36 +1454,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.varNumber"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.varNumber",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "varNumber",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'New Excel View'.ScreenContainer2_1.Container6_1.btnload.OnSelect"
                 }
               ],

@@ -67,7 +67,15 @@
             ZIndex: =2
 
             "'New Item' As button":
-                OnSelect: =Collect(Colgrid,varNewRecord)
+                OnSelect: |-
+                    =Set(varNumber,varNumber+1);
+                    Collect(
+                        Colgrid,
+                        Patch(
+                            varNewRecord,
+                            {ID: varNumber}
+                        )
+                    )
                 Text: ="New Item"
                 Visible: =varGridEdit
                 X: =198
