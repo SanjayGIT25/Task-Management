@@ -67,10 +67,11 @@
             ZIndex: =2
 
             "'New Item' As button":
-                OnSelect: |-
-                    =Set(varNumber,varNumber+1);
+                OnSelect: |
+                    =
                     
-                    Collect(Colgrid,Patch(varNewRecord,{ID:varNumber}))
+                    Collect(
+                        Colgrid,varNewRecord)
                 Text: ="New Item"
                 Visible: =varGridEdit
                 X: =198
@@ -82,14 +83,16 @@
                         varGridEdit,
                         Patch(
                             'Task Update',
-                            UpdateIf(
-                                Colgrid,
-                                Created = Blank(),
-                                {ID: Blank()}
+                           
+                                Colgrid
+                                
                             )
-                        )
+                        );
+                    
+                    Remove(
+                        'Task Update',
+                        colDelete
                     );
-                    Remove('Task Update',colDelete);
                     Clear(colDelete);
                     Select(btnload);
                     Set(
