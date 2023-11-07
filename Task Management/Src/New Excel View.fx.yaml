@@ -68,9 +68,7 @@
 
             "'New Item' As button":
                 OnSelect: |
-                    =
-                    
-                    Collect(
+                    =Collect(
                         Colgrid,varNewRecord)
                 Text: ="New Item"
                 Visible: =varGridEdit
@@ -295,7 +293,7 @@
                 DelayItemLoading: =true
                 DisplayMode: =If(varGridEdit,DisplayMode.Edit,DisplayMode.View)
                 Height: =250
-                Items: =Sort(Colgrid,ID,SortOrder.Descending)
+                Items: =Colgrid
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =0
                 LayoutMinWidth: =1000
