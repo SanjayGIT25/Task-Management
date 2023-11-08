@@ -1663,19 +1663,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'Title.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'Title.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.TextInputCanvas1"
+                "type": "Screen1.Gallery1.'Title.'"
               }
             }
           ],
@@ -1693,19 +1693,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'ModuleLead.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'ModuleLead.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.TextInputCanvas1_1"
+                "type": "Screen1.Gallery1.'ModuleLead.'"
               }
             }
           ],
@@ -1723,19 +1723,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'ModuleName.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'ModuleName.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.TextInputCanvas1_2"
+                "type": "Screen1.Gallery1.'ModuleName.'"
               }
             }
           ],
@@ -1753,19 +1753,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'TaskDetails.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'TaskDetails.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.TextInputCanvas1_3"
+                "type": "Screen1.Gallery1.'TaskDetails.'"
               }
             }
           ],
@@ -1783,19 +1783,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'Assign.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_4.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'Assign.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.TextInputCanvas1_4"
+                "type": "Screen1.Gallery1.'Assign.'"
               }
             }
           ],
@@ -1813,19 +1813,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_5.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'Remarks.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.TextInputCanvas1_5.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'Remarks.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.TextInputCanvas1_5"
+                "type": "Screen1.Gallery1.'Remarks.'"
               }
             }
           ],
@@ -1843,19 +1843,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.DatePickerCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'StartDate.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.DatePickerCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'StartDate.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.DatePickerCanvas1"
+                "type": "Screen1.Gallery1.'StartDate.'"
               }
             }
           ],
@@ -1873,19 +1873,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.DatePickerCanvas1_1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'EndDate.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.DatePickerCanvas1_1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'EndDate.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.DatePickerCanvas1_1"
+                "type": "Screen1.Gallery1.'EndDate.'"
               }
             }
           ],
@@ -1903,19 +1903,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.DatePickerCanvas1_2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'ActualStart.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.DatePickerCanvas1_2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'ActualStart.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.DatePickerCanvas1_2"
+                "type": "Screen1.Gallery1.'ActualStart.'"
               }
             }
           ],
@@ -1933,19 +1933,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.DatePickerCanvas1_3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'ActualEnd.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.DatePickerCanvas1_3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'ActualEnd.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.DatePickerCanvas1_3"
+                "type": "Screen1.Gallery1.'ActualEnd.'"
               }
             }
           ],
@@ -1963,19 +1963,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.DropdownCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen1.Gallery1.'PRD.'.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.DropdownCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen1.Gallery1.'PRD.'.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen1",
-                "type": "Screen1.Gallery1.DropdownCanvas1"
+                "type": "Screen1.Gallery1.'PRD.'"
               }
             }
           ],

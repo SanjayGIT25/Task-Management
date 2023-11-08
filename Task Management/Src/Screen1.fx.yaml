@@ -2,7 +2,7 @@ Screen1 As screen:
 
     Gallery1 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Items: =CustomGallerySample
+        Items: ='Task Update'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =85
@@ -11,15 +11,16 @@ Screen1 As screen:
         Y: =72
         ZIndex: =1
 
-        "TextInputCanvas1 As 'Text input'":
+        "'Title.' As 'Text input'":
             DisplayMode: =DisplayMode.Edit
             Height: =32
+            Value: =ThisItem.Title
             Width: =108
             X: =0
             Y: =0
             ZIndex: =1
 
-        "TextInputCanvas1_1 As 'Text input'":
+        "'ModuleLead.' As 'Text input'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -28,7 +29,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =2
 
-        "TextInputCanvas1_2 As 'Text input'":
+        "'ModuleName.' As 'Text input'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -37,7 +38,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =3
 
-        "TextInputCanvas1_3 As 'Text input'":
+        "'TaskDetails.' As 'Text input'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -46,7 +47,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =4
 
-        "TextInputCanvas1_4 As 'Text input'":
+        "'Assign.' As 'Text input'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -55,7 +56,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =5
 
-        "TextInputCanvas1_5 As 'Text input'":
+        "'Remarks.' As 'Text input'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -64,7 +65,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =6
 
-        "DatePickerCanvas1 As 'Date picker'":
+        "'StartDate.' As 'Date picker'":
             DisplayMode: =DisplayMode.Edit
             Height: =32
             Width: =111
@@ -72,7 +73,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =7
 
-        "DatePickerCanvas1_1 As 'Date picker'":
+        "'EndDate.' As 'Date picker'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -81,7 +82,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =8
 
-        "DatePickerCanvas1_2 As 'Date picker'":
+        "'ActualStart.' As 'Date picker'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -90,7 +91,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =9
 
-        "DatePickerCanvas1_3 As 'Date picker'":
+        "'ActualEnd.' As 'Date picker'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
@@ -99,7 +100,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =10
 
-        DropdownCanvas1 As Dropdown.pcfdataset:
+        "'PRD.' As Dropdown.pcfdataset":
             DisplayMode: =DisplayMode.Edit
             Height: =32
             Width: =113
