@@ -12,6 +12,7 @@ Screen1 As screen:
         ZIndex: =1
 
         "'Title.' As 'Text input'":
+            BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
             Value: =ThisItem.Title
@@ -66,6 +67,7 @@ Screen1 As screen:
             ZIndex: =6
 
         "'StartDate.' As 'Date picker'":
+            BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
             Height: =32
             Width: =111
