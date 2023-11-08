@@ -1,0 +1,109 @@
+Screen1 As screen:
+
+    Gallery1 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =85
+        Width: =1329
+        X: =24
+        Y: =72
+        ZIndex: =1
+
+        "TextInputCanvas1 As 'Text input'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =108
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        "TextInputCanvas1_1 As 'Text input'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =108
+            X: =108
+            Y: =0
+            ZIndex: =2
+
+        "TextInputCanvas1_2 As 'Text input'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =108
+            X: =216
+            Y: =0
+            ZIndex: =3
+
+        "TextInputCanvas1_3 As 'Text input'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =108
+            X: =324
+            Y: =0
+            ZIndex: =4
+
+        "TextInputCanvas1_4 As 'Text input'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =108
+            X: =432
+            Y: =0
+            ZIndex: =5
+
+        "TextInputCanvas1_5 As 'Text input'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =108
+            X: =540
+            Y: =0
+            ZIndex: =6
+
+        "DatePickerCanvas1 As 'Date picker'":
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =111
+            X: =648
+            Y: =0
+            ZIndex: =7
+
+        "DatePickerCanvas1_1 As 'Date picker'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =111
+            X: =759
+            Y: =0
+            ZIndex: =8
+
+        "DatePickerCanvas1_2 As 'Date picker'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =111
+            X: =870
+            Y: =0
+            ZIndex: =9
+
+        "DatePickerCanvas1_3 As 'Date picker'":
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =111
+            X: =981
+            Y: =0
+            ZIndex: =10
+
+        DropdownCanvas1 As Dropdown.pcfdataset:
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Width: =113
+            X: =1092
+            Y: =0
+            ZIndex: =11
+
