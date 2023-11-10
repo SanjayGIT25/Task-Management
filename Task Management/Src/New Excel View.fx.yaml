@@ -77,25 +77,23 @@
 
             Edit As button:
                 OnSelect: |-
-                    =If(
-                        varGridEdit,
-                        Patch(
-                            'Task Update',
-                           
-                                Colgrid
-                                
-                            )
-                        );
-                    
-                    Remove(
+                    =Patch(
                         'Task Update',
-                        colDelete
+                        Colgrid
                     );
-                    Clear(colDelete);
-                    Select(btnload);
+                    Notify(
+                        "Saved Successfully",
+                        NotificationType.Success,
+                        3000
+                    );
+                    Clear(Colgrid);
                     Set(
-                        varGridEdit,
-                        !varGridEdit
+                        varReset,
+                        false
+                    );
+                    Set(
+                        varReset,
+                        true
                     )
                 Text: =If(varGridEdit,"Exit","Edit")
                 ZIndex: =2
