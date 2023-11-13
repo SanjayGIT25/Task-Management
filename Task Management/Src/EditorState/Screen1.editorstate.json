@@ -21,6 +21,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ActualEnd.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -84,6 +85,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ActualStart.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -147,6 +149,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Assign.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -210,6 +213,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "EndDate.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -299,6 +303,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -446,6 +451,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "galleryTemplate1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -479,6 +485,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ModuleLead.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -542,6 +549,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ModuleName.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -604,6 +612,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PRD.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -662,6 +671,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Remarks.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -725,6 +735,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Screen1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -793,6 +804,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "StartDate.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -856,6 +868,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TaskDetails.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -927,6 +940,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Title.",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [

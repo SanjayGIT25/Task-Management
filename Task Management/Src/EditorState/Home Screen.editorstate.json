@@ -86,6 +86,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Admin",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -364,6 +365,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Admin_1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -592,6 +594,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -738,6 +741,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Home Screen",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -835,6 +839,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon7",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1064,6 +1069,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1352,6 +1358,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Leader",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1580,6 +1587,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle1_2",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
@@ -1748,6 +1756,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "User",
+      "OptimizeForDevices": "Off",
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [

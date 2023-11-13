@@ -81,6 +81,8 @@
                         'Task Update',
                         Colgrid
                     );
+                    
+                    
                     Notify(
                         "Saved Successfully",
                         NotificationType.Success,
@@ -498,7 +500,7 @@
                     Default: =ThisItem.Title
                     DelayOutput: =true
                     DisplayMode: =Parent.DisplayMode
-                    Height: =57
+                    Height: =41
                     OnChange: =Select(Parent)
                     OnSelect: =
                     PaddingLeft: =5
