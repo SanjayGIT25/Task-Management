@@ -12,8 +12,15 @@ Screen1 As screen:
         ZIndex: =1
 
         "'Title.' As 'Text input'":
+            Align: ="Start"
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Value: =ThisItem.Title
             Width: =108
@@ -22,8 +29,15 @@ Screen1 As screen:
             ZIndex: =1
 
         "'ModuleLead.' As 'Text input'":
+            Align: ="Start"
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =108
             X: =108
@@ -31,8 +45,15 @@ Screen1 As screen:
             ZIndex: =2
 
         "'ModuleName.' As 'Text input'":
+            Align: ="Start"
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =108
             X: =216
@@ -40,8 +61,15 @@ Screen1 As screen:
             ZIndex: =3
 
         "'TaskDetails.' As 'Text input'":
+            Align: ="Start"
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =108
             X: =324
@@ -49,8 +77,15 @@ Screen1 As screen:
             ZIndex: =4
 
         "'Assign.' As 'Text input'":
+            Align: ="Start"
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =108
             X: =432
@@ -58,8 +93,15 @@ Screen1 As screen:
             ZIndex: =5
 
         "'Remarks.' As 'Text input'":
+            Align: ="Start"
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =108
             X: =540
@@ -69,6 +111,12 @@ Screen1 As screen:
         "'StartDate.' As 'Date picker'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =111
             X: =648
@@ -78,6 +126,12 @@ Screen1 As screen:
         "'EndDate.' As 'Date picker'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =111
             X: =759
@@ -87,6 +141,12 @@ Screen1 As screen:
         "'ActualStart.' As 'Date picker'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =111
             X: =870
@@ -96,6 +156,12 @@ Screen1 As screen:
         "'ActualEnd.' As 'Date picker'":
             BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            Font: =""
+            FontColor: =
+            FontItalic: =false
+            FontStrikethrough: =false
+            FontUnderline: =false
+            FontWeight: =""
             Height: =32
             Width: =111
             X: =981
