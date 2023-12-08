@@ -1,4 +1,32 @@
 {
+  "3b0b9f90-cfad-4cfa-a33f-e5f17a7b333b": {
+    "connectionRef": {
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3b0b9f90-cfad-4cfa-a33f-e5f17a7b333b"
+  },
+  "3fb1d59b-c660-493b-8583-5af7ad9ccf33": {
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1669/1.0.1669.3522/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "3fb1d59b-c660-493b-8583-5af7ad9ccf33"
+  },
   "d1657151-a682-43fe-9aff-e07767dda518": {
     "appActions": [
       "providers/PowerPlatform.Governance/Operations/Read"
