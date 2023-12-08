@@ -55,6 +55,7 @@
 
     Label3 As label:
         Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
         Font: =Font.'Lato Black'
         Height: =78
         Size: =30
