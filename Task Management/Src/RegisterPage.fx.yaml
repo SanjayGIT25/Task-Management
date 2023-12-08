@@ -288,7 +288,7 @@ RegisterPage As screen:
         Height: =32
         OnSelect: |
             =Office365Outlook.SendEmail(
-                User().Email,
+               DataCardValue20,
                 "Account created successfully",
                 "You can log in now"
             );
