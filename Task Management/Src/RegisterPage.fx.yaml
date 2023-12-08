@@ -286,7 +286,16 @@ RegisterPage As screen:
     ButtonCanvas1 As Button:
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        OnSelect: =SubmitForm(Form5);Navigate('Login page');Office365Outlook.SendEmail(User().Email,"Account as created successfully","You can login now")
+        OnSelect: |
+            =Office365Outlook.SendEmail(
+                User().Email,
+                "Account created successfully",
+                "You can log in now"
+            );
+            
+            SubmitForm(Form5);
+            
+            Navigate('Login page')
         Text: ="Submit"
         Width: =96
         X: =635
