@@ -298,7 +298,7 @@ RegisterPage As screen:
             Navigate('Login page')
         Text: ="Submit"
         Width: =96
-        X: =635
-        Y: =389
+        X: =636
+        Y: =380
         ZIndex: =5
 
