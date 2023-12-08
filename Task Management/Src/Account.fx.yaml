@@ -139,6 +139,7 @@ Account As screen:
     ButtonCanvas2 As Button:
         DisplayMode: =DisplayMode.Edit
         Height: =42
+        OnSelect: =Set(varshowpopup,true);NewForm(Form8)
         Text: ="New"
         Width: =124
         X: =14
@@ -155,4 +156,363 @@ Account As screen:
         X: =188
         Y: =96
         ZIndex: =8
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =14
+
+        Rectangle4 As rectangle:
+            Fill: =RGBA(139, 154, 159, 0.5)
+            Height: =768
+            Visible: =varshowpopup
+            Width: =1366
+            ZIndex: =9
+
+        Rectangle5 As rectangle:
+            BorderThickness: =1
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =439
+            Visible: =varshowpopup
+            Width: =1151
+            X: =107
+            Y: =164
+            ZIndex: =10
+
+        Form8 As form.PowerApps_CoreControls_Form:
+            DataSource: =admin_list
+            Height: =326
+            UseFluentV9Cards: =true
+            Visible: =varshowpopup
+            Width: =1151
+            X: =108
+            Y: =233
+            ZIndex: =11
+
+            Title_DataCard6 As typedDataCard.fluentV9TextualEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Title"
+                Default: =ThisItem.Title
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Title")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Title")
+                Required: =false
+                Update: =DataCardValue31.Value
+                Width: =383
+                X: =0
+                Y: =0
+                ZIndex: =12
+
+                DataCardKey31 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =22
+                    Text: =Parent.DisplayName
+                    Weight: ='TextCanvas.Weight'.Semibold
+                    Width: =Parent.Width - 48
+                    Wrap: =false
+                    X: =24
+                    Y: =10
+                    ZIndex: =1
+
+                "DataCardValue31 As 'Text input'":
+                    AccessibleLabel: =Parent.DisplayName
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =32
+                    Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                    Required: =Parent.Required
+                    ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                    Value: =Parent.Default
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey31.Y + DataCardKey31.Height + 4
+                    ZIndex: =2
+
+                ErrorMessage31 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue31.Y + DataCardValue31.Height
+                    ZIndex: =3
+
+                StarVisible31 As Text:
+                    Align: ='TextCanvas.Align'.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey31.Y
+                    ZIndex: =4
+
+            Email_DataCard6 As typedDataCard.fluentV9TextualEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Email"
+                Default: =ThisItem.Email
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Email")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Email")
+                Required: =false
+                Update: =DataCardValue32.Value
+                Width: =383
+                X: =1
+                Y: =0
+                ZIndex: =12
+
+                DataCardKey32 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =22
+                    Text: =Parent.DisplayName
+                    Weight: ='TextCanvas.Weight'.Semibold
+                    Width: =Parent.Width - 48
+                    Wrap: =false
+                    X: =24
+                    Y: =10
+                    ZIndex: =1
+
+                "DataCardValue32 As 'Text input'":
+                    AccessibleLabel: =Parent.DisplayName
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =32
+                    Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                    Required: =Parent.Required
+                    ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                    Value: =Parent.Default
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey32.Y + DataCardKey32.Height + 4
+                    ZIndex: =2
+
+                ErrorMessage32 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue32.Y + DataCardValue32.Height
+                    ZIndex: =3
+
+                StarVisible32 As Text:
+                    Align: ='TextCanvas.Align'.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey32.Y
+                    ZIndex: =4
+
+            Designation_DataCard6 As typedDataCard.fluentV9TextualEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Designation"
+                Default: =ThisItem.Designation
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Designation")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Designation")
+                Required: =false
+                Update: =DataCardValue33.Value
+                Width: =383
+                X: =2
+                Y: =0
+                ZIndex: =12
+
+                DataCardKey33 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =22
+                    Text: =Parent.DisplayName
+                    Weight: ='TextCanvas.Weight'.Semibold
+                    Width: =Parent.Width - 48
+                    Wrap: =false
+                    X: =24
+                    Y: =10
+                    ZIndex: =1
+
+                "DataCardValue33 As 'Text input'":
+                    AccessibleLabel: =Parent.DisplayName
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =32
+                    Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                    Required: =Parent.Required
+                    ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                    Value: =Parent.Default
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey33.Y + DataCardKey33.Height + 4
+                    ZIndex: =2
+
+                ErrorMessage33 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue33.Y + DataCardValue33.Height
+                    ZIndex: =3
+
+                StarVisible33 As Text:
+                    Align: ='TextCanvas.Align'.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey33.Y
+                    ZIndex: =4
+
+            Roles_DataCard6 As typedDataCard.fluentV9ComboBoxEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Roles"
+                Default: =ThisItem.Roles
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Roles")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                Required: =false
+                Update: =DataCardValue34.Selected
+                Width: =383
+                X: =0
+                Y: =1
+                ZIndex: =12
+
+                DataCardKey34 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =22
+                    Text: =Parent.DisplayName
+                    Weight: ='TextCanvas.Weight'.Semibold
+                    Width: =Parent.Width - 48
+                    Wrap: =false
+                    X: =24
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue34 As Combobox.pcfdataset:
+                    AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =32
+                    Items: =Choices([@admin_list].Roles)
+                    ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey34.Y + DataCardKey34.Height + 4
+                    ZIndex: =2
+
+                ErrorMessage34 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue34.Y + DataCardValue34.Height
+                    ZIndex: =3
+
+                StarVisible34 As Text:
+                    Align: ='TextCanvas.Align'.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =20
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey34.Y
+                    ZIndex: =4
+
+            Password_DataCard6 As typedDataCard.fluentV9TextualEditCard:
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Password"
+                Default: =ThisItem.Password
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Password")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =70
+                MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Password")
+                Required: =false
+                Update: =DataCardValue35.Value
+                Width: =383
+                X: =1
+                Y: =1
+                ZIndex: =12
+
+                DataCardKey35 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =22
+                    Text: =Parent.DisplayName
+                    Weight: ='TextCanvas.Weight'.Semibold
+                    Width: =Parent.Width - 48
+                    Wrap: =false
+                    X: =24
+                    Y: =10
+                    ZIndex: =1
+
+                "DataCardValue35 As 'Text input'":
+                    AccessibleLabel: =Parent.DisplayName
+                    DisplayMode: =Parent.DisplayMode
+                    Height: =32
+                    Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                    Required: =Parent.Required
+                    ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                    Value: =Parent.Default
+                    Width: =Parent.Width - 48
+                    X: =24
+                    Y: =DataCardKey35.Y + DataCardKey35.Height + 4
+                    ZIndex: =2
+
+                ErrorMessage35 As Text:
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: =Parent.Error
+                    Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =Parent.Width - 48
+                    Wrap: =true
+                    X: =24
+                    Y: =DataCardValue35.Y + DataCardValue35.Height
+                    ZIndex: =3
+
+                StarVisible35 As Text:
+                    Align: ='TextCanvas.Align'.Center
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =30
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    X: =0
+                    Y: =DataCardKey35.Y
+                    ZIndex: =4
+
+        Rectangle6 As rectangle:
+            Height: =53
+            Visible: =varshowpopup
+            Width: =1151
+            X: =107
+            Y: =164
+            ZIndex: =12
+
+        ButtonCanvas3 As Button:
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            OnSelect: =Set(varshowpopup,false)
+            Visible: =varshowpopup
+            Width: =96
+            X: =632
+            Y: =449
+            ZIndex: =13
 
