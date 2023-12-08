@@ -127,7 +127,7 @@
         Y: =384
         ZIndex: =11
 
-    Button2_1 As button:
+    Register As button:
         Fill: =RGBA(72, 163, 62, 1)
         OnSelect: =Navigate('Home Screen')
         Text: ="Register"
