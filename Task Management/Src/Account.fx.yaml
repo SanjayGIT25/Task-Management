@@ -950,3 +950,12 @@ Account As screen:
         Y: =167
         ZIndex: =22
 
+    Icon8 As icon.Trash:
+        Height: =58
+        Icon: =Icon.Trash
+        OnSelect: =
+        Width: =44
+        X: =1284
+        Y: =91
+        ZIndex: =23
+
