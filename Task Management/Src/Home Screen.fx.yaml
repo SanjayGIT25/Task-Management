@@ -27,7 +27,7 @@
             Height: =88
             OnSelect: |-
                 =
-                Navigate('User Screen')
+                Navigate(Account)
             Text: ="User "
             Visible: |
                 =If("User" in CurrentUser.Value, true , false )

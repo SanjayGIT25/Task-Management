@@ -141,6 +141,7 @@ Account As screen:
         Height: =42
         OnSelect: =Set(varshowpopup,true);NewForm(Form8)
         Text: ="New"
+        Visible: =If("Admin" in CurrentUser.Value, true , false )
         Width: =124
         X: =14
         Y: =96
