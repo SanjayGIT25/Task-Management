@@ -557,6 +557,7 @@ Account As screen:
         Form8_1 As form.PowerApps_CoreControls_Form:
             DataSource: =admin_list
             Height: =326
+            Item: =DataTable1.Selected
             UseFluentV9Cards: =true
             Visible: =varedit
             Width: =1151
@@ -907,7 +908,9 @@ Account As screen:
             DisplayMode: =DisplayMode.Edit
             FontColor: =
             Height: =32
-            OnSelect: =Set(varedit,false)
+            OnSelect: |-
+                =SubmitForm(Form8_1);
+                Set(varedit,false)
             Text: ="Submit"
             Visible: =varedit
             Width: =96
