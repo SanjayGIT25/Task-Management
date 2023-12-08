@@ -22,11 +22,11 @@ Account As screen:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =646
+        Height: =603
         Items: =admin_list
         Width: =1366
         X: =0
-        Y: =122
+        Y: =164
         ZIndex: =2
 
         Title_Column1 As dataTableColumn.textualColumn:
@@ -135,4 +135,24 @@ Account As screen:
         X: =362
         Y: =15
         ZIndex: =6
+
+    ButtonCanvas2 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =42
+        Text: ="New"
+        Width: =124
+        X: =14
+        Y: =96
+        ZIndex: =7
+
+    ButtonCanvas2_1 As Button:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =43
+        Text: ="Edit"
+        Width: =111
+        X: =188
+        Y: =96
+        ZIndex: =8
 
