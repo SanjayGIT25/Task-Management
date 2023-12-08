@@ -923,3 +923,13 @@ Account As screen:
         Y: =170
         ZIndex: =20
 
+    Icon6 As icon.Blocked:
+        Height: =45
+        Icon: =Icon.Blocked
+        OnSelect: =Navigate(Account)
+        Visible: =varshowpopup
+        Width: =31
+        X: =1213
+        Y: =170
+        ZIndex: =21
+
