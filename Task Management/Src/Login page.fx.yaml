@@ -129,7 +129,7 @@
 
     Register As button:
         Fill: =RGBA(72, 163, 62, 1)
-        OnSelect: =Navigate('Home Screen')
+        OnSelect: =Navigate(RegisterPage)
         Text: ="Register"
         X: =721
         Y: =555
