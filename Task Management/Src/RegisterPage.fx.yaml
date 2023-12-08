@@ -27,11 +27,12 @@ RegisterPage As screen:
         ZIndex: =3
 
     Form5 As form.PowerApps_CoreControls_Form:
+        BorderThickness: =3
         DataSource: =admin_list
         Height: =363
         UseFluentV9Cards: =true
         X: =284
-        Y: =156
+        Y: =169
         ZIndex: =4
 
         Title_DataCard4 As typedDataCard.fluentV9TextualEditCard:
@@ -45,7 +46,7 @@ RegisterPage As screen:
             MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue19.Value
-            Width: =266
+            Width: =265
             X: =0
             Y: =0
             ZIndex: =8
@@ -107,7 +108,7 @@ RegisterPage As screen:
             MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Email")
             Required: =false
             Update: =DataCardValue20.Value
-            Width: =266
+            Width: =265
             X: =1
             Y: =0
             ZIndex: =8
@@ -169,7 +170,7 @@ RegisterPage As screen:
             MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Designation")
             Required: =false
             Update: =DataCardValue21.Value
-            Width: =266
+            Width: =265
             X: =2
             Y: =0
             ZIndex: =8
@@ -231,7 +232,7 @@ RegisterPage As screen:
             MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Password")
             Required: =false
             Update: =DataCardValue23.Value
-            Width: =266
+            Width: =265
             X: =0
             Y: =1
             ZIndex: =8
@@ -285,9 +286,10 @@ RegisterPage As screen:
     ButtonCanvas1 As Button:
         DisplayMode: =DisplayMode.Edit
         Height: =32
+        OnSelect: =SubmitForm(Form5);Navigate('Login page');Office365Outlook.SendEmail(DataCardValue20,"Successfully created account for you","ok")
         Text: ="Submit"
         Width: =96
         X: =635
-        Y: =350
+        Y: =389
         ZIndex: =5
 
