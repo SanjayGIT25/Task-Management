@@ -509,7 +509,8 @@ Account As screen:
         ButtonCanvas3 As Button:
             DisplayMode: =DisplayMode.Edit
             Height: =32
-            OnSelect: =Set(varshowpopup,false)
+            OnSelect: =Set(varshowpopup,false);SubmitForm(Form8)
+            Text: ="Submit"
             Visible: =varshowpopup
             Width: =96
             X: =632
