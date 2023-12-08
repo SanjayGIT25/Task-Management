@@ -935,3 +935,13 @@ Account As screen:
         Y: =170
         ZIndex: =21
 
+    Icon6_1 As icon.Blocked:
+        Height: =45
+        Icon: =Icon.Blocked
+        OnSelect: =Set(varedit,false);Navigate(Account)
+        Visible: =varedit
+        Width: =31
+        X: =1213
+        Y: =167
+        ZIndex: =22
+
