@@ -102,6 +102,20 @@ Account As screen:
             Y: =0
             ZIndex: =5
 
+        Status_Column1 As dataTableColumn.booleanColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Status"
+            FieldName: ="Status"
+            FieldVariantName: ="booleanColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.Status
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =13
+
     Rectangle1_3 As rectangle:
         Fill: =RGBA(61, 100, 148, 1)
         Height: =70

@@ -37,6 +37,7 @@
       "Password": "Password",
       "Roles": "Roles",
       "Roles#Id": "Roles Id",
+      "Status": "Status",
       "Title": "Title"
     },
     "DatasetName": "https://iz.sharepoint.com/sites/TaskManagement",
