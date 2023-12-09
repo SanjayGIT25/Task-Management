@@ -87,7 +87,9 @@
             ZIndex: =3
 
         CheckboxCanvas1 As Checkbox:
+            BasePaletteColor: =
             DisplayMode: =DisplayMode.Edit
+            FontColor: =
             Height: =32
             OnCheck: =false
             OnUncheck: =false

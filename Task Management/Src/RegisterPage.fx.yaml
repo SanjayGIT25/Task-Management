@@ -114,6 +114,7 @@ RegisterPage As screen:
 
             DataCardKey2 As Text:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -125,8 +126,10 @@ RegisterPage As screen:
 
             DataCardValue2 As Toggle:
                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                BasePaletteColor: =
                 Checked: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
+                FontColor: =
                 Height: =32
                 Label: =""
                 OnCheck: =false
@@ -138,6 +141,7 @@ RegisterPage As screen:
 
             ErrorMessage2 As Text:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =30
                 Text: =Parent.Error
                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -150,6 +154,7 @@ RegisterPage As screen:
             StarVisible2 As Text:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =30
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
