@@ -88,6 +88,7 @@ Account As screen:
             ZIndex: =4
 
         Password_Column1 As dataTableColumn.textualColumn:
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Password"
             FieldName: ="Password"
@@ -96,8 +97,8 @@ Account As screen:
             LayoutHeight: =Parent.Height
             Order: =5
             Text: =ThisItem.Password
-            Width: =100
-            X: =0
+            Width: =237
+            X: =952
             Y: =0
             ZIndex: =5
 
@@ -976,13 +977,4 @@ Account As screen:
         X: =1213
         Y: =167
         ZIndex: =22
-
-    Icon8 As icon.Trash:
-        Height: =58
-        Icon: =Icon.Trash
-        OnSelect: =
-        Width: =44
-        X: =1284
-        Y: =91
-        ZIndex: =23
 
