@@ -45,15 +45,15 @@
           "admin_list": {
             "tableName": "b983d898-8182-4f89-bc79-964089a0ac6a"
           },
-          "Task Update": {
-            "tableName": "2e5cfb7d-0544-4f14-a010-03cc35a5ad41"
+          "Leave Request": {
+            "tableName": "c1828d4e-1e30-4f8b-90af-61e9a0b42b24"
           }
         }
       }
     },
     "dataSources": [
       "admin_list",
-      "Task Update"
+      "Leave Request"
     ],
     "dependencies": {},
     "dependents": [],

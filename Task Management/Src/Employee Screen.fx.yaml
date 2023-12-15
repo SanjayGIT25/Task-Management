@@ -1,0 +1,43 @@
+"'Employee Screen' As screen":
+    OnVisible: |+
+        =Set(dataAdmin,"Admin");
+        Set(dataUser,"User");
+        Set(dataLeader,"Leader")
+        
+
+    Rectangle1_4 As rectangle:
+        Fill: =RGBA(61, 100, 148, 1)
+        Height: =70
+        Width: =1366
+        ZIndex: =2
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Bold
+        Height: =36
+        Size: =25
+        Text: ="Leave Management"
+        Width: =636
+        X: =365
+        Y: =17
+        ZIndex: =3
+
+    Icon7_4 As icon.Blocked:
+        Height: =39
+        Icon: =Icon.Blocked
+        OnSelect: =Navigate('Login page')
+        X: =1302
+        Y: =15
+        ZIndex: =4
+
+    Icon1_4 As icon.BackArrow:
+        Height: =52
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        Width: =44
+        X: =14
+        Y: =9
+        ZIndex: =5
+

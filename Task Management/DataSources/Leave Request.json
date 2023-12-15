@@ -23,9 +23,6 @@
       "{TriggerWindowEndToken}": "Trigger Window End Token",
       "{TriggerWindowStartToken}": "Trigger Window Start Token",
       "{VersionNumber}": "Version number",
-      "ActualEndDate": "Actual End Date",
-      "ActualStartDate": "Actual Start Date",
-      "AssignTo": "Assign To",
       "Author": "Created By",
       "Author#Claims": "Created By Claims",
       "ComplianceAssetId": "Compliance Asset Id",
@@ -34,24 +31,20 @@
       "Editor#Claims": "Modified By Claims",
       "EndDate": "End Date",
       "ID": "ID",
+      "LeaveType": "Leave Type",
+      "LeaveType#Id": "Leave Type Id",
       "Modified": "Modified",
-      "ModuleLead": "Module Lead",
-      "ModuleName": "Module Name",
       "OData__ColorTag": "Color Tag",
-      "PRDRelase": "PRD Relase",
-      "Remarks": "Remarks",
       "StartDate": "Start Date",
       "Status": "Status",
       "Status#Id": "Status Id",
-      "TaskDetails": "Task Details",
-      "Title": "Title",
-      "View": "View"
+      "Title": "Title"
     },
     "DatasetName": "https://iz.sharepoint.com/sites/TaskManagement",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Task Update",
+    "Name": "Leave Request",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
