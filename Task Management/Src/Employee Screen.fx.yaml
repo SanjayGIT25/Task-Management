@@ -46,7 +46,7 @@
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
         Height: =610
-        Items: ='Leave Request'
+        Items: =Filter(admin_list,'Created By'.Email=User().Email)
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =440
@@ -80,7 +80,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =22
-            Text: =ThisItem.'Leave Type'.Value
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
             X: =106
