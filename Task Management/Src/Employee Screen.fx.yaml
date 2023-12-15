@@ -80,7 +80,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =22
-            Text: =ThisItem.Title
+            Text: =ThisItem.'Leave Type'.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
             X: =106
