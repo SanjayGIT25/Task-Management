@@ -45,13 +45,15 @@
     "Gallery1 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =610
-        Items: =Filter(admin_list,'Created By'.Email=User().Email)
+        Height: =626
+        Items: |
+            =Filter(admin_list,Name=TextInput1.Text)
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =440
         Width: =Parent.Width
-        Y: =157
+        WrapCount: =2
+        Y: =142
         ZIndex: =6
 
         Title1 As label:
@@ -137,4 +139,11 @@
             X: =220
             Y: =80
             ZIndex: =6
+
+    Icon1 As icon.Add:
+        Icon: =Icon.Add
+        OnSelect: =EditForm(Form1);Navigate(Screen1)
+        X: =1302
+        Y: =74
+        ZIndex: =7
 

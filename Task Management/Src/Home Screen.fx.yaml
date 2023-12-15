@@ -13,9 +13,9 @@
             Fill: =RGBA(175, 191, 224, 1)
             Font: =Font.Verdana
             Height: =88
-            OnSelect: =Navigate(Account)
-            Text: ="Account Overview"
-            Visible: =If("Admin" in CurrentUser.Value, true , false )
+            OnSelect: =Navigate('Supervisor Screen')
+            Text: ="Requested Leaves"
+            Visible: =If("Supervisor" in CurrentUser.Value, true , false )
             Width: =262
             X: =52
             Y: =51
@@ -27,17 +27,17 @@
             Height: =88
             OnSelect: |-
                 =
-                Navigate(Account)
-            Text: ="User "
+                Navigate('Employee Screen')
+            Text: ="Request Leave"
             Visible: |
-                =If("User" in CurrentUser.Value, true , false )
+                =If("Employee" in CurrentUser.Value, true , false )
             Width: =262
             X: =52
             Y: =51
             ZIndex: =2
 
     Rectangle1_2 As rectangle:
-        Fill: =RGBA(61, 100, 148, 1)
+        Fill: =RGBA(139, 154, 159, 1)
         Height: =70
         Width: =1366
         ZIndex: =2
@@ -49,7 +49,7 @@
         FontWeight: =FontWeight.Bold
         Height: =36
         Size: =25
-        Text: ="Task Management"
+        Text: ="Leave Management"
         Width: =636
         X: =365
         Y: =17
