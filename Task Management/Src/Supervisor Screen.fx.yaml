@@ -184,7 +184,7 @@
                 =
                 Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Approved"}})
             Width: =44
-            X: =906
+            X: =889
             Y: =43
             ZIndex: =8
 
@@ -205,4 +205,14 @@
             Width: =196
             X: =660
             ZIndex: =11
+
+        Icon8 As icon.CancelBadge:
+            Height: =50
+            Icon: =Icon.CancelBadge
+            OnSelect: |-
+                =Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Rejeceted"}})
+            Width: =49
+            X: =961
+            Y: =37
+            ZIndex: =12
 

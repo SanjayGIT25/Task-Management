@@ -343,7 +343,9 @@ Screen1 As screen:
     Button1 As button:
         OnSelect: |-
             =SubmitForm(Form1);
-            Navigate('Employee Screen')
+            Navigate('Employee Screen');
+            
+            Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Pending"}})
         Text: ="Save"
         X: =99
         Y: =363
