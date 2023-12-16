@@ -47,7 +47,11 @@
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
         Height: =488
-        Items: =Filter('Leave Request',CustomCreatedBy=CurrentUserID)
+        Items: |
+            =
+            
+            Filter('Leave Request',CustomCreatedBy=CurrentUserID);
+            Filter('Leave Request',Status.Value="Approved")
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =440
