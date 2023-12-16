@@ -27,6 +27,7 @@
       "Author#Claims": "Created By Claims",
       "ComplianceAssetId": "Compliance Asset Id",
       "Created": "Created",
+      "CustomCreatedBy": "CustomCreatedBy",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
       "Email": "Email",
