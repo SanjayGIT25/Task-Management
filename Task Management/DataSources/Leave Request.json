@@ -36,6 +36,8 @@
       "LeaveType#Id": "Leave Type Id",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
+      "RefID": "Ref ID",
+      "RefID#Id": "Ref ID Id",
       "StartDate": "Start Date",
       "Status": "Status",
       "Status#Id": "Status Id",

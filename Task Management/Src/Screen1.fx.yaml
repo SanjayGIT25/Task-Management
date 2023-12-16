@@ -1,7 +1,7 @@
 Screen1 As screen:
 
     Form1 As form:
-        DataSource: =admin_list
+        DataSource: ='Leave Request'
         Height: =697
         X: =40
         Y: =40
@@ -12,10 +12,10 @@ Screen1 As screen:
             DataField: ="Title"
             Default: =ThisItem.Title
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Title")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Title")
+            MaxLength: =DataSourceInfo([@'Leave Request'], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue2.Text
             Width: =266
@@ -35,7 +35,7 @@ Screen1 As screen:
 
             DataCardValue2 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =TextInput1
+                Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 MaxLength: =Parent.MaxLength
@@ -75,17 +75,16 @@ Screen1 As screen:
                 Y: =DataCardKey2.Y
                 ZIndex: =4
 
-        Email_DataCard1 As typedDataCard.textualEditCard:
+        "'Leave Type_DataCard1' As typedDataCard.comboBoxEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Email"
-            Default: =ThisItem.Email
+            DataField: ="LeaveType"
+            Default: =ThisItem.'Leave Type'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Email")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"LeaveType")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Email")
             Required: =false
-            Update: =DataCardValue3.Text
+            Update: =DataCardValue3.Selected
             Width: =266
             X: =1
             Y: =0
@@ -101,17 +100,16 @@ Screen1 As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue3 As text:
+            DataCardValue3 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
+                DefaultSelectedItems: =Parent.Default
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                Items: =Choices([@'Leave Request'].LeaveType)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Choices('Leave Request'.LeaveType,DataCardValue3.SearchText)
+                SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -143,17 +141,16 @@ Screen1 As screen:
                 Y: =DataCardKey3.Y
                 ZIndex: =4
 
-        Designation_DataCard1 As typedDataCard.textualEditCard:
+        Status_DataCard1 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Designation"
-            Default: =ThisItem.Designation
+            DataField: ="Status"
+            Default: =ThisItem.Status
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Designation")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"Status")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Designation")
             Required: =false
-            Update: =DataCardValue4.Text
+            Update: =DataCardValue4.Selected
             Width: =266
             X: =2
             Y: =0
@@ -169,17 +166,16 @@ Screen1 As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As text:
+            DataCardValue4 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
+                DefaultSelectedItems: =Parent.Default
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                Items: =Choices([@'Leave Request'].Status)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Choices('Leave Request'.Status,DataCardValue4.SearchText)
+                SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -211,16 +207,16 @@ Screen1 As screen:
                 Y: =DataCardKey4.Y
                 ZIndex: =4
 
-        Roles_DataCard2 As typedDataCard.comboBoxEditCard:
+        "'Start Date_DataCard1' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Roles"
-            Default: =ThisItem.Roles
+            DataField: ="StartDate"
+            Default: =ThisItem.'Start Date'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Roles")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"StartDate")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue5.Selected
+            Update: =DataCardValue5.SelectedDate
             Width: =266
             X: =0
             Y: =1
@@ -236,16 +232,15 @@ Screen1 As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5 As combobox:
+            DataCardValue5 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["Value"]
+                DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@admin_list].Roles)
+                EndYear: =Year(Today())+100
+                IsEditable: =true
+                PaddingBottom: =0
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["Value"]
-                SearchItems: =Choices(admin_list.Roles,DataCardValue5.SearchText)
-                SelectMultiple: =false
+                StartYear: =1899
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -277,17 +272,16 @@ Screen1 As screen:
                 Y: =DataCardKey5.Y
                 ZIndex: =4
 
-        Password_DataCard1 As typedDataCard.textualEditCard:
+        "'End Date_DataCard1' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Password"
-            Default: =ThisItem.Password
+            DataField: ="EndDate"
+            Default: =ThisItem.'End Date'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Password")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"EndDate")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "Password")
             Required: =false
-            Update: =DataCardValue6.Text
+            Update: =DataCardValue6.SelectedDate
             Width: =266
             X: =1
             Y: =1
@@ -303,17 +297,15 @@ Screen1 As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue6 As text:
+            DataCardValue6 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
+                DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                EndYear: =Year(Today())+100
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                StartYear: =1899
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -345,16 +337,17 @@ Screen1 As screen:
                 Y: =DataCardKey6.Y
                 ZIndex: =4
 
-        Status_DataCard1 As typedDataCard.comboBoxEditCard:
+        Email_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Status"
-            Default: =ThisItem.Status
+            DataField: ="Email"
+            Default: =ThisItem.Email
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Status")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"Email")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
+            MaxLength: =DataSourceInfo([@'Leave Request'], DataSourceInfo.MaxLength, "Email")
             Required: =false
-            Update: =DataCardValue7.Selected
+            Update: =DataCardValue7.Text
             Width: =266
             X: =2
             Y: =1
@@ -370,16 +363,17 @@ Screen1 As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue7 As combobox:
+            DataCardValue7 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["Value"]
+                Default: =Parent.Default
+                DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@admin_list].Status)
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["Value"]
-                SearchItems: =Choices(admin_list.Status,DataCardValue7.SearchText)
-                SelectMultiple: =false
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -411,12 +405,12 @@ Screen1 As screen:
                 Y: =DataCardKey7.Y
                 ZIndex: =4
 
-        "'Leave Type_DataCard1' As typedDataCard.comboBoxEditCard":
+        "'Ref ID_DataCard1' As typedDataCard.comboBoxEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="LeaveType"
-            Default: =ThisItem.'Leave Type'
+            DataField: ="RefID"
+            Default: =ThisItem.'Ref ID'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"LeaveType")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"RefID")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -441,10 +435,10 @@ Screen1 As screen:
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@admin_list].LeaveType)
+                Items: =Choices([@'Leave Request'].RefID)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices(admin_list.LeaveType,DataCardValue8.SearchText)
+                SearchItems: =Choices('Leave Request'.RefID,DataCardValue8.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -477,16 +471,16 @@ Screen1 As screen:
                 Y: =DataCardKey8.Y
                 ZIndex: =4
 
-        "'Start Date_DataCard1' As typedDataCard.dateEditCard":
+        Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="StartDate"
-            Default: =ThisItem.'Start Date'
+            DataField: ="{Attachments}"
+            Default: =ThisItem.Attachments
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"StartDate")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue9.SelectedDate
+            Update: =DataCardValue9.Attachments
             Width: =266
             X: =1
             Y: =2
@@ -502,15 +496,15 @@ Screen1 As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue9 As datepicker:
+            DataCardValue9 As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
-                EndYear: =Year(Today())+100
-                IsEditable: =true
-                PaddingBottom: =0
+                IsInDataCard: =true
+                Items: =Parent.Default
+                PaddingBottom: =5
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                StartYear: =1899
+                PaddingRight: =5
+                PaddingTop: =5
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -542,142 +536,12 @@ Screen1 As screen:
                 Y: =DataCardKey9.Y
                 ZIndex: =4
 
-        "'End Date_DataCard1' As typedDataCard.dateEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="EndDate"
-            Default: =ThisItem.'End Date'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"EndDate")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue10.SelectedDate
-            Width: =266
-            X: =2
-            Y: =2
-            ZIndex: =2
-
-            DataCardKey10 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue10 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultDate: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                EndYear: =Year(Today())+100
-                IsEditable: =true
-                PaddingBottom: =0
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                StartYear: =1899
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
-                ZIndex: =2
-
-            ErrorMessage10 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue10.Y + DataCardValue10.Height
-                ZIndex: =3
-
-            StarVisible10 As label:
-                Align: =Align.Center
-                Height: =DataCardKey10.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey10.Y
-                ZIndex: =4
-
-        Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="{Attachments}"
-            Default: =ThisItem.Attachments
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"{Attachments}")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue11.Attachments
-            Width: =266
-            X: =0
-            Y: =3
-            ZIndex: =2
-
-            DataCardKey11 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue11 As attachments:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DisplayMode: =Parent.DisplayMode
-                IsInDataCard: =true
-                Items: =Parent.Default
-                PaddingBottom: =5
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PaddingRight: =5
-                PaddingTop: =5
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
-                ZIndex: =2
-
-            ErrorMessage11 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue11.Y + DataCardValue11.Height
-                ZIndex: =3
-
-            StarVisible11 As label:
-                Align: =Align.Center
-                Height: =DataCardKey11.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey11.Y
-                ZIndex: =4
-
     Button1 As button:
         OnSelect: |-
             =SubmitForm(Form1);
             Navigate('Employee Screen')
         Text: ="Button"
-        X: =632
-        Y: =560
+        X: =456
+        Y: =672
         ZIndex: =2
 
