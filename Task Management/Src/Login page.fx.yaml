@@ -95,18 +95,18 @@
                 ).Roles
             );
             Set(
-                CurrentUserID,
+                CurrentID,
                 LookUp(
                     admin_list,
                     Name = TextInput1.Text && Password = TextInput1_1.Text
-                ).Name;
-                Set(
-                CurrentUserEmail,
+                ).Name
+            );
+            Set(
+                CurrentEmail,
                 LookUp(
                     admin_list,
                     Name = TextInput1.Text && Password = TextInput1_1.Text
-                ).Email;
-               
+                ).Email
             );
             If(
                 IsBlankOrError(CurrentUser),
