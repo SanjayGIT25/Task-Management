@@ -108,6 +108,7 @@
                     Name = TextInput1.Text && Password = TextInput1_1.Text
                 ).Email
             );
+            Set(NewRole,{Roles:"Employee"});
             If(
                 IsBlankOrError(CurrentUser),
                 Notify("Incorrect UserName and Password");
