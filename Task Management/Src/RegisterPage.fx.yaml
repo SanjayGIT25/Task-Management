@@ -35,22 +35,23 @@ RegisterPage As screen:
         Y: =169
         ZIndex: =4
 
-        Roles_DataCard1 As typedDataCard.fluentV9ComboBoxEditCard:
+        "'Role For Employee_DataCard1' As typedDataCard.fluentV9TextualEditCard":
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Roles"
-            Default: =ThisItem.Roles
+            DataField: ="RoleForEmployee"
+            Default: =ThisItem.'Role For Employee'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"Roles")
+            DisplayName: =DataSourceInfo([@admin_list],DataSourceInfo.DisplayName,"RoleForEmployee")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
+            MaxLength: =DataSourceInfo([@admin_list], DataSourceInfo.MaxLength, "RoleForEmployee")
             Required: =false
-            Update: =DataCardValue6.Selected
+            Update: =DataCardValue7.Value
             Width: =266
             X: =1
             Y: =1
             ZIndex: =1
 
-            DataCardKey6 As Text:
+            DataCardKey7 As Text:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -61,26 +62,20 @@ RegisterPage As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue6 As Combobox.pcfdataset:
-                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+            "DataCardValue7 As 'Text input'":
+                AccessibleLabel: =Parent.DisplayName
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
-                Items: =NewRole
+                Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                Required: =Parent.Required
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                Value: =Parent.Default
                 Width: =Parent.Width - 48
                 X: =24
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 4
+                Y: =DataCardKey7.Y + DataCardKey7.Height + 4
                 ZIndex: =2
 
-                Roles1 As pcfDataField.textualColumn:
-                    FieldDisplayName: ="Roles"
-                    FieldName: ="Roles"
-                    FieldType: ="s"
-                    FieldVariantName: ="textualColumn"
-                    Order: =1
-                    ZIndex: =9
-
-            ErrorMessage6 As Text:
+            ErrorMessage7 As Text:
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
                 Text: =Parent.Error
@@ -88,18 +83,18 @@ RegisterPage As screen:
                 Width: =Parent.Width - 48
                 Wrap: =true
                 X: =24
-                Y: =DataCardValue6.Y + DataCardValue6.Height
+                Y: =DataCardValue7.Y + DataCardValue7.Height
                 ZIndex: =3
 
-            StarVisible6 As Text:
+            StarVisible7 As Text:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
-                Height: =20
+                Height: =30
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 X: =0
-                Y: =DataCardKey6.Y
+                Y: =DataCardKey7.Y
                 ZIndex: =4
 
         Title_DataCard4 As typedDataCard.fluentV9TextualEditCard:
@@ -382,10 +377,12 @@ RegisterPage As screen:
                 "You can log in now"
             );
             
+            
             SubmitForm(Form5);
             
             Navigate('Login page')
         Text: ="Submit"
+        Visible: =true
         Width: =96
         X: =636
         Y: =380
