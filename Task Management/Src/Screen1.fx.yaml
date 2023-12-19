@@ -409,6 +409,7 @@ Screen1 As screen:
                 ZIndex: =4
 
     Button1 As button:
+        FontWeight: =FontWeight.Bold
         OnSelect: |-
             =SubmitForm(Form1);
             Navigate('Employee Screen');
