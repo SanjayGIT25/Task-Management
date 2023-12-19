@@ -48,10 +48,7 @@
         Fill: =RGBA(255, 255, 255, 1)
         Height: =488
         Items: |
-            =
-            
-            Filter('Leave Request',CustomCreatedBy=CurrentUserID);
-            Filter('Leave Request',Status.Value="Approved")
+            ='Leave Request'
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =440
@@ -74,9 +71,9 @@
             Text: =ThisItem.'Start Date'
             VerticalAlign: =VerticalAlign.Top
             Width: =220
-            X: =10
-            Y: =116
-            ZIndex: =2
+            X: =9
+            Y: =128
+            ZIndex: =1
 
         Subtitle1 As label:
             Align: =Align.Center
@@ -93,7 +90,7 @@
             Width: =Title1.Width
             X: =106
             Y: =22
-            ZIndex: =3
+            ZIndex: =2
 
         Title1_1 As label:
             Align: =Align.Center
@@ -109,13 +106,13 @@
             VerticalAlign: =VerticalAlign.Top
             Width: =241
             X: =199
-            Y: =116
-            ZIndex: =4
+            Y: =127
+            ZIndex: =3
 
         Title1_2 As label:
             Align: =Align.Center
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =36
+            Height: =27
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -125,14 +122,14 @@
             Text: ="Start Date"
             VerticalAlign: =VerticalAlign.Top
             Width: =199
-            X: =21
-            Y: =80
-            ZIndex: =5
+            X: =19
+            Y: =101
+            ZIndex: =4
 
         Title1_3 As label:
             Align: =Align.Center
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =36
+            Height: =19
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -141,10 +138,38 @@
             Size: =12
             Text: ="End Date"
             VerticalAlign: =VerticalAlign.Top
-            Width: =199
-            X: =220
-            Y: =80
+            Width: =177
+            X: =231
+            Y: =99
+            ZIndex: =5
+
+        Container7 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
+            Height: =348
+            Width: =440
             ZIndex: =6
+
+            Container8 As groupContainer.manualLayoutContainer:
+                Fill: =Color.White
+                Height: =53
+                Width: =288
+                X: =81
+                Y: =225
+                ZIndex: =1
+
+            Container9 As groupContainer.manualLayoutContainer:
+                Height: =78
+                Width: =158
+                X: =36
+                Y: =90
+                ZIndex: =2
+
+            Container10 As groupContainer.manualLayoutContainer:
+                Height: =78
+                Width: =149
+                X: =253
+                Y: =90
+                ZIndex: =3
 
         Subtitle1_1 As label:
             Align: =Align.Center
@@ -160,7 +185,7 @@
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
             X: =106
-            Y: =185
+            Y: =231
             ZIndex: =7
 
     "Gallery4 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
