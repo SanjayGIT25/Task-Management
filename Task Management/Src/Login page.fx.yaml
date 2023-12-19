@@ -99,7 +99,14 @@
                 LookUp(
                     admin_list,
                     Name = TextInput1.Text && Password = TextInput1_1.Text
-                ).Name
+                ).Name;
+                Set(
+                CurrentUserEmail,
+                LookUp(
+                    admin_list,
+                    Name = TextInput1.Text && Password = TextInput1_1.Text
+                ).Email;
+               
             );
             If(
                 IsBlankOrError(CurrentUser),

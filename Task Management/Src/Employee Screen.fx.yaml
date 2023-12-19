@@ -74,23 +74,6 @@
             Y: =128
             ZIndex: =1
 
-        Subtitle1 As label:
-            Align: =Align.Center
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =22
-            Text: =ThisItem.'Leave Type'.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
-            X: =106
-            Y: =22
-            ZIndex: =2
-
         Title1_1 As label:
             Align: =Align.Center
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
@@ -106,7 +89,7 @@
             Width: =241
             X: =199
             Y: =127
-            ZIndex: =3
+            ZIndex: =2
 
         Title1_2 As label:
             Align: =Align.Center
@@ -123,7 +106,7 @@
             Width: =199
             X: =19
             Y: =101
-            ZIndex: =4
+            ZIndex: =3
 
         Title1_3 As label:
             Align: =Align.Center
@@ -140,13 +123,13 @@
             Width: =177
             X: =231
             Y: =99
-            ZIndex: =5
+            ZIndex: =4
 
         Container7 As groupContainer.manualLayoutContainer:
             BorderThickness: =1
             Height: =348
             Width: =440
-            ZIndex: =6
+            ZIndex: =5
 
             Container8 As groupContainer.manualLayoutContainer:
                 Fill: =Color.White
@@ -185,6 +168,23 @@
             Width: =Title1.Width
             X: =106
             Y: =227
+            ZIndex: =6
+
+        Subtitle1 As label:
+            Align: =Align.Center
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =22
+            Text: =ThisItem.'Leave Type'.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title1.Width
+            X: =106
+            Y: =22
             ZIndex: =7
 
     "Gallery4 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":

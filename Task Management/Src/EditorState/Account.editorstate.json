@@ -6992,7 +6992,7 @@
       "MetaDataIDKey": "",
       "Name": "Password_Column1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9681,7 +9681,7 @@
       "MetaDataIDKey": "",
       "Name": "Status_Column1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
