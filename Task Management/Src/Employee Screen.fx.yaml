@@ -46,7 +46,7 @@
         BorderThickness: =2
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =488
+        Height: =584
         Items: |
             ='Leave Request'
         LoadingSpinner: =LoadingSpinner.Data
@@ -54,7 +54,6 @@
         TemplateSize: =440
         Visible: =tab.ID=1
         Width: =Parent.Width
-        WrapCount: =0
         Y: =184
         ZIndex: =6
 
@@ -153,8 +152,8 @@
                 Fill: =Color.White
                 Height: =53
                 Width: =288
-                X: =81
-                Y: =225
+                X: =75
+                Y: =216
                 ZIndex: =1
 
             Container9 As groupContainer.manualLayoutContainer:
@@ -185,7 +184,7 @@
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
             X: =106
-            Y: =231
+            Y: =227
             ZIndex: =7
 
     "Gallery4 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
