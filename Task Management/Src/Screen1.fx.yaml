@@ -343,7 +343,7 @@ Screen1 As screen:
         CustomCreatedBy_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="CustomCreatedBy"
-            Default: =ThisItem.CustomCreatedBy
+            Default: =ThisItem.EmployeeName
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"CustomCreatedBy")
             Fill: =RGBA(0, 0, 0, 0)
@@ -411,10 +411,11 @@ Screen1 As screen:
     Button1 As button:
         FontWeight: =FontWeight.Bold
         OnSelect: |-
-            =SubmitForm(Form1);
+            =
             Navigate('Employee Screen');
             
-            Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Pending"}})
+            Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Pending"}});
+            SubmitForm(Form1);
         Text: ="Save"
         X: =99
         Y: =363
