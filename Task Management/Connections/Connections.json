@@ -47,13 +47,17 @@
           },
           "Leave Request": {
             "tableName": "c1828d4e-1e30-4f8b-90af-61e9a0b42b24"
+          },
+          "User Roles": {
+            "tableName": "b983d898-8182-4f89-bc79-964089a0ac6a"
           }
         }
       }
     },
     "dataSources": [
       "admin_list",
-      "Leave Request"
+      "Leave Request",
+      "User Roles"
     ],
     "dependencies": {},
     "dependents": [],

@@ -454,46 +454,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Login page'.Register.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Login page'.Register.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": "Form5"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Login page",
-                "type": "'Login page'.Register"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Form5"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "RegisterPage.Icon7_1.AccessibleLabel"
                 }
               ],
@@ -2053,19 +2013,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.'Role For Employee_DataCard2'.DataCardValue9.AccessibleLabel"
+                  "fullyQualifiedName": "RegisterPage.Form2.Title_DataCard2.DataCardValue13.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.'Role For Employee_DataCard2'.DataCardValue9.AccessibleLabel",
+                  "fullyQualifiedName": "RegisterPage.Form2.Title_DataCard2.DataCardValue13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RegisterPage",
-                "type": "RegisterPage.Form1_1.'Role For Employee_DataCard2'.DataCardValue9"
+                "type": "RegisterPage.Form2.Title_DataCard2.DataCardValue13"
               }
             }
           ],
@@ -2083,19 +2043,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.Password_DataCard1.DataCardValue8.AccessibleLabel"
+                  "fullyQualifiedName": "RegisterPage.Form2.Password_DataCard2.DataCardValue20.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.Password_DataCard1.DataCardValue8.AccessibleLabel",
+                  "fullyQualifiedName": "RegisterPage.Form2.Password_DataCard2.DataCardValue20.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RegisterPage",
-                "type": "RegisterPage.Form1_1.Password_DataCard1.DataCardValue8"
+                "type": "RegisterPage.Form2.Password_DataCard2.DataCardValue20"
               }
             }
           ],
@@ -2113,19 +2073,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.Designation_DataCard1.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "RegisterPage.Form2.Roles_DataCard3.DataCardValue19.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.Designation_DataCard1.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "RegisterPage.Form2.Roles_DataCard3.DataCardValue19.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RegisterPage",
-                "type": "RegisterPage.Form1_1.Designation_DataCard1.DataCardValue4"
+                "type": "RegisterPage.Form2.Roles_DataCard3.DataCardValue19"
               }
             }
           ],
@@ -2143,19 +2103,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.Email_DataCard1.DataCardValue3.AccessibleLabel"
+                  "fullyQualifiedName": "RegisterPage.Form2.Designation_DataCard2.DataCardValue17.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.Email_DataCard1.DataCardValue3.AccessibleLabel",
+                  "fullyQualifiedName": "RegisterPage.Form2.Designation_DataCard2.DataCardValue17.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RegisterPage",
-                "type": "RegisterPage.Form1_1.Email_DataCard1.DataCardValue3"
+                "type": "RegisterPage.Form2.Designation_DataCard2.DataCardValue17"
               }
             }
           ],
@@ -2173,19 +2133,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.Title_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "RegisterPage.Form2.Email_DataCard2.DataCardValue16.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RegisterPage.Form1_1.Title_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "RegisterPage.Form2.Email_DataCard2.DataCardValue16.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RegisterPage",
-                "type": "RegisterPage.Form1_1.Title_DataCard1.DataCardValue1"
+                "type": "RegisterPage.Form2.Email_DataCard2.DataCardValue16"
               }
             }
           ],
@@ -2274,36 +2234,6 @@
               },
               "properties": {
                 "member": "varNumber",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.NewRole"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.NewRole",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "NewRole",
                 "module": "App",
                 "type": "App"
               }

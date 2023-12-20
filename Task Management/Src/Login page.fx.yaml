@@ -108,7 +108,7 @@
                     Name = TextInput1.Text && Password = TextInput1_1.Text
                 ).Email
             );
-            Set(NewRole,{Roles:"Employee"});
+            
             
             
             
@@ -148,8 +148,9 @@
     Register As button:
         Fill: =RGBA(72, 163, 62, 1)
         OnSelect: |-
-            =NewForm(Form5);
-            Navigate(RegisterPage)
+            =NewForm(Form2);
+            Navigate(RegisterPage);
+            Set(NewRole,{Roles:"Employee"});
         Text: ="Register"
         X: =721
         Y: =555
