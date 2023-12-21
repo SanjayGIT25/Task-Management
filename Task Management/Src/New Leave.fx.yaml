@@ -410,23 +410,21 @@
 
     Button1 As button:
         FontWeight: =FontWeight.Bold
-        OnSelect: |+
-            =
-            Navigate('Employee Screen');
-            
-            
-            Patch('Leave Request',{
-                'Leave Type':DataCardValue12.Selected,
-                'Start Date':DataCardValue14.SelectedDate,
-                'End Date':DataCardValue15.SelectedDate,
-                EmployeeName:DataCardValue18.Text,
-                'Employee email':DataCardValue5.Text,
-                'REPORT Email':DataCardValue2.Selected,
-                Status:{Value:"Pending"}});
-            
-            ResetForm(Form1)
-            
-            
+        OnSelect: |-
+            =Patch(
+                'Leave Request',
+                {
+                    'Leave Type': DataCardValue12.Selected,
+                    'Start Date': DataCardValue14.SelectedDate,
+                    'End Date': DataCardValue15.SelectedDate,
+                    EmployeeName: DataCardValue18.Text,
+                    'Employee email': DataCardValue5.Text,
+                    'REPORT Email': DataCardValue2.Selected,
+                    Status: {Value: "Pending"}
+                }
+            );
+            ResetForm(Form1);
+            Navigate('Employee Screen')
         Text: ="Save"
         X: =131
         Y: =353
