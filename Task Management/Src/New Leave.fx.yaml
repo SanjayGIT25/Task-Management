@@ -421,6 +421,7 @@
                 'End Date':DataCardValue15.SelectedDate,
                 EmployeeName:DataCardValue18.Text,
                 'Employee email':DataCardValue5.Text,
+                'REPORT Email':DataCardValue2,
                 Status:{Value:"Pending"}});
             
             
