@@ -10,7 +10,7 @@
         Fill: =RGBA(139, 154, 159, 1)
         Height: =70
         Width: =1366
-        ZIndex: =2
+        ZIndex: =1
 
     Label1_1 As label:
         Align: =Align.Center
@@ -23,7 +23,7 @@
         Width: =636
         X: =365
         Y: =17
-        ZIndex: =3
+        ZIndex: =2
 
     Icon7_4 As icon.Blocked:
         Height: =39
@@ -31,7 +31,7 @@
         OnSelect: =Navigate('Login page')
         X: =1302
         Y: =15
-        ZIndex: =4
+        ZIndex: =3
 
     Icon1_4 As icon.BackArrow:
         Height: =52
@@ -40,160 +40,7 @@
         Width: =44
         X: =14
         Y: =9
-        ZIndex: =5
-
-    "Gallery1 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
-        BorderThickness: =2
-        DelayItemLoading: =true
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =465
-        Items: |
-            =Filter('Leave Request',CurrentID)
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =440
-        Width: =Parent.Width
-        Y: =181
-        ZIndex: =6
-
-        Title1 As label:
-            Align: =Align.Center
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =36
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =18
-            Text: =ThisItem.'Start Date'
-            VerticalAlign: =VerticalAlign.Top
-            Width: =220
-            X: =9
-            Y: =128
-            ZIndex: =1
-
-        Title1_1 As label:
-            Align: =Align.Center
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =36
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =18
-            Text: =ThisItem.'End Date'
-            VerticalAlign: =VerticalAlign.Top
-            Width: =241
-            X: =199
-            Y: =127
-            ZIndex: =2
-
-        Title1_2 As label:
-            Align: =Align.Center
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =27
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: ="Start Date"
-            VerticalAlign: =VerticalAlign.Top
-            Width: =199
-            X: =19
-            Y: =101
-            ZIndex: =3
-
-        Title1_3 As label:
-            Align: =Align.Center
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =19
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: ="End Date"
-            VerticalAlign: =VerticalAlign.Top
-            Width: =177
-            X: =231
-            Y: =99
-            ZIndex: =4
-
-        Container7 As groupContainer.manualLayoutContainer:
-            BorderThickness: =1
-            Height: =323
-            Width: =440
-            ZIndex: =5
-
-            Container8 As groupContainer.manualLayoutContainer:
-                Fill: =Color.White
-                Height: =53
-                Visible: =
-                Width: =288
-                X: =75
-                Y: =216
-                ZIndex: =1
-
-            Container9 As groupContainer.manualLayoutContainer:
-                Height: =78
-                Width: =158
-                X: =36
-                Y: =90
-                ZIndex: =2
-
-            Container10 As groupContainer.manualLayoutContainer:
-                Height: =78
-                Width: =149
-                X: =253
-                Y: =90
-                ZIndex: =3
-
-        Subtitle1_1 As label:
-            Align: =Align.Center
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =22
-            Text: =ThisItem.Status.Value
-            VerticalAlign: =VerticalAlign.Top
-            Visible: =Vartab=1
-            Width: =Title1.Width
-            X: =106
-            Y: =227
-            ZIndex: =6
-
-        Subtitle1 As label:
-            Align: =Align.Center
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =22
-            Text: =ThisItem.'Leave Type'.Value
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
-            X: =106
-            Y: =22
-            ZIndex: =7
-
-    Icon1 As icon.Add:
-        Icon: =Icon.Add
-        OnSelect: =NewForm(Form1);Navigate('New Leave')
-        X: =1286
-        Y: =87
-        ZIndex: =9
+        ZIndex: =4
 
     Gallery2 As gallery.galleryHorizontal:
         DelayItemLoading: =true
@@ -204,11 +51,13 @@
         TemplateSize: =453
         Width: =1366
         Y: =70
-        ZIndex: =10
+        ZIndex: =5
 
         Button4 As button:
             Height: =44
-            OnSelect: =Set(Vartab,ThisItem.ID)
+            OnSelect: =
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
             RadiusTopLeft: =20
             RadiusTopRight: =20
             Text: =ThisItem.Lable
@@ -216,4 +65,169 @@
             X: =96
             Y: =28
             ZIndex: =1
+
+    Icon1 As icon.Add:
+        Height: =45
+        Icon: =Icon.Add
+        OnSelect: =NewForm(Form1);Navigate('New Leave')
+        X: =1286
+        Y: =105
+        ZIndex: =7
+
+    "Gallery8 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =516
+        Items: |
+            =
+            Filter('Leave Request','Employee email'=CurrentEmail)
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =104
+        Width: =1202
+        X: =84
+        Y: =251
+        ZIndex: =8
+
+        Title6 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =54
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: =ThisItem.'Start Date'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =163
+            X: =400
+            Y: =31
+            ZIndex: =2
+
+        Subtitle5 As label:
+            Align: =Align.Center
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =45
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: =ThisItem.'Leave Type'.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =192
+            X: =77
+            Y: =31
+            ZIndex: =3
+
+        Separator5 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+        Rectangle9 As rectangle:
+            Height: =Parent.TemplateHeight - Separator5.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =6
+
+        Title6_1 As label:
+            Align: =Align.Center
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =54
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: =ThisItem.'End Date'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =219
+            X: =595
+            Y: =31
+            ZIndex: =7
+
+        Title6_2 As label:
+            Align: =Align.Center
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =54
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: =ThisItem.Status.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =219
+            X: =921
+            Y: =31
+            ZIndex: =8
+
+        Container12 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
+            Height: =104
+            Width: =336
+            X: =4
+            ZIndex: =9
+
+        Container13 As groupContainer.manualLayoutContainer:
+            Height: =104
+            Width: =245
+            X: =342
+            ZIndex: =10
+
+            Container13_1 As groupContainer.manualLayoutContainer:
+                BorderThickness: =1
+                Height: =104
+                Width: =245
+                ZIndex: =1
+
+        Container14 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
+            Height: =104
+            Width: =275
+            X: =587
+            ZIndex: =11
+
+        Container15 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
+            Height: =104
+            Width: =340
+            X: =862
+            ZIndex: =12
+
+    Button5 As button:
+        Text: ="Leave Type"
+        Width: =342
+        X: =84
+        Y: =211
+        ZIndex: =13
+
+    Button5_1 As button:
+        Text: ="Start Date"
+        Width: =246
+        X: =426
+        Y: =211
+        ZIndex: =14
+
+    Button5_2 As button:
+        Text: ="End Date"
+        Width: =276
+        X: =672
+        Y: =211
+        ZIndex: =15
+
+    Button5_3 As button:
+        Text: ="Status"
+        Width: =338
+        X: =948
+        Y: =211
+        ZIndex: =16
 

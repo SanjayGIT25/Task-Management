@@ -454,46 +454,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Employee Screen'.Gallery1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Employee Screen'.Gallery1.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 23,
-                  "snippet": {
-                    "text": "CurrentID"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Employee Screen",
-                "type": "'Employee Screen'.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Filter"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Account.Icon1_5.AccessibleLabel"
                 }
               ],
@@ -2054,19 +2014,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Employee Screen'.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "'Employee Screen'.Gallery8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Employee Screen'.Gallery1.AccessibleLabel",
+                  "fullyQualifiedName": "'Employee Screen'.Gallery8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Employee Screen",
-                "type": "'Employee Screen'.Gallery1"
+                "type": "'Employee Screen'.Gallery8"
               }
             }
           ],
@@ -2084,19 +2044,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Employee Screen'.Gallery1.TabIndex"
+                  "fullyQualifiedName": "'Employee Screen'.Gallery8.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Employee Screen'.Gallery1.TabIndex",
+                  "fullyQualifiedName": "'Employee Screen'.Gallery8.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Employee Screen",
-                "type": "'Employee Screen'.Gallery1"
+                "type": "'Employee Screen'.Gallery8"
               }
             }
           ],
