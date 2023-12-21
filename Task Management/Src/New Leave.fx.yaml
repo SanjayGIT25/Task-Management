@@ -6,8 +6,8 @@
         DataSource: ='Leave Request'
         Height: =346
         Width: =1206
-        X: =40
-        Y: =102
+        X: =81
+        Y: =100
         ZIndex: =1
 
         "'REPORT Email_DataCard1' As typedDataCard.comboBoxEditCard":
@@ -417,8 +417,8 @@
             Patch('Leave Request',{Status:{Value:"Pending"}});
             SubmitForm(Form1);
         Text: ="Save"
-        X: =99
-        Y: =363
+        X: =131
+        Y: =353
         ZIndex: =2
 
     Rectangle1_6 As rectangle:
