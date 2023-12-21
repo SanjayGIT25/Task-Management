@@ -416,12 +416,12 @@
             
             
             Patch('Leave Request',{
-                'Leave Type':DataCardValue12,
+                'Leave Type':DataCardValue12.Selected,
                 'Start Date':DataCardValue14.SelectedDate,
                 'End Date':DataCardValue15.SelectedDate,
                 EmployeeName:DataCardValue18.Text,
                 'Employee email':DataCardValue5.Text,
-                'REPORT Email':DataCardValue2,
+                'REPORT Email':DataCardValue2.Selected,
                 Status:{Value:"Pending"}});
             
             
