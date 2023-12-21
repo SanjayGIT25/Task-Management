@@ -312,17 +312,24 @@ RegisterPage As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =37
-        OnSelect: |
+        OnSelect: |+
             =Office365Outlook.SendEmail(
                DataCardValue16,
                 "Account created successfully",
                 "You can log in now"
             );
             
-            Patch('User Roles',{Roles:{Value:"Employee"}});
-            SubmitForm(Form2);
+            Patch('User Roles',{
+                Title:DataCardValue13.Text,
+                Email:DataCardValue16.Text,
+                Designation:DataCardValue17.Text,
+                Password:DataCardValue20.Text,
+                Roles:{Value:"Employee"}});
+            
             
             Navigate('Login page')
+            
+            
         Text: ="Submit"
         Visible: =true
         Width: =127
