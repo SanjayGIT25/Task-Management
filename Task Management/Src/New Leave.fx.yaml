@@ -1,4 +1,4 @@
-Screen1 As screen:
+"'New Leave' As screen":
 
     Form1 As form:
         BorderColor: =RGBA(0, 0, 0, 1)
@@ -414,7 +414,7 @@ Screen1 As screen:
             =
             Navigate('Employee Screen');
             
-            Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Pending"}});
+            Patch('Leave Request',{Status:{Value:"Pending"}});
             SubmitForm(Form1);
         Text: ="Save"
         X: =99

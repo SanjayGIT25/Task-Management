@@ -210,7 +210,7 @@
 
     Icon1 As icon.Add:
         Icon: =Icon.Add
-        OnSelect: =NewForm(Form1);Navigate(Screen1)
+        OnSelect: =NewForm(Form1);Navigate('New Leave')
         X: =1286
         Y: =87
         ZIndex: =9

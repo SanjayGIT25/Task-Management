@@ -26,29 +26,6 @@ RegisterPage As screen:
         Y: =17
         ZIndex: =3
 
-    ButtonCanvas1 As Button:
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        Height: =37
-        OnSelect: |
-            =Office365Outlook.SendEmail(
-               DataCardValue16,
-                "Account created successfully",
-                "You can log in now"
-            );
-            
-            
-            SubmitForm(Form2);
-            
-            Navigate('Login page')
-        Text: ="Submit"
-        Visible: =true
-        Width: =127
-        X: =608
-        Y: =376
-        ZIndex: =6
-
     Form2 As form:
         BorderThickness: =2
         DataSource: ='User Roles'
@@ -56,7 +33,7 @@ RegisterPage As screen:
         Width: =1018
         X: =140
         Y: =102
-        ZIndex: =7
+        ZIndex: =4
 
         Title_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
@@ -395,4 +372,27 @@ RegisterPage As screen:
                 Wrap: =false
                 Y: =DataCardKey20.Y
                 ZIndex: =4
+
+    ButtonCanvas1 As Button:
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =37
+        OnSelect: |
+            =Office365Outlook.SendEmail(
+               DataCardValue16,
+                "Account created successfully",
+                "You can log in now"
+            );
+            
+            
+            SubmitForm(Form2);
+            
+            Navigate('Login page')
+        Text: ="Submit"
+        Visible: =true
+        Width: =127
+        X: =608
+        Y: =376
+        ZIndex: =5
 
