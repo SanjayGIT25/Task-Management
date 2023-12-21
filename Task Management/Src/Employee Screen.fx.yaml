@@ -207,3 +207,38 @@
         Y: =211
         ZIndex: =16
 
+    Container17 As groupContainer.manualLayoutContainer:
+        Height: =102
+        Width: =1202
+        X: =84
+        Y: =70
+        ZIndex: =17
+
+        Button7 As button:
+            Fill: =RGBA(166, 215, 153, 1)
+            Height: =48
+            OnSelect: =
+            Text: ="Approved"
+            Width: =208
+            X: =60
+            Y: =28
+            ZIndex: =1
+
+        Button7_1 As button:
+            Fill: =RGBA(253, 207, 180, 1)
+            Height: =48
+            Text: ="Pending"
+            Width: =208
+            X: =480
+            Y: =28
+            ZIndex: =2
+
+        Button7_2 As button:
+            Fill: =RGBA(255, 184, 174, 1)
+            Height: =48
+            Text: ="Rejected"
+            Width: =208
+            X: =875
+            Y: =28
+            ZIndex: =3
+
