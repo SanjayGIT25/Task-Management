@@ -414,8 +414,15 @@
             =
             Navigate('Employee Screen');
             
-            SubmitForm(Form1);
-            Patch('Leave Request',{Status:{Value:"Pending"}})
+            
+            Patch('Leave Request',{
+                'Leave Type':DataCardValue12,
+                'Start Date':DataCardValue14.SelectedDate,
+                'End Date':DataCardValue15.SelectedDate,
+                EmployeeName:DataCardValue18.Text,
+                'Employee email':DataCardValue5.Text,
+                Status:{Value:"Pending"}});
+            
             
         Text: ="Save"
         X: =131
