@@ -410,13 +410,11 @@
 
     Button1 As button:
         FontWeight: =FontWeight.Bold
-        OnSelect: |-
+        OnSelect: |
             =
             Navigate('Employee Screen');
-            
-            
-            SubmitForm(Form1);
             Patch('Leave Request',{Status:{Value:"Pending"}});
+            SubmitForm(Form1);
         Text: ="Save"
         X: =131
         Y: =353
