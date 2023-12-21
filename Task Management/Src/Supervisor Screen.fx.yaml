@@ -173,6 +173,7 @@
             ZIndex: =6
 
         Container3 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
             Height: =114
             Width: =231
             ZIndex: =7
@@ -189,18 +190,21 @@
             ZIndex: =8
 
         Container4 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
             Height: =114
-            Width: =213
+            Width: =219
             X: =231
             ZIndex: =9
 
         Container5 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
             Height: =114
             Width: =210
             X: =450
             ZIndex: =10
 
         Container6 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
             Height: =114
             Width: =196
             X: =660
@@ -215,4 +219,11 @@
             X: =961
             Y: =37
             ZIndex: =12
+
+        Container16 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
+            Height: =114
+            Width: =185
+            X: =856
+            ZIndex: =13
 
