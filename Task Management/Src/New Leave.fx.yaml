@@ -414,8 +414,9 @@
             =
             Navigate('Employee Screen');
             
-            Patch('Leave Request',{Status:{Value:"Pending"}});
+            
             SubmitForm(Form1);
+            Patch('Leave Request',{Status:{Value:"Pending"}});
         Text: ="Save"
         X: =131
         Y: =353

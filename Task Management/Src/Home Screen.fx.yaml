@@ -28,7 +28,7 @@
             OnSelect: |-
                 =
                 Navigate('Employee Screen')
-            Text: ="Request Leave"
+            Text: ="Create Leaves"
             Visible: |
                 =If("Employee" in CurrentUser.Value, true , false )
             Width: =262
