@@ -66,6 +66,7 @@
     TextCanvas1 As Text:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         Height: =55
         Size: =20
         Text: = CurrentID
