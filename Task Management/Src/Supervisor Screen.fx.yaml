@@ -210,8 +210,7 @@
             Height: =44
             Icon: =Icon.Check
             OnSelect: |-
-                =
-                Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Approved"}})
+                =Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Approved"}})
             Width: =44
             X: =889
             Y: =43
