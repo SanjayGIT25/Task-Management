@@ -414,32 +414,24 @@
             Width: =0
             ZIndex: =2
 
-        Container12_2 As groupContainer.manualLayoutContainer:
-            BorderThickness: =1
-            Height: =104
-            Width: =336
-            X: =4
-            ZIndex: =3
-
         Container14_2 As groupContainer.manualLayoutContainer:
             BorderThickness: =1
             Height: =104
             Width: =275
             X: =587
-            ZIndex: =4
+            ZIndex: =3
 
         Container13_4 As groupContainer.manualLayoutContainer:
             Height: =104
-            Width: =245
-            X: =342
-            ZIndex: =5
+            Width: =338
+            ZIndex: =4
 
         Container15_2 As groupContainer.manualLayoutContainer:
             BorderThickness: =1
             Height: =104
             Width: =340
             X: =862
-            ZIndex: =6
+            ZIndex: =5
 
         Title6_8 As label:
             Align: =Align.Center
@@ -456,7 +448,7 @@
             Width: =219
             X: =921
             Y: =31
-            ZIndex: =7
+            ZIndex: =6
 
         Subtitle5_2 As label:
             Align: =Align.Center
@@ -473,7 +465,7 @@
             Width: =192
             X: =89
             Y: =25
-            ZIndex: =8
+            ZIndex: =7
 
         Title6_7 As label:
             Align: =Align.Center
@@ -490,13 +482,12 @@
             Width: =189
             X: =370
             Y: =25
-            ZIndex: =9
+            ZIndex: =8
 
-    Container13_5 As groupContainer.manualLayoutContainer:
-        BorderThickness: =1
-        Height: =104
-        Width: =246
-        X: =426
-        Y: =251
-        ZIndex: =20
+        Container12_2 As groupContainer.manualLayoutContainer:
+            BorderThickness: =1
+            Height: =104
+            Width: =249
+            X: =338
+            ZIndex: =9
 
