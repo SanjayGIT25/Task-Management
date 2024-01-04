@@ -210,7 +210,8 @@
             Height: =44
             Icon: =Icon.Check
             OnSelect: |-
-                =Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Approved"}})
+                =Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Approved"}});
+                Office365Outlook.SendEmailV2(ThisItem.'Employee email',"Leave Status","Your Leave has been Approved")
             Width: =44
             X: =889
             Y: =43
@@ -220,7 +221,8 @@
             Height: =50
             Icon: =Icon.CancelBadge
             OnSelect: |-
-                =Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Rejeceted"}})
+                =Patch('Leave Request',Gallery3.Selected,{Status:{Value:"Rejeceted"}});
+                Office365Outlook.SendEmailV2(ThisItem.'Employee email',"Leave Status","Your Leave has been Rejeceted")
             Width: =49
             X: =961
             Y: =37
