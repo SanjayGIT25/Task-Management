@@ -4,9 +4,9 @@
     OnVisible: =
 
     Container1 As groupContainer.manualLayoutContainer:
-        Width: =1234
-        X: =69
-        Y: =141
+        Height: =698
+        Width: =1366
+        Y: =70
         ZIndex: =1
 
         Admin As button:
@@ -35,6 +35,35 @@
             X: =52
             Y: =51
             ZIndex: =2
+
+        PowerBI1 As powerbi:
+            DashboardId: ="454a8a0a-5006-4361-8cf5-9c02aeadee6c"
+            Height: =403
+            TileUrl: |-
+                ="https://app.powerbi.com/embed?dashboardId=454a8a0a-5006-4361-8cf5-9c02aeadee6c&tileId=bfd22b4f-27f8-408c-8b0b-1a3ef459aebe&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJ1c2FnZU1ldHJpY3NWTmV4dCI6dHJ1ZSwiZGlzYWJsZUFuZ3VsYXJKU0Jvb3RzdHJhcFRpbGVFbWJlZCI6dHJ1ZX19"
+            Width: =790
+            WorkspaceId: ="__my-workspace"
+            Y: =295
+            ZIndex: =3
+
+        PowerBI1_1 As powerbi:
+            DashboardId: ="454a8a0a-5006-4361-8cf5-9c02aeadee6c"
+            Height: =295
+            TileUrl: |-
+                ="https://app.powerbi.com/embed?dashboardId=454a8a0a-5006-4361-8cf5-9c02aeadee6c&tileId=d8f78d1c-dbe1-4c42-b2f8-aff9d47b8892&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJ1c2FnZU1ldHJpY3NWTmV4dCI6dHJ1ZSwiZGlzYWJsZUFuZ3VsYXJKU0Jvb3RzdHJhcFRpbGVFbWJlZCI6dHJ1ZX19"
+            Width: =791
+            WorkspaceId: ="__my-workspace"
+            ZIndex: =4
+
+        PowerBI1_2 As powerbi:
+            DashboardId: ="454a8a0a-5006-4361-8cf5-9c02aeadee6c"
+            Height: =295
+            TileUrl: |-
+                ="https://app.powerbi.com/embed?dashboardId=454a8a0a-5006-4361-8cf5-9c02aeadee6c&tileId=68d13f4e-6dff-48d0-b7f6-1d7253e53282&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJ1c2FnZU1ldHJpY3NWTmV4dCI6dHJ1ZSwiZGlzYWJsZUFuZ3VsYXJKU0Jvb3RzdHJhcFRpbGVFbWJlZCI6dHJ1ZX19"
+            Width: =575
+            WorkspaceId: ="__my-workspace"
+            X: =791
+            ZIndex: =5
 
     Rectangle1_2 As rectangle:
         Fill: =RGBA(139, 154, 159, 1)
