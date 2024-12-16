@@ -93,6 +93,7 @@
         ZIndex: =4
 
     TextCanvas1 As Text:
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
         FontColor: =

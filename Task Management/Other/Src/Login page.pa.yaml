@@ -1,0 +1,170 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Login page:
+    Properties:
+      OnVisible: |-
+        =Set(Error,false);
+        Set(visible,TextMode.Password)
+    Children:
+      - Image1:
+          Control: Image@2.2.3
+          Properties:
+            Fill: =RGBA(72, 163, 62, 1)
+            Height: =768
+            Image: ='Screenshot 2023-11-02 122328'
+            ImagePosition: =ImagePosition.Stretch
+            Width: =1366
+      - Container2:
+          Control: GroupContainer@1.3.0
+          Variant: ManualLayout
+          Properties:
+            BorderThickness: =6
+            DropShadow: =DropShadow.ExtraBold
+            Height: =656
+            RadiusBottomLeft: =56
+            RadiusBottomRight: =56
+            RadiusTopLeft: =56
+            RadiusTopRight: =56
+            Width: =550
+            X: =408
+            Y: =56
+      - TextInput1:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderThickness: =0
+            Default: =""
+            Height: =66
+            HintText: ="Enter User name"
+            PaddingLeft: =55
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =424
+            X: =471
+            Y: =214
+      - TextInput1_1:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            Default: =""
+            Height: =66
+            HintText: ="Enter Passwaord"
+            Mode: =visible
+            PaddingLeft: =55
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =424
+            X: =471
+            Y: =373
+      - Label3:
+          Control: Label@2.5.1
+          Properties:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Lato Black'
+            Height: =78
+            Size: =30
+            Text: ="Login"
+            Width: =178
+            X: =594
+            Y: =82
+      - Icon2:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            Height: =38
+            Icon: =Icon.AddUser
+            Width: =28
+            X: =485
+            Y: =228
+      - Label4:
+          Control: Label@2.5.1
+          Properties:
+            Align: =Align.Center
+            Color: =RGBA(255, 0, 0, 1)
+            Height: =68
+            Text: ="Incorrect Username and Password."
+            Visible: =Error
+            Width: =316
+            X: =525
+            Y: =501
+      - Button2:
+          Control: Classic/Button@2.2.0
+          Properties:
+            OnSelect: |
+              =Set(
+                  CurrentUser,
+                  LookUp(
+                      admin_list,
+                      Name = TextInput1.Text && Password = TextInput1_1.Text
+                  ).Roles
+              );
+              Set(
+                  CurrentID,
+                  LookUp(
+                      admin_list,
+                      Name = TextInput1.Text && Password = TextInput1_1.Text
+                  ).Name
+              );
+              Set(
+                  CurrentEmail,
+                  LookUp(
+                      admin_list,
+                      Name = TextInput1.Text && Password = TextInput1_1.Text
+                  ).Email
+              );
+
+
+
+
+              If(
+                  IsBlankOrError(CurrentUser),
+                  Notify("Incorrect UserName and Password");
+                  Set(
+                      Error,
+                      true
+                  ),
+                  Navigate('Home Screen')
+              );
+              Reset(TextInput1);
+              Reset(TextInput1_1);
+            Text: ="Login"
+            X: =499
+            Y: =555
+      - Icon4:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            Height: =38
+            Icon: =Icon.View
+            OnSelect: =Set(visible,TextMode.SingleLine)
+            Width: =28
+            X: =853
+            Y: =387
+      - Icon5:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            Height: =38
+            Icon: =Icon.Lock
+            Width: =28
+            X: =485
+            Y: =384
+      - Register:
+          Control: Classic/Button@2.2.0
+          Properties:
+            Fill: =RGBA(72, 163, 62, 1)
+            OnSelect: |-
+              =NewForm(Form2);
+              Navigate(RegisterPage);
+              Set(NewRole,{Roles:"Employee"});
+            Text: ="Register"
+            X: =721
+            Y: =555

@@ -1,0 +1,130 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Home Screen:
+    Properties:
+      Fill: |
+        =Color.White
+    Children:
+      - Container1:
+          Control: GroupContainer@1.3.0
+          Variant: ManualLayout
+          Properties:
+            Height: =698
+            Width: =1366
+            Y: =70
+          Children:
+            - Admin:
+                Control: Classic/Button@2.2.0
+                Properties:
+                  Fill: =RGBA(175, 191, 224, 1)
+                  Font: =Font.Verdana
+                  Height: =88
+                  OnSelect: =Navigate('Supervisor Screen')
+                  Text: ="Requested Leaves"
+                  Visible: =If("Supervisor" in CurrentUser.Value, true , false )
+                  Width: =262
+                  X: =52
+                  Y: =51
+            - User:
+                Control: Classic/Button@2.2.0
+                Properties:
+                  Fill: =RGBA(175, 191, 224, 1)
+                  Font: =Font.Verdana
+                  Height: =88
+                  OnSelect: |-
+                    =
+                    Navigate('Employee Screen')
+                  Text: ="Create Leaves"
+                  Visible: |
+                    =If("Employee" in CurrentUser.Value, true , false )
+                  Width: =262
+                  X: =52
+                  Y: =51
+            - PowerBI1:
+                Control: PowerBI@2.4.0
+                Properties:
+                  DashboardId: ="454a8a0a-5006-4361-8cf5-9c02aeadee6c"
+                  Height: =403
+                  TileUrl: ="https://app.powerbi.com/embed?dashboardId=454a8a0a-5006-4361-8cf5-9c02aeadee6c&tileId=bfd22b4f-27f8-408c-8b0b-1a3ef459aebe&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJ1c2FnZU1ldHJpY3NWTmV4dCI6dHJ1ZSwiZGlzYWJsZUFuZ3VsYXJKU0Jvb3RzdHJhcFRpbGVFbWJlZCI6dHJ1ZX19"
+                  Width: =790
+                  WorkspaceId: ="__my-workspace"
+                  Y: =295
+            - PowerBI1_1:
+                Control: PowerBI@2.4.0
+                Properties:
+                  DashboardId: ="454a8a0a-5006-4361-8cf5-9c02aeadee6c"
+                  Height: =295
+                  TileUrl: ="https://app.powerbi.com/embed?dashboardId=454a8a0a-5006-4361-8cf5-9c02aeadee6c&tileId=d8f78d1c-dbe1-4c42-b2f8-aff9d47b8892&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJ1c2FnZU1ldHJpY3NWTmV4dCI6dHJ1ZSwiZGlzYWJsZUFuZ3VsYXJKU0Jvb3RzdHJhcFRpbGVFbWJlZCI6dHJ1ZX19"
+                  Width: =791
+                  WorkspaceId: ="__my-workspace"
+            - PowerBI1_2:
+                Control: PowerBI@2.4.0
+                Properties:
+                  DashboardId: ="454a8a0a-5006-4361-8cf5-9c02aeadee6c"
+                  Height: =295
+                  TileUrl: ="https://app.powerbi.com/embed?dashboardId=454a8a0a-5006-4361-8cf5-9c02aeadee6c&tileId=68d13f4e-6dff-48d0-b7f6-1d7253e53282&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJ1c2FnZU1ldHJpY3NWTmV4dCI6dHJ1ZSwiZGlzYWJsZUFuZ3VsYXJKU0Jvb3RzdHJhcFRpbGVFbWJlZCI6dHJ1ZX19"
+                  Width: =575
+                  WorkspaceId: ="__my-workspace"
+                  X: =791
+      - Rectangle1_2:
+          Control: Rectangle@2.3.0
+          Properties:
+            Fill: =RGBA(139, 154, 159, 1)
+            Height: =70
+            Width: =1366
+      - Label1:
+          Control: Label@2.5.1
+          Properties:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Verdana
+            FontWeight: =FontWeight.Bold
+            Height: =36
+            Size: =25
+            Text: ="Leave Management"
+            Width: =636
+            X: =365
+            Y: =17
+      - Icon7:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            Height: =39
+            Icon: =Icon.Blocked
+            OnSelect: =Navigate('Login page')
+            X: =1302
+            Y: =15
+      - TextCanvas1:
+          Control: Text@0.0.43
+          Properties:
+            Font: =Font.'Lato Black'
+            Height: =55
+            Size: =20
+            Text: = CurrentID
+            Width: =102
+            X: =1201
+            Y: =7
+      - Icon9:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            Height: =32
+            Icon: =Icon.AddUser
+            Width: =58
+            X: =1143
+            Y: =19
+      - Container11:
+          Control: GroupContainer@1.3.0
+          Variant: ManualLayout
+          Properties:
+            BorderThickness: =1
+            Height: =55
+            Width: =141
+            X: =1143
+            Y: =7

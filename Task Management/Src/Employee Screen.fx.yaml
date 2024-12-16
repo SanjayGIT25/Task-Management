@@ -51,6 +51,7 @@
         ZIndex: =7
 
     "Gallery8 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        '#CopilotOverlayLabel': ="Filtered"
         DelayItemLoading: =true
         Height: =516
         Items: |+
@@ -255,6 +256,7 @@
             ZIndex: =3
 
     "Gallery8_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        '#CopilotOverlayLabel': ="Filtered"
         DelayItemLoading: =true
         Height: =516
         Items: |+
@@ -385,6 +387,7 @@
             ZIndex: =10
 
     "Gallery8_2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        '#CopilotOverlayLabel': ="Filtered"
         DelayItemLoading: =true
         Height: =516
         Items: |+

@@ -1,0 +1,551 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Employee Screen:
+    Properties:
+      OnVisible: |+
+        =Set(dataAdmin,"Admin");
+        Set(dataUser,"User");
+        Set(dataLeader,"Leader")
+
+    Children:
+      - Rectangle1_4:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderColor: =RGBA(72, 163, 62, 1)
+            Fill: =RGBA(139, 154, 159, 1)
+            Height: =70
+            Width: =1366
+      - Label1_1:
+          Control: Label@2.5.1
+          Properties:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Verdana
+            FontWeight: =FontWeight.Bold
+            Height: =36
+            Size: =25
+            Text: ="Leave Management"
+            Width: =636
+            X: =365
+            Y: =17
+      - Icon7_4:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            Height: =39
+            Icon: =Icon.Blocked
+            OnSelect: =Navigate('Login page')
+            X: =1302
+            Y: =15
+      - Icon1_4:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            Height: =52
+            Icon: =Icon.BackArrow
+            OnSelect: =Back()
+            Width: =44
+            X: =14
+            Y: =9
+      - Icon1:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            Height: =45
+            Icon: =Icon.Add
+            OnSelect: =NewForm(Form1);Navigate('New Leave')
+            X: =1286
+            Y: =105
+      - Gallery8:
+          Control: Gallery@2.15.0
+          Variant: BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0
+          Properties:
+            Height: =516
+            Items: |+
+              =
+              Filter('Leave Request','Employee email'=CurrentEmail,varApproved=true,Status.Value="Approved")
+
+            Width: =1202
+            X: =84
+            Y: =251
+          Children:
+            - Subtitle5:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =45
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'Leave Type'.Value
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =192
+                  X: =77
+                  Y: =31
+            - Separator5:
+                Control: Rectangle@2.3.0
+                Properties:
+                  Fill: =RGBA(255, 255, 255, 1)
+                  Height: =8
+                  OnSelect: =Select(Parent)
+                  Width: =Parent.TemplateWidth
+                  Y: =Parent.TemplateHeight - Self.Height
+            - Rectangle9:
+                Control: Rectangle@2.3.0
+                Properties:
+                  Fill: =RGBA(0, 18, 107, 1)
+                  Height: =Parent.TemplateHeight - Separator5.Height
+                  OnSelect: =Select(Parent)
+                  Visible: =ThisItem.IsSelected
+                  Width: =4
+            - Title6_1:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'End Date'
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =219
+                  X: =595
+                  Y: =31
+            - Container12:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =336
+                  X: =4
+            - Container13:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  Height: =104
+                  Width: =245
+                  X: =342
+                Children:
+                  - Container13_1:
+                      Control: GroupContainer@1.3.0
+                      Variant: ManualLayout
+                      Properties:
+                        BorderThickness: =1
+                        Height: =104
+                        Width: =245
+            - Container14:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =275
+                  X: =587
+            - Container15:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =340
+                  X: =862
+            - Title6_2:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.Status.Value
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =219
+                  X: =921
+                  Y: =31
+            - Title6:
+                Control: Label@2.5.1
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'Start Date'
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =163
+                  X: =400
+                  Y: =31
+      - Button5:
+          Control: Classic/Button@2.2.0
+          Properties:
+            Text: ="Leave Type"
+            Width: =342
+            X: =84
+            Y: =211
+      - Button5_1:
+          Control: Classic/Button@2.2.0
+          Properties:
+            Text: ="Start Date"
+            Width: =246
+            X: =426
+            Y: =211
+      - Button5_2:
+          Control: Classic/Button@2.2.0
+          Properties:
+            Text: ="End Date"
+            Width: =276
+            X: =672
+            Y: =211
+      - Button5_3:
+          Control: Classic/Button@2.2.0
+          Properties:
+            Text: ="Status"
+            Width: =338
+            X: =948
+            Y: =211
+      - Container17:
+          Control: GroupContainer@1.3.0
+          Variant: ManualLayout
+          Properties:
+            Height: =102
+            Width: =1202
+            X: =84
+            Y: =70
+          Children:
+            - Button7:
+                Control: Classic/Button@2.2.0
+                Properties:
+                  Fill: =RGBA(166, 215, 153, 1)
+                  Height: =48
+                  OnSelect: |
+                    =Set(varApproved,true);
+                    Set(varPending,false);
+                    Set(varRejected,false);
+                  Text: ="Approved"
+                  Width: =208
+                  X: =60
+                  Y: =28
+            - Button7_1:
+                Control: Classic/Button@2.2.0
+                Properties:
+                  Fill: =RGBA(253, 207, 180, 1)
+                  Height: =48
+                  OnSelect: |-
+                    =Set(varPending,true);
+                    Set(varApproved,false);
+                    Set(varRejected,false);
+                  Text: ="Pending"
+                  Width: =208
+                  X: =480
+                  Y: =28
+            - Button7_2:
+                Control: Classic/Button@2.2.0
+                Properties:
+                  Fill: =RGBA(255, 184, 174, 1)
+                  Height: =48
+                  OnSelect: |-
+                    =Set(varRejected,true);
+                    Set(varApproved,false);
+                    Set(varPending,false);
+                  Text: ="Rejected"
+                  Width: =208
+                  X: =875
+                  Y: =28
+      - Gallery8_1:
+          Control: Gallery@2.15.0
+          Variant: BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0
+          Properties:
+            Height: =516
+            Items: |+
+              =
+              Filter('Leave Request','Employee email'=CurrentEmail,varPending=true,Status.Value="Pending")
+
+            Width: =1202
+            X: =84
+            Y: =251
+          Children:
+            - Subtitle5_1:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =45
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'Leave Type'.Value
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =192
+                  X: =77
+                  Y: =31
+            - Separator5_1:
+                Control: Rectangle@2.3.0
+                Properties:
+                  Fill: =RGBA(255, 255, 255, 1)
+                  Height: =8
+                  OnSelect: =Select(Parent)
+                  Width: =Parent.TemplateWidth
+                  Y: =Parent.TemplateHeight - Self.Height
+            - Rectangle9_1:
+                Control: Rectangle@2.3.0
+                Properties:
+                  Fill: =RGBA(0, 18, 107, 1)
+                  Height: =Parent.TemplateHeight - Separator5_1.Height
+                  OnSelect: =Select(Parent)
+                  Visible: =ThisItem.IsSelected
+                  Width: =4
+            - Title6_4:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'End Date'
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =219
+                  X: =595
+                  Y: =31
+            - Container12_1:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =336
+                  X: =4
+            - Container13_2:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  Height: =104
+                  Width: =245
+                  X: =342
+                Children:
+                  - Container13_3:
+                      Control: GroupContainer@1.3.0
+                      Variant: ManualLayout
+                      Properties:
+                        BorderThickness: =1
+                        Height: =104
+                        Width: =245
+            - Container14_1:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =275
+                  X: =587
+            - Container15_1:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =340
+                  X: =862
+            - Title6_5:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.Status.Value
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =219
+                  X: =921
+                  Y: =31
+            - Title6_3:
+                Control: Label@2.5.1
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'Start Date'
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =163
+                  X: =400
+                  Y: =31
+      - Gallery8_2:
+          Control: Gallery@2.15.0
+          Variant: BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0
+          Properties:
+            Height: =516
+            Items: |+
+              =
+              Filter('Leave Request','Employee email'=CurrentEmail,varRejected=true,Status.Value="Rejected")
+
+            Width: =1202
+            X: =82
+            Y: =251
+          Children:
+            - Container14_2:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =275
+                  X: =587
+            - Separator5_2:
+                Control: Rectangle@2.3.0
+                Properties:
+                  Fill: =RGBA(255, 255, 255, 1)
+                  Height: =0
+                  OnSelect: =Select(Parent)
+                  Width: =1173
+                  X: =27
+                  Y: =104
+            - Container15_2:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =340
+                  X: =862
+            - Container13_4:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =338
+            - Title6_8:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.Status.Value
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =219
+                  X: =921
+                  Y: =31
+            - Subtitle5_2:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =45
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'Leave Type'.Value
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =192
+                  X: =89
+                  Y: =25
+            - Title6_7:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'Start Date'
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =189
+                  X: =370
+                  Y: =25
+            - Container12_2:
+                Control: GroupContainer@1.3.0
+                Variant: ManualLayout
+                Properties:
+                  BorderThickness: =1
+                  Height: =104
+                  Width: =249
+                  X: =338
+            - Title6_9:
+                Control: Label@2.5.1
+                Properties:
+                  Align: =Align.Center
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =54
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =16
+                  Text: =ThisItem.'End Date'
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =189
+                  X: =630
+                  Y: =25

@@ -15,7 +15,7 @@
             DataField: ="REPORTEmail"
             Default: =ThisItem.'REPORT Email'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"REPORTEmail")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,REPORTEmail)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -81,10 +81,10 @@
             DataField: ="Employeeemail"
             Default: =ThisItem.'Employee email'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"Employeeemail")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,Employeeemail)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Leave Request'], DataSourceInfo.MaxLength, "Employeeemail")
+            MaxLength: =DataSourceInfo([@'Leave Request'], DataSourceInfo.MaxLength, Employeeemail)
             Required: =false
             Update: =DataCardValue5.Text
             Width: =402
@@ -149,7 +149,7 @@
             DataField: ="LeaveType"
             Default: =ThisItem.'Leave Type'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"LeaveType")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,LeaveType)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -215,7 +215,7 @@
             DataField: ="StartDate"
             Default: =ThisItem.'Start Date'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"StartDate")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,StartDate)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -280,7 +280,7 @@
             DataField: ="EndDate"
             Default: =ThisItem.'End Date'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"EndDate")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,EndDate)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -343,12 +343,12 @@
         CustomCreatedBy_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="CustomCreatedBy"
-            Default: =ThisItem.EmployeeName
+            Default: =ThisItem.'Employe Name'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,"CustomCreatedBy")
+            DisplayName: =DataSourceInfo([@'Leave Request'],DataSourceInfo.DisplayName,CustomCreatedBy)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Leave Request'], DataSourceInfo.MaxLength, "CustomCreatedBy")
+            MaxLength: =DataSourceInfo([@'Leave Request'], DataSourceInfo.MaxLength, CustomCreatedBy)
             Required: =false
             Update: =DataCardValue18.Text
             Width: =401
@@ -417,7 +417,7 @@
                     'Leave Type': DataCardValue12.Selected,
                     'Start Date': DataCardValue14.SelectedDate,
                     'End Date': DataCardValue15.SelectedDate,
-                    EmployeeName: DataCardValue18.Text,
+                    'Employe Name': DataCardValue18.Text,
                     'Employee email': DataCardValue5.Text,
                     'REPORT Email': DataCardValue2.Selected,
                     Status: {Value: "Pending"}

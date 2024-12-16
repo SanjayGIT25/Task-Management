@@ -40,10 +40,10 @@ RegisterPage As screen:
             DataField: ="Title"
             Default: =ThisItem.Title
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'User Roles'],DataSourceInfo.DisplayName,"Title")
+            DisplayName: =DataSourceInfo([@'User Roles'],DataSourceInfo.DisplayName,Title)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'User Roles'], DataSourceInfo.MaxLength, "Title")
+            MaxLength: =DataSourceInfo([@'User Roles'], DataSourceInfo.MaxLength, Title)
             Required: =false
             Update: =DataCardValue13.Text
             Width: =338
@@ -108,10 +108,10 @@ RegisterPage As screen:
             DataField: ="Email"
             Default: =ThisItem.Email
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'User Roles'],DataSourceInfo.DisplayName,"Email")
+            DisplayName: =DataSourceInfo([@'User Roles'],DataSourceInfo.DisplayName,Email)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'User Roles'], DataSourceInfo.MaxLength, "Email")
+            MaxLength: =DataSourceInfo([@'User Roles'], DataSourceInfo.MaxLength, Email)
             Required: =false
             Update: =DataCardValue16.Text
             Width: =338
@@ -176,10 +176,10 @@ RegisterPage As screen:
             DataField: ="Designation"
             Default: =ThisItem.Designation
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'User Roles'],DataSourceInfo.DisplayName,"Designation")
+            DisplayName: =DataSourceInfo([@'User Roles'],DataSourceInfo.DisplayName,Designation)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'User Roles'], DataSourceInfo.MaxLength, "Designation")
+            MaxLength: =DataSourceInfo([@'User Roles'], DataSourceInfo.MaxLength, Designation)
             Required: =false
             Update: =DataCardValue17.Text
             Width: =338
@@ -244,10 +244,10 @@ RegisterPage As screen:
             DataField: ="Password"
             Default: =ThisItem.Password
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'User Roles'],DataSourceInfo.DisplayName,"Password")
+            DisplayName: =DataSourceInfo([@'User Roles'],DataSourceInfo.DisplayName,Password)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'User Roles'], DataSourceInfo.MaxLength, "Password")
+            MaxLength: =DataSourceInfo([@'User Roles'], DataSourceInfo.MaxLength, Password)
             Required: =false
             Update: =DataCardValue20.Text
             Width: =338
@@ -308,13 +308,19 @@ RegisterPage As screen:
                 ZIndex: =4
 
     ButtonCanvas1 As Button:
+        Align: =""
         BasePaletteColor: =
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =37
+        Icon: =""
+        IconRotation: =0
+        IconStyle: ="Outline"
+        Layout: ="Icon before"
         OnSelect: |+
             =Office365Outlook.SendEmail(
-               DataCardValue16,
+               DataCardValue16.Text,
                 "Account created successfully",
                 "You can log in now"
             );
@@ -331,6 +337,7 @@ RegisterPage As screen:
             
             
         Text: ="Submit"
+        VerticalAlign: =""
         Visible: =true
         Width: =127
         X: =608
